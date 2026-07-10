@@ -45,7 +45,15 @@ const CITY_MAP = [
   [/düsseldorf|dusseldorf/i, "Düsseldorf"],
   [/leipzig/i, "Leipzig"],
   [/vienna|wien/i, "Vienna"],
+  [/\bgraz\b/i, "Graz"],
+  [/\blinz\b/i, "Linz"],
+  [/salzburg/i, "Salzburg"],
+  [/innsbruck/i, "Innsbruck"],
   [/zurich|zürich/i, "Zurich"],
+  [/geneva|genf|genève/i, "Geneva"],
+  [/\bbasel\b/i, "Basel"],
+  [/\bbern\b/i, "Bern"],
+  [/lausanne/i, "Lausanne"],
   [/remote/i, "Remote"],
 ];
 
@@ -131,6 +139,46 @@ async function fetchArbeitsagentur() {
   return (await Promise.all(tasks)).flat();
 }
 
+// ---- Adzuna (covers AT + CH, which Arbeitsagentur does not) ------------------
+// Keys come from env (secret), never hardcoded: this repo is public. If unset,
+// the source is skipped and the build still succeeds.
+const ADZUNA_ID = process.env.ADZUNA_APP_ID;
+const ADZUNA_KEY = process.env.ADZUNA_APP_KEY;
+const ADZUNA_TARGETS = [
+  { country: "at", cities: ["Wien", "Graz", "Linz"] },
+  { country: "ch", cities: ["Zurich", "Geneva", "Basel"] },
+];
+const ADZUNA_QUERIES = ["Praktikum", "Werkstudent", "Trainee", "Absolvent"];
+
+async function adzunaQuery(country, city, what) {
+  try {
+    const u = `https://api.adzuna.com/v1/api/jobs/${country}/search/1?app_id=${ADZUNA_ID}&app_key=${ADZUNA_KEY}&what=${encodeURIComponent(what)}&where=${encodeURIComponent(city)}&results_per_page=50&content-type=application/json`;
+    const res = await fetch(u, { headers: { "user-agent": "werkstudent-praktikum-jobs/1.0" } });
+    if (!res.ok) return [];
+    const d = await res.json();
+    return (d.results || [])
+      .filter((r) => r.title && r.redirect_url)
+      .map((r) => ({
+        company: ((r.company || {}).display_name || "").trim(),
+        title: (r.title || "").trim(),
+        location: (r.location || {}).display_name || city,
+        url: r.redirect_url,
+        posted: r.created || null,
+        dach: true,
+      }));
+  } catch {
+    return [];
+  }
+}
+
+async function fetchAdzuna() {
+  if (!ADZUNA_ID || !ADZUNA_KEY) return [];
+  const tasks = [];
+  for (const t of ADZUNA_TARGETS)
+    for (const city of t.cities) for (const what of ADZUNA_QUERIES) tasks.push(adzunaQuery(t.country, city, what));
+  return (await Promise.all(tasks)).flat();
+}
+
 // ---- helpers ---------------------------------------------------------------
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -183,6 +231,13 @@ async function run() {
     raw.push(...(await fetchArbeitsagentur()));
   } catch (e) {
     errors.push(`arbeitsagentur: ${e.message}`);
+  }
+
+  // Adzuna adds Austria + Switzerland (Arbeitsagentur is DE-only).
+  try {
+    raw.push(...(await fetchAdzuna()));
+  } catch (e) {
+    errors.push(`adzuna: ${e.message}`);
   }
 
   const roles = [];

@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: lts/*
       - run: node build.mjs
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
       - name: Commit if changed
         run: |
           if [ -n "$(git status --porcelain README.md jobs.json)" ]; then
