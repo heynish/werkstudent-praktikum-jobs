@@ -15,11 +15,11 @@ import { dirname, join } from "node:path";
 const DIR = dirname(fileURLToPath(import.meta.url));
 
 // Careerkit links.
-const INSTALL_URL = "https://careerkit.de"; // top CTA -> install funnel (live page)
-const APPLY_BASE = "https://careerkit.de/apply"; // per-row tracked redirect (route TBD)
+const INSTALL_URL = "https://careerkit.me/de"; // top CTA -> install funnel (live page)
+const APPLY_BASE = "https://careerkit.me/api/apply"; // per-row tracked redirect (route TBD)
 // While the /apply route does not exist, per-row "Bewerben" points to the real job
 // URL (useful, no 404). jobs.json always carries the tracked link for later swap.
-const TRACKED_APPLY = false;
+const TRACKED_APPLY = true;
 
 // ---- classification --------------------------------------------------------
 
