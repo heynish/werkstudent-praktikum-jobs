@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-07-10T13:34:02.486Z",
-  "count": 53,
+  "generated_at": "2026-07-10T13:48:43.873Z",
+  "count": 78,
   "source": "public ATS APIs (Greenhouse/Lever/Ashby)",
   "roles": [
+    {
+      "company": "Agicap",
+      "title": "Junior Sales Development Representative DACH (m/f/d)",
+      "type": "Junior",
+      "city": "Berlin",
+      "location": "Berlin 🇩🇪",
+      "posted": "2021-07-08T14:35:56.058Z",
+      "posted_days_ago": 1828,
+      "raw_url": "https://jobs.lever.co/agicap/ab0c9a50-fb06-467d-9747-eee09154a291",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=agicap&url=https%3A%2F%2Fjobs.lever.co%2Fagicap%2Fab0c9a50-fb06-467d-9747-eee09154a291"
+    },
+    {
+      "company": "Agicap",
+      "title": "Sales Development Representative Internship DACH - 6 Months (m/f/d)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin 🇩🇪",
+      "posted": "2023-01-30T14:03:36.415Z",
+      "posted_days_ago": 1257,
+      "raw_url": "https://jobs.lever.co/agicap/0dc45539-9234-47bd-9bd0-1408a0218890",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=agicap&url=https%3A%2F%2Fjobs.lever.co%2Fagicap%2F0dc45539-9234-47bd-9bd0-1408a0218890"
+    },
     {
       "company": "Doctolib",
       "title": "Junior Customer Experience Consultant (x/f/m)",
@@ -114,6 +136,28 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7774481003"
     },
     {
+      "company": "FinanzCheck",
+      "title": "(Junior) Projekt- & Prozessmanager (w/m/d) - Sales Operations",
+      "type": "Junior",
+      "city": "Berlin",
+      "location": "Berlin; Hamburg",
+      "posted": "2026-06-19T08:30:55-04:00",
+      "posted_days_ago": 21,
+      "raw_url": "https://www.finanzcheck.de/jobs/?gh_jid=7774486003",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finanzcheck&url=https%3A%2F%2Fwww.finanzcheck.de%2Fjobs%2F%3Fgh_jid%3D7774486003"
+    },
+    {
+      "company": "FinanzCheck",
+      "title": "Quereinsteiger Kreditvertrieb Berlin (w/m/d)",
+      "type": "Junior",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-06-19T08:30:55-04:00",
+      "posted_days_ago": 21,
+      "raw_url": "https://www.finanzcheck.de/jobs/?gh_jid=7581974003",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finanzcheck&url=https%3A%2F%2Fwww.finanzcheck.de%2Fjobs%2F%3Fgh_jid%3D7581974003"
+    },
+    {
       "company": "Flix",
       "title": "Junior DevOps Engineer (m/f/d)",
       "type": "Junior",
@@ -145,6 +189,17 @@
       "posted_days_ago": 0,
       "raw_url": "https://careers.hellofresh.com/global/en/job/8035217?gh_jid=8035217",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hellofresh&url=https%3A%2F%2Fcareers.hellofresh.com%2Fglobal%2Fen%2Fjob%2F8035217%3Fgh_jid%3D8035217"
+    },
+    {
+      "company": "IONOS",
+      "title": "Werkstudent (w/m/d) - Compliance",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Otto-Ostrowski-Straße 7, 10249 Berlin",
+      "posted": "2026-07-09T09:16:51-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4875286101",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4875286101"
     },
     {
       "company": "N26",
@@ -334,6 +389,50 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8285272002%3Fgh_jid%3D8285272002"
     },
     {
+      "company": "Wolt",
+      "title": "Account Management Intern",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Germany",
+      "posted": "2026-06-17T07:50:40-04:00",
+      "posted_days_ago": 23,
+      "raw_url": "https://job-boards.greenhouse.io/wolt/jobs/7988825",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=wolt&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fwolt%2Fjobs%2F7988825"
+    },
+    {
+      "company": "Wolt",
+      "title": "Ads Operations Intern",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Germany",
+      "posted": "2026-06-17T07:57:11-04:00",
+      "posted_days_ago": 23,
+      "raw_url": "https://job-boards.greenhouse.io/wolt/jobs/7984491",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=wolt&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fwolt%2Fjobs%2F7984491"
+    },
+    {
+      "company": "Wolt",
+      "title": "Intern - Compliance (w/m/d)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Germany",
+      "posted": "2026-07-08T05:36:18-04:00",
+      "posted_days_ago": 2,
+      "raw_url": "https://job-boards.greenhouse.io/wolt/jobs/7984530",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=wolt&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fwolt%2Fjobs%2F7984530"
+    },
+    {
+      "company": "Agicap",
+      "title": "Junior Sales Development Representative DACH (m/f/d)",
+      "type": "Junior",
+      "city": "Düsseldorf",
+      "location": "Düsseldorf 🇩🇪",
+      "posted": "2026-06-08T09:25:08.478Z",
+      "posted_days_ago": 32,
+      "raw_url": "https://jobs.lever.co/agicap/07dc2f0a-2fdf-4f6b-8f3a-7509efb68b35",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=agicap&url=https%3A%2F%2Fjobs.lever.co%2Fagicap%2F07dc2f0a-2fdf-4f6b-8f3a-7509efb68b35"
+    },
+    {
       "company": "trivago",
       "title": "Working Student - Core Data QA Engineer",
       "type": "Werkstudent",
@@ -343,6 +442,17 @@
       "posted_days_ago": 1,
       "raw_url": "https://careers.trivago.com/apply/8600470002.?gh_jid=8600470002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=trivago&url=https%3A%2F%2Fcareers.trivago.com%2Fapply%2F8600470002.%3Fgh_jid%3D8600470002"
+    },
+    {
+      "company": "FinanzCheck",
+      "title": "Quereinsteiger Kreditvertrieb Hamburg (w/m/d)",
+      "type": "Junior",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-06-19T08:30:55-04:00",
+      "posted_days_ago": 21,
+      "raw_url": "https://www.finanzcheck.de/jobs/?gh_jid=7581973003",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finanzcheck&url=https%3A%2F%2Fwww.finanzcheck.de%2Fjobs%2F%3Fgh_jid%3D7581973003"
     },
     {
       "company": "Celonis",
@@ -389,6 +499,94 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7718250003"
     },
     {
+      "company": "FINN",
+      "title": "(Junior) Key Account Manager - JobAuto (m/w/d)",
+      "type": "Junior",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2025-04-01T10:30:18.965Z",
+      "posted_days_ago": 465,
+      "raw_url": "https://jobs.lever.co/finn/07b11edf-19b9-40c3-b210-a44d6093fcdb",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F07b11edf-19b9-40c3-b210-a44d6093fcdb"
+    },
+    {
+      "company": "FINN",
+      "title": "Intern - Strategic Finance and Investor Relations (m/f/x) - Q1-27",
+      "type": "Praktikum",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2025-02-18T09:38:57.632Z",
+      "posted_days_ago": 507,
+      "raw_url": "https://jobs.lever.co/finn/8221b4b3-4160-441e-8d07-6e5db52ada6f",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F8221b4b3-4160-441e-8d07-6e5db52ada6f"
+    },
+    {
+      "company": "FINN",
+      "title": "Internship - Sales (m/w/d)",
+      "type": "Praktikum",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2024-08-27T10:55:01.681Z",
+      "posted_days_ago": 682,
+      "raw_url": "https://jobs.lever.co/finn/fc5d1573-a0ef-4152-804f-099fb622b3b8",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Ffc5d1573-a0ef-4152-804f-099fb622b3b8"
+    },
+    {
+      "company": "FINN",
+      "title": "Internship - Strategy & Business Development (m/f/x)",
+      "type": "Praktikum",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2026-06-11T07:27:31.416Z",
+      "posted_days_ago": 29,
+      "raw_url": "https://jobs.lever.co/finn/03a87954-a114-4c45-abc6-49ff066183c5",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F03a87954-a114-4c45-abc6-49ff066183c5"
+    },
+    {
+      "company": "FINN",
+      "title": "Quereinsteiger Kundenbetreuung - Fahrzeugübergabe (m/w/d) - München",
+      "type": "Junior",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2026-05-15T12:16:36.956Z",
+      "posted_days_ago": 56,
+      "raw_url": "https://jobs.lever.co/finn/b5c0fcc9-200e-4099-9d41-cecc1549b716",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fb5c0fcc9-200e-4099-9d41-cecc1549b716"
+    },
+    {
+      "company": "FINN",
+      "title": "Werkstudent:in - FINN Station München (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2026-03-12T14:16:56.007Z",
+      "posted_days_ago": 120,
+      "raw_url": "https://jobs.lever.co/finn/25888e95-e4f9-4d08-aa0c-5b33565c1343",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F25888e95-e4f9-4d08-aa0c-5b33565c1343"
+    },
+    {
+      "company": "FINN",
+      "title": "Working Student Operations & Fleet Planning (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2026-06-02T06:09:17.060Z",
+      "posted_days_ago": 38,
+      "raw_url": "https://jobs.lever.co/finn/a1a1be27-9e9a-4de7-beb0-aae8878a7c47",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fa1a1be27-9e9a-4de7-beb0-aae8878a7c47"
+    },
+    {
+      "company": "FINN",
+      "title": "Working Student Operations and Car Handover - Onsite (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2026-06-17T13:28:21.163Z",
+      "posted_days_ago": 23,
+      "raw_url": "https://jobs.lever.co/finn/da172d0e-e4dc-4c06-b81c-aba8ba244374",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fda172d0e-e4dc-4c06-b81c-aba8ba244374"
+    },
+    {
       "company": "Flix",
       "title": "Junior DevOps Engineer (m/f/d)",
       "type": "Junior",
@@ -409,6 +607,61 @@
       "posted_days_ago": 2,
       "raw_url": "https://job-boards.greenhouse.io/konux/jobs/7793444003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=konux&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fkonux%2Fjobs%2F7793444003"
+    },
+    {
+      "company": "Bitmovin",
+      "title": "Executive Operations Intern (Office of the CEO)",
+      "type": "Praktikum",
+      "city": "Other DACH",
+      "location": "Klagenfurt",
+      "posted": "2026-06-01T12:05:03-04:00",
+      "posted_days_ago": 39,
+      "raw_url": "https://bitmovin.com/careers/8559479002?gh_jid=8559479002",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8559479002%3Fgh_jid%3D8559479002"
+    },
+    {
+      "company": "FINN",
+      "title": "(Junior) Account Manager (m/w/d)",
+      "type": "Junior",
+      "city": "Other DACH",
+      "location": "Germany",
+      "posted": "2026-01-23T16:11:21.552Z",
+      "posted_days_ago": 168,
+      "raw_url": "https://jobs.lever.co/finn/103dc21a-1894-4cfc-a514-efa86f6c021c",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F103dc21a-1894-4cfc-a514-efa86f6c021c"
+    },
+    {
+      "company": "FINN",
+      "title": "Junior Fleet Coordinator Kfz-Technik & Fahrzeugmanagement (m/w/d)",
+      "type": "Junior",
+      "city": "Other DACH",
+      "location": "Germany",
+      "posted": "2026-02-04T14:38:11.920Z",
+      "posted_days_ago": 156,
+      "raw_url": "https://jobs.lever.co/finn/7c1c6d4b-76a9-4171-bfc1-3f1200c6b49e",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F7c1c6d4b-76a9-4171-bfc1-3f1200c6b49e"
+    },
+    {
+      "company": "FINN",
+      "title": "Junior Operations Backoffice Specialist - 20h/ week (m/w/d)",
+      "type": "Junior",
+      "city": "Other DACH",
+      "location": "Germany",
+      "posted": "2026-05-07T07:10:15.986Z",
+      "posted_days_ago": 64,
+      "raw_url": "https://jobs.lever.co/finn/a2bb8860-766f-4c73-b526-d8cdc0b25a43",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fa2bb8860-766f-4c73-b526-d8cdc0b25a43"
+    },
+    {
+      "company": "FINN",
+      "title": "Junior Specialist (m/w/d) – Fleet Operations Support & Authority Requests (m/w/d)",
+      "type": "Junior",
+      "city": "Other DACH",
+      "location": "Germany",
+      "posted": "2026-06-25T08:21:53.369Z",
+      "posted_days_ago": 15,
+      "raw_url": "https://jobs.lever.co/finn/9fce8ac6-c078-4dc2-8a60-8944d8728a5b",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F9fce8ac6-c078-4dc2-8a60-8944d8728a5b"
     },
     {
       "company": "HelloFresh",
@@ -541,6 +794,28 @@
       "posted_days_ago": 4,
       "raw_url": "https://jobs.lever.co/sonarsource/dfb8492a-8d96-4033-9c7b-e87dfe1b07b0",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sonar&url=https%3A%2F%2Fjobs.lever.co%2Fsonarsource%2Fdfb8492a-8d96-4033-9c7b-e87dfe1b07b0"
+    },
+    {
+      "company": "Bitmovin",
+      "title": "AI Business Internship",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Klagenfurt; Vienna",
+      "posted": "2026-06-25T04:24:10-04:00",
+      "posted_days_ago": 15,
+      "raw_url": "https://bitmovin.com/careers/8441631002?gh_jid=8441631002",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8441631002%3Fgh_jid%3D8441631002"
+    },
+    {
+      "company": "Bitmovin",
+      "title": "Project Management Internship",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Klagenfurt, Vienna",
+      "posted": "2026-04-27T04:50:07-04:00",
+      "posted_days_ago": 74,
+      "raw_url": "https://bitmovin.com/careers/8522097002?gh_jid=8522097002",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8522097002%3Fgh_jid%3D8522097002"
     },
     {
       "company": "Bitpanda",

@@ -1,24 +1,263 @@
 {
-  "note": "Seed list of DACH employers on public ATS job-board APIs. Grow this via /growth artifact or community PRs. Each entry: { name, ats (greenhouse|lever|ashby), token, careers_url }. Companies with no early-career roles today are kept; they populate automatically when they post one.",
+  "note": "DACH employers on public ATS job-board APIs (Greenhouse/Lever/Ashby). Auto-harvested + curated. Grow via /growth artifact or community PRs. Companies with no early-career role today are kept; they populate automatically when they post one.",
   "companies": [
-    { "name": "Doctolib", "ats": "greenhouse", "token": "doctolib", "careers_url": "https://careers.doctolib.com" },
-    { "name": "Isar Aerospace", "ats": "greenhouse", "token": "isaraerospace", "careers_url": "https://www.isaraerospace.com/careers" },
-    { "name": "Raisin", "ats": "greenhouse", "token": "raisin", "careers_url": "https://www.raisin.com/careers" },
-    { "name": "Solaris", "ats": "greenhouse", "token": "solarisbank", "careers_url": "https://www.solarisgroup.com/en/careers" },
-    { "name": "Bitpanda", "ats": "greenhouse", "token": "bitpanda", "careers_url": "https://www.bitpanda.com/en/career" },
-    { "name": "Celonis", "ats": "greenhouse", "token": "celonis", "careers_url": "https://www.celonis.com/careers" },
-    { "name": "Flix", "ats": "greenhouse", "token": "flix", "careers_url": "https://www.flix.com/jobs" },
-    { "name": "HelloFresh", "ats": "greenhouse", "token": "hellofresh", "careers_url": "https://www.hellofresh.com/careers" },
-    { "name": "KONUX", "ats": "greenhouse", "token": "konux", "careers_url": "https://www.konux.com/careers" },
-    { "name": "N26", "ats": "greenhouse", "token": "n26", "careers_url": "https://n26.com/careers" },
-    { "name": "Qonto", "ats": "lever", "token": "qonto", "careers_url": "https://qonto.com/en/careers" },
-    { "name": "Scandit", "ats": "greenhouse", "token": "scandit", "careers_url": "https://www.scandit.com/careers" },
-    { "name": "Sonar", "ats": "lever", "token": "sonarsource", "careers_url": "https://www.sonarsource.com/company/careers" },
-    { "name": "SumUp", "ats": "greenhouse", "token": "sumup", "careers_url": "https://www.sumup.com/careers" },
-    { "name": "trivago", "ats": "greenhouse", "token": "trivago", "careers_url": "https://company.trivago.com/jobs" },
-    { "name": "GetYourGuide", "ats": "greenhouse", "token": "getyourguide", "careers_url": "https://careers.getyourguide.com" },
-    { "name": "Contentful", "ats": "greenhouse", "token": "contentful", "careers_url": "https://www.contentful.com/careers" },
-    { "name": "Moonfare", "ats": "greenhouse", "token": "moonfare", "careers_url": "https://www.moonfare.com/careers" },
-    { "name": "commercetools", "ats": "greenhouse", "token": "commercetools", "careers_url": "https://commercetools.com/careers" }
+    {
+      "name": "Helsing",
+      "ats": "greenhouse",
+      "token": "helsing",
+      "careers_url": ""
+    },
+    {
+      "name": "SumUp",
+      "ats": "greenhouse",
+      "token": "sumup",
+      "careers_url": ""
+    },
+    {
+      "name": "HelloFresh",
+      "ats": "greenhouse",
+      "token": "hellofresh",
+      "careers_url": ""
+    },
+    {
+      "name": "Doctolib",
+      "ats": "greenhouse",
+      "token": "doctolib",
+      "careers_url": ""
+    },
+    {
+      "name": "Isar Aerospace",
+      "ats": "greenhouse",
+      "token": "isaraerospace",
+      "careers_url": ""
+    },
+    {
+      "name": "Flix",
+      "ats": "greenhouse",
+      "token": "flix",
+      "careers_url": ""
+    },
+    {
+      "name": "Wolt",
+      "ats": "greenhouse",
+      "token": "wolt",
+      "careers_url": ""
+    },
+    {
+      "name": "GetYourGuide",
+      "ats": "greenhouse",
+      "token": "getyourguide",
+      "careers_url": ""
+    },
+    {
+      "name": "Bitpanda",
+      "ats": "greenhouse",
+      "token": "bitpanda",
+      "careers_url": ""
+    },
+    {
+      "name": "N26",
+      "ats": "greenhouse",
+      "token": "n26",
+      "careers_url": ""
+    },
+    {
+      "name": "Celonis",
+      "ats": "greenhouse",
+      "token": "celonis",
+      "careers_url": ""
+    },
+    {
+      "name": "FINN",
+      "ats": "lever",
+      "token": "finn",
+      "careers_url": ""
+    },
+    {
+      "name": "Proton",
+      "ats": "greenhouse",
+      "token": "proton",
+      "careers_url": ""
+    },
+    {
+      "name": "Raisin",
+      "ats": "greenhouse",
+      "token": "raisin",
+      "careers_url": ""
+    },
+    {
+      "name": "Solaris",
+      "ats": "greenhouse",
+      "token": "solarisbank",
+      "careers_url": ""
+    },
+    {
+      "name": "Sonar",
+      "ats": "lever",
+      "token": "sonarsource",
+      "careers_url": ""
+    },
+    {
+      "name": "FinanzCheck",
+      "ats": "greenhouse",
+      "token": "finanzcheck",
+      "careers_url": ""
+    },
+    {
+      "name": "GoStudent",
+      "ats": "greenhouse",
+      "token": "gostudent",
+      "careers_url": ""
+    },
+    {
+      "name": "Parloa",
+      "ats": "greenhouse",
+      "token": "parloa",
+      "careers_url": ""
+    },
+    {
+      "name": "Staffbase",
+      "ats": "greenhouse",
+      "token": "staffbase",
+      "careers_url": ""
+    },
+    {
+      "name": "Agicap",
+      "ats": "lever",
+      "token": "agicap",
+      "careers_url": ""
+    },
+    {
+      "name": "Grover",
+      "ats": "greenhouse",
+      "token": "grover",
+      "careers_url": ""
+    },
+    {
+      "name": "IONOS",
+      "ats": "greenhouse",
+      "token": "ionos",
+      "careers_url": ""
+    },
+    {
+      "name": "Malt",
+      "ats": "lever",
+      "token": "malt",
+      "careers_url": ""
+    },
+    {
+      "name": "trivago",
+      "ats": "greenhouse",
+      "token": "trivago",
+      "careers_url": ""
+    },
+    {
+      "name": "commercetools",
+      "ats": "greenhouse",
+      "token": "commercetools",
+      "careers_url": ""
+    },
+    {
+      "name": "Tide",
+      "ats": "greenhouse",
+      "token": "tide",
+      "careers_url": ""
+    },
+    {
+      "name": "Aircall",
+      "ats": "lever",
+      "token": "aircall",
+      "careers_url": ""
+    },
+    {
+      "name": "Bitmovin",
+      "ats": "greenhouse",
+      "token": "bitmovin",
+      "careers_url": ""
+    },
+    {
+      "name": "PlanRadar",
+      "ats": "greenhouse",
+      "token": "planradar",
+      "careers_url": ""
+    },
+    {
+      "name": "Qonto",
+      "ats": "lever",
+      "token": "qonto",
+      "careers_url": ""
+    },
+    {
+      "name": "Adyen",
+      "ats": "greenhouse",
+      "token": "adyen",
+      "careers_url": ""
+    },
+    {
+      "name": "Brevo",
+      "ats": "lever",
+      "token": "brevo",
+      "careers_url": ""
+    },
+    {
+      "name": "Scandit",
+      "ats": "greenhouse",
+      "token": "scandit",
+      "careers_url": ""
+    },
+    {
+      "name": "Contentsquare",
+      "ats": "lever",
+      "token": "contentsquare",
+      "careers_url": ""
+    },
+    {
+      "name": "KONUX",
+      "ats": "greenhouse",
+      "token": "konux",
+      "careers_url": ""
+    },
+    {
+      "name": "refurbed",
+      "ats": "greenhouse",
+      "token": "refurbed",
+      "careers_url": ""
+    },
+    {
+      "name": "ResearchGate",
+      "ats": "lever",
+      "token": "researchgate",
+      "careers_url": ""
+    },
+    {
+      "name": "STRATO",
+      "ats": "greenhouse",
+      "token": "strato",
+      "careers_url": ""
+    },
+    {
+      "name": "Wooga",
+      "ats": "greenhouse",
+      "token": "wooga",
+      "careers_url": ""
+    },
+    {
+      "name": "Appinio",
+      "ats": "greenhouse",
+      "token": "appinio",
+      "careers_url": ""
+    },
+    {
+      "name": "Contentful",
+      "ats": "greenhouse",
+      "token": "contentful",
+      "careers_url": ""
+    },
+    {
+      "name": "Trade Republic",
+      "ats": "greenhouse",
+      "token": "traderepublic",
+      "careers_url": ""
+    }
   ]
 }
