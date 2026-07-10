@@ -3,7 +3,7 @@
 > Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) bei DACH-Tech-Unternehmen. **Täglich automatisch aktualisiert.**
 > A daily-updated list of early-career roles (working-student, internship, new-grad, junior) at DACH tech companies.
 
-**78 offene Stellen** · **43 Unternehmen** · aktualisiert **2026-07-10**
+**78 offene Stellen** · **52 Unternehmen** · aktualisiert **2026-07-10**
 
 ## In 10 Sekunden bewerben
 Fülle jede Bewerbung automatisch aus und erstelle einen passenden, ATS-geprüften Lebenslauf mit der [**Careerkit Extension →**](https://careerkit.me/de)
