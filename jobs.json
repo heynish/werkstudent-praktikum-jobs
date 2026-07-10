@@ -1,8 +1,107 @@
 {
-  "generated_at": "2026-07-10T12:18:51.267Z",
-  "count": 24,
+  "generated_at": "2026-07-10T12:46:06.094Z",
+  "count": 52,
   "source": "public ATS APIs (Greenhouse/Lever/Ashby)",
   "roles": [
+    {
+      "company": "Doctolib",
+      "title": "Junior Customer Experience Consultant (x/f/m)",
+      "type": "Junior",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-06-23T03:32:46-04:00",
+      "posted_days_ago": 17,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7737188003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7737188003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Junior Customer Success Manager (x/f/m)",
+      "type": "Junior",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-06-23T03:32:52-04:00",
+      "posted_days_ago": 17,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7648739003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7648739003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Praktikum B2B Growth Marketing (x/f/m)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-06-11T04:11:45-04:00",
+      "posted_days_ago": 29,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7768166003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7768166003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Praktikum Brand Marketing (x/f/m)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-07-06T03:58:25-04:00",
+      "posted_days_ago": 4,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7794325003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7794325003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Praktikum Content Marketing (x/f/m)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-07-06T03:58:26-04:00",
+      "posted_days_ago": 4,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7794385003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7794385003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Praktikum Go-to-Market Strategy - Hospitals (x/f/m)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-05-21T10:50:33-04:00",
+      "posted_days_ago": 50,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7730040003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7730040003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Praktikum Inside Sales (x/f/m)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-07-10T07:59:33-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7799489003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7799489003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Praktikum - Marketing Campaign  (x/f/m)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-06-09T04:04:27-04:00",
+      "posted_days_ago": 31,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/6647880003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F6647880003"
+    },
+    {
+      "company": "Doctolib",
+      "title": "Werkstudent im Technical Support (x/f/m)",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "posted": "2026-07-03T08:34:30-04:00",
+      "posted_days_ago": 7,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7774481003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7774481003"
+    },
     {
       "company": "Flix",
       "title": "Junior DevOps Engineer (m/f/d)",
@@ -46,6 +145,17 @@
       "posted_days_ago": 4,
       "raw_url": "https://n26.com/en-eu/careers/positions/8025772?gh_jid=8025772",
       "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=n26&url=https%3A%2F%2Fn26.com%2Fen-eu%2Fcareers%2Fpositions%2F8025772%3Fgh_jid%3D8025772"
+    },
+    {
+      "company": "Qonto",
+      "title": "Website Project Manager Intern",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-07-01T16:08:07.423Z",
+      "posted_days_ago": 9,
+      "raw_url": "https://jobs.lever.co/qonto/4442a8c2-a644-4880-a1da-dda5830ff399",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=qonto&url=https%3A%2F%2Fjobs.lever.co%2Fqonto%2F4442a8c2-a644-4880-a1da-dda5830ff399"
     },
     {
       "company": "Raisin",
@@ -213,6 +323,17 @@
       "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8285272002%3Fgh_jid%3D8285272002"
     },
     {
+      "company": "trivago",
+      "title": "Working Student - Core Data QA Engineer",
+      "type": "Werkstudent",
+      "city": "Düsseldorf",
+      "location": "Düsseldorf",
+      "posted": "2026-07-09T04:17:06-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://careers.trivago.com/apply/8600470002.?gh_jid=8600470002",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=trivago&url=https%3A%2F%2Fcareers.trivago.com%2Fapply%2F8600470002.%3Fgh_jid%3D8600470002"
+    },
+    {
       "company": "Celonis",
       "title": "Brand Design Intern",
       "type": "Praktikum",
@@ -246,6 +367,17 @@
       "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=celonis&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fcelonis%2Fjobs%2F7743041003%3Fgh_jid%3D7743041003"
     },
     {
+      "company": "Doctolib",
+      "title": "Werkstudent Workplace Experience (x/f/m) - München",
+      "type": "Werkstudent",
+      "city": "Munich",
+      "location": "München",
+      "posted": "2026-06-30T08:15:07-04:00",
+      "posted_days_ago": 10,
+      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7718250003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7718250003"
+    },
+    {
       "company": "Flix",
       "title": "Junior DevOps Engineer (m/f/d)",
       "type": "Junior",
@@ -257,6 +389,17 @@
       "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=flix&url=https%3A%2F%2Fflix.careers%2Fjob%2F8620664002%3Fgh_jid%3D8620664002"
     },
     {
+      "company": "KONUX",
+      "title": "Working Student Legal (m/f/x)",
+      "type": "Werkstudent",
+      "city": "Munich",
+      "location": "Munich",
+      "posted": "2026-07-08T07:21:50-04:00",
+      "posted_days_ago": 2,
+      "raw_url": "https://job-boards.greenhouse.io/konux/jobs/7793444003",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=konux&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fkonux%2Fjobs%2F7793444003"
+    },
+    {
       "company": "HelloFresh",
       "title": "[DACH MAG] Working Student FSQA and Quality Assurance (all genders)",
       "type": "Werkstudent",
@@ -266,6 +409,171 @@
       "posted_days_ago": 37,
       "raw_url": "https://careers.hellofresh.com/global/en/job/7963186?gh_jid=7963186",
       "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=hellofresh&url=https%3A%2F%2Fcareers.hellofresh.com%2Fglobal%2Fen%2Fjob%2F7963186%3Fgh_jid%3D7963186"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "AI Working Student (f/m/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4921413101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4921413101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Ground Systems Working Student (m/f/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany; Parsdorf, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4912793101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4912793101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Junior Brand Specialist (mf/d)",
+      "type": "Junior",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4893391101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4893391101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "(Junior) Proposal Engineer (m/f/d)",
+      "type": "Junior",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4873721101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4873721101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Werkstudent Administration / Office Management (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4907014101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4907014101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Werkstudent Health, Safety & Environment (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4772565101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4772565101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Werkstudent HSE & Arbeitssicherheit (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4697662101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4697662101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Working Student Computer Science (f/m/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany; Parsdorf, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4857207101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4857207101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Working Student Launch Vehicle AIT",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4889198101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4889198101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Working Student Tax (m/f/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-07-10T05:37:06-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4846323101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4846323101"
+    },
+    {
+      "company": "Sonar",
+      "title": "Graduate Software Engineer",
+      "type": "Absolvent",
+      "city": "Other DACH",
+      "location": "Geneva",
+      "posted": "2026-07-06T13:28:49.640Z",
+      "posted_days_ago": 4,
+      "raw_url": "https://jobs.lever.co/sonarsource/dfb8492a-8d96-4033-9c7b-e87dfe1b07b0",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=sonar&url=https%3A%2F%2Fjobs.lever.co%2Fsonarsource%2Fdfb8492a-8d96-4033-9c7b-e87dfe1b07b0"
+    },
+    {
+      "company": "Bitpanda",
+      "title": "Intern, Legal & Regulatory",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Vienna, Vienna, Austria",
+      "posted": "2026-07-06T11:03:56-04:00",
+      "posted_days_ago": 4,
+      "raw_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4896304101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=bitpanda&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fbitpanda%2Fjobs%2F4896304101"
+    },
+    {
+      "company": "Bitpanda",
+      "title": "Intern, Sponsorships Sports Marketing",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Vienna, Vienna, Austria",
+      "posted": "2026-07-08T07:38:02-04:00",
+      "posted_days_ago": 2,
+      "raw_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4914392101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=bitpanda&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fbitpanda%2Fjobs%2F4914392101"
+    },
+    {
+      "company": "Bitpanda",
+      "title": "Talent Experience Intern",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Vienna, Vienna, Austria",
+      "posted": "2026-07-03T07:47:23-04:00",
+      "posted_days_ago": 7,
+      "raw_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4905029101",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=bitpanda&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fbitpanda%2Fjobs%2F4905029101"
+    },
+    {
+      "company": "Scandit",
+      "title": "Computer Vision Research Internship: Image to Sequence Modeling (e.g. Transformers)",
+      "type": "Praktikum",
+      "city": "Zurich",
+      "location": "Zurich",
+      "posted": "2026-06-26T04:40:13-04:00",
+      "posted_days_ago": 14,
+      "raw_url": "https://www.scandit.com/careers/job-description/?gh_jid=7434825",
+      "careerkit_apply_url": "https://careerkit.de/apply?src=github-dach&company=scandit&url=https%3A%2F%2Fwww.scandit.com%2Fcareers%2Fjob-description%2F%3Fgh_jid%3D7434825"
     }
   ]
 }
