@@ -93,6 +93,44 @@ async function getJson(url) {
   return res.json();
 }
 
+// ---- Arbeitsagentur (German Federal Employment Agency) public jobs API -------
+// Large legal DE source. Queried by early-career keyword x city. These are DE by
+// construction, so we mark them dach:true and skip the location filter.
+const AA_KEY = "jobboerse-jobsuche"; // well-known public client key for this API
+const AA_QUERIES = ["Werkstudent", "Praktikum", "Absolvent", "Trainee", "Berufseinsteiger"];
+const AA_CITIES = [
+  "Berlin", "München", "Hamburg", "Köln", "Frankfurt", "Stuttgart",
+  "Düsseldorf", "Leipzig", "Nürnberg", "Hannover", "Dortmund", "Bremen",
+];
+const AA_SIZE = 50;
+
+async function aaQuery(was, wo) {
+  try {
+    const u = `https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?was=${encodeURIComponent(was)}&wo=${encodeURIComponent(wo)}&umkreis=0&size=${AA_SIZE}`;
+    const res = await fetch(u, { headers: { "X-API-Key": AA_KEY, "user-agent": "werkstudent-praktikum-jobs/1.0" } });
+    if (!res.ok) return [];
+    const d = await res.json();
+    return (d.stellenangebote || [])
+      .filter((j) => j.refnr && j.arbeitgeber)
+      .map((j) => ({
+        company: (j.arbeitgeber || "").trim(),
+        title: (j.titel || j.beruf || "").trim(),
+        location: (j.arbeitsort || {}).ort || wo,
+        url: `https://www.arbeitsagentur.de/jobsuche/jobdetail/${encodeURIComponent(j.refnr)}`,
+        posted: j.aktuelleVeroeffentlichungsdatum || null,
+        dach: true,
+      }));
+  } catch {
+    return [];
+  }
+}
+
+async function fetchArbeitsagentur() {
+  const tasks = [];
+  for (const was of AA_QUERIES) for (const wo of AA_CITIES) tasks.push(aaQuery(was, wo));
+  return (await Promise.all(tasks)).flat();
+}
+
 // ---- helpers ---------------------------------------------------------------
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -104,6 +142,24 @@ function daysAgo(iso) {
   return Number.isFinite(d) ? Math.max(0, Math.round(d)) : null;
 }
 const tally = (rows, key) => rows.reduce((m, r) => ((m[r[key]] = (m[r[key]] || 0) + 1), m), {});
+
+// Cap roles per (city, type) so no single combo floods the list. Keeps the most
+// recent, so the list stays comprehensive but readable.
+const MAX_PER_COMBO = 30;
+function capPerCombo(rows, n) {
+  const groups = new Map();
+  for (const r of rows) {
+    const k = `${r.city}|${r.type}`;
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(r);
+  }
+  const out = [];
+  for (const arr of groups.values()) {
+    arr.sort((a, b) => (a.posted_days_ago ?? 9999) - (b.posted_days_ago ?? 9999));
+    out.push(...arr.slice(0, n));
+  }
+  return out;
+}
 
 // ---- pipeline --------------------------------------------------------------
 
@@ -122,9 +178,17 @@ async function run() {
     else errors.push(`${companies[i].name} (${companies[i].token}): ${s.reason.message}`);
   });
 
+  // Arbeitsagentur (large public DE source) merged alongside the seed companies.
+  try {
+    raw.push(...(await fetchArbeitsagentur()));
+  } catch (e) {
+    errors.push(`arbeitsagentur: ${e.message}`);
+  }
+
   const roles = [];
   for (const r of raw) {
-    if (!r.title || !r.location || !isDach(r.location)) continue;
+    if (!r.title || !r.location) continue;
+    if (!r.dach && !isDach(r.location)) continue;
     const type = classifyType(r.title);
     if (!type) continue;
     roles.push({
@@ -141,16 +205,19 @@ async function run() {
   }
 
   const seen = new Set();
-  const deduped = roles.filter((r) => {
+  let deduped = roles.filter((r) => {
     const k = `${slug(r.company)}|${slug(r.title)}|${r.city}`;
     return seen.has(k) ? false : (seen.add(k), true);
   });
-  deduped.sort((a, b) => a.city.localeCompare(b.city) || a.company.localeCompare(b.company));
+  deduped = capPerCombo(deduped, MAX_PER_COMBO);
+  deduped.sort(
+    (a, b) => a.city.localeCompare(b.city) || a.type.localeCompare(b.type) || a.company.localeCompare(b.company),
+  );
 
   const generatedAt = new Date().toISOString();
   await writeFile(
     join(DIR, "jobs.json"),
-    JSON.stringify({ generated_at: generatedAt, count: deduped.length, source: "public ATS APIs (Greenhouse/Lever/Ashby)", roles: deduped }, null, 2),
+    JSON.stringify({ generated_at: generatedAt, count: deduped.length, source: "company ATS boards (Greenhouse/Lever/Ashby) + Arbeitsagentur", roles: deduped }, null, 2),
   );
   await writeFile(join(DIR, "README.md"), renderReadme(deduped, companies, generatedAt, errors));
 
