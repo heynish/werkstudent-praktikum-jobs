@@ -1,0 +1,16 @@
+{
+  "note": "Seed list of DACH employers on public ATS job-board APIs. Grow this via /growth artifact. Each entry: { name, ats (greenhouse|lever|ashby), token, careers_url }.",
+  "companies": [
+    { "name": "Raisin", "ats": "greenhouse", "token": "raisin", "careers_url": "https://www.raisin.com/careers" },
+    { "name": "Solaris", "ats": "greenhouse", "token": "solarisbank", "careers_url": "https://www.solarisgroup.com/en/careers" },
+    { "name": "Flix", "ats": "greenhouse", "token": "flix", "careers_url": "https://www.flix.com/jobs" },
+    { "name": "Celonis", "ats": "greenhouse", "token": "celonis", "careers_url": "https://www.celonis.com/careers" },
+    { "name": "SumUp", "ats": "greenhouse", "token": "sumup", "careers_url": "https://www.sumup.com/careers" },
+    { "name": "N26", "ats": "greenhouse", "token": "n26", "careers_url": "https://n26.com/careers" },
+    { "name": "HelloFresh", "ats": "greenhouse", "token": "hellofresh", "careers_url": "https://www.hellofresh.com/careers" },
+    { "name": "GetYourGuide", "ats": "greenhouse", "token": "getyourguide", "careers_url": "https://careers.getyourguide.com" },
+    { "name": "Contentful", "ats": "greenhouse", "token": "contentful", "careers_url": "https://www.contentful.com/careers" },
+    { "name": "Moonfare", "ats": "greenhouse", "token": "moonfare", "careers_url": "https://www.moonfare.com/careers" },
+    { "name": "commercetools", "ats": "greenhouse", "token": "commercetools", "careers_url": "https://commercetools.com/careers" }
+  ]
+}

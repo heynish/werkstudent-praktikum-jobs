@@ -1,0 +1,38 @@
+name: Refresh job list
+
+# Autonomous daily refresh. Runs the generator and commits README.md + jobs.json
+# if anything changed. Nobody runs this by hand.
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # daily 05:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - run: node build.mjs
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain README.md jobs.json)" ]; then
+            git config user.name "careerkit-bot"
+            git config user.email "bot@careerkit.de"
+            git add README.md jobs.json
+            git commit -m "chore: daily job list refresh"
+            git push
+          else
+            echo "No changes."
+          fi
