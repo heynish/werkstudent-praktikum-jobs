@@ -239,8 +239,8 @@ function renderReadme(roles, companies, generatedAt, errors) {
   const L = [];
   L.push(`# Werkstudent · Praktikum · Absolventen Jobs in DACH`);
   L.push("");
-  L.push(`> Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) bei DACH-Tech-Unternehmen. **Täglich automatisch aktualisiert.**`);
-  L.push(`> A daily-updated list of early-career roles (working-student, internship, new-grad, junior) at DACH tech companies.`);
+  L.push(`> Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) in Deutschland, Österreich und der Schweiz. **Täglich automatisch aktualisiert.**`);
+  L.push(`> A daily-updated list of early-career roles (working-student, internship, new-grad, junior) across Germany, Austria and Switzerland.`);
   L.push("");
   L.push(`**${roles.length} offene Stellen** · **${companies.length} Unternehmen** · aktualisiert **${date}**`);
   L.push("");

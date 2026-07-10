@@ -1,7 +1,7 @@
 # Werkstudent · Praktikum · Absolventen Jobs in DACH
 
-> Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) bei DACH-Tech-Unternehmen. **Täglich automatisch aktualisiert.**
-> A daily-updated list of early-career roles (working-student, internship, new-grad, junior) at DACH tech companies.
+> Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) in Deutschland, Österreich und der Schweiz. **Täglich automatisch aktualisiert.**
+> A daily-updated list of early-career roles (working-student, internship, new-grad, junior) across Germany, Austria and Switzerland.
 
 **936 offene Stellen** · **52 Unternehmen** · aktualisiert **2026-07-10**
 
