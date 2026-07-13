@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T14:06:48.761Z",
-  "count": 1006,
+  "generated_at": "2026-07-13T14:13:43.475Z",
+  "count": 987,
   "source": "company ATS boards (Greenhouse/Lever/Ashby) + Arbeitsagentur",
   "roles": [
     {
@@ -994,6 +994,17 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=wolt&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fwolt%2Fjobs%2F7984530"
     },
     {
+      "company": "1KOMMA5°",
+      "title": "Werkstudent:in (m/w/d) - Organic Search",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-07-10T09:41:36+00:00",
+      "posted_days_ago": 3,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2707581",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2707581"
+    },
+    {
       "company": "ALBA plc & Co. KG",
       "title": "Werkstudent Wirtschaftsinformatik (m/w/d)",
       "type": "Werkstudent",
@@ -1047,17 +1058,6 @@
       "posted_days_ago": 0,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7377249003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7377249003"
-    },
-    {
-      "company": "Doctolib",
-      "title": "Werkstudent im Technical Support (x/f/m)",
-      "type": "Werkstudent",
-      "city": "Berlin",
-      "location": "Berlin, Berlin, Germany",
-      "posted": "2026-07-03T08:34:30-04:00",
-      "posted_days_ago": 10,
-      "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7774481003",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7774481003"
     },
     {
       "company": "Enpal",
@@ -4767,6 +4767,72 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8559479002%3Fgh_jid%3D8559479002"
     },
     {
+      "company": "HUG - Hôpitaux Universitaires de Genève",
+      "title": "Verwaltungsassistent Werkstudent",
+      "type": "Werkstudent",
+      "city": "Geneva",
+      "location": "Genf",
+      "posted": "2026-07-03T17:46:52Z",
+      "posted_days_ago": 10,
+      "raw_url": "https://www.adzuna.ch/land/ad/5786989102?se=cE69C8V-8RGfuPZ_H4hNCg&utm_medium=api&utm_source=8efdd1b9&v=CD84D4166370CDCB29F9BD80F36F6C340F0FD0F2",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hug-h-pitaux-universitaires-de-gen-ve&url=https%3A%2F%2Fwww.adzuna.ch%2Fland%2Fad%2F5786989102%3Fse%3DcE69C8V-8RGfuPZ_H4hNCg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DCD84D4166370CDCB29F9BD80F36F6C340F0FD0F2"
+    },
+    {
+      "company": "König Maschinen GesmbH",
+      "title": "Konstrukteur / HTL Absolvent (m/w/d)",
+      "type": "Absolvent",
+      "city": "Graz",
+      "location": "Graz, Steiermark",
+      "posted": "2026-07-08T11:28:52Z",
+      "posted_days_ago": 5,
+      "raw_url": "https://www.adzuna.at/land/ad/5792214741?se=hpbmC8V-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=949EAE1ABDCF12482C28C0E45D9B812344D194CD",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=k-nig-maschinen-gesmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5792214741%3Fse%3DhpbmC8V-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D949EAE1ABDCF12482C28C0E45D9B812344D194CD"
+    },
+    {
+      "company": "König Maschinen GesmbH",
+      "title": "HTL Absolvent / Elektro-Konstrukteur (m/w/d)",
+      "type": "Absolvent",
+      "city": "Graz",
+      "location": "Graz, Steiermark",
+      "posted": "2026-07-02T10:24:56Z",
+      "posted_days_ago": 11,
+      "raw_url": "https://www.adzuna.at/land/ad/5785205690?se=hpbmC8V-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=283737677BD363922B74E2505D70CCD9F2A9BAB1",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=k-nig-maschinen-gesmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785205690%3Fse%3DhpbmC8V-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D283737677BD363922B74E2505D70CCD9F2A9BAB1"
+    },
+    {
+      "company": "STRABAG SE",
+      "title": "Absolvent:in Automatisierungstechnik / SPS (m/w/d)",
+      "type": "Absolvent",
+      "city": "Graz",
+      "location": "Graz, Steiermark",
+      "posted": "2026-05-08T16:40:18Z",
+      "posted_days_ago": 66,
+      "raw_url": "https://www.adzuna.at/land/ad/5723048167?se=hpbmC8V-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=50D34DB9209411F827194DC265D33574A01E3FE4",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=strabag-se&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5723048167%3Fse%3DhpbmC8V-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D50D34DB9209411F827194DC265D33574A01E3FE4"
+    },
+    {
+      "company": "TODAY Experts GmbH",
+      "title": "IT Techniker / IT-HTL Absolvent (m/w/d)",
+      "type": "Absolvent",
+      "city": "Graz",
+      "location": "Graz, Steiermark",
+      "posted": "2026-06-19T10:29:51Z",
+      "posted_days_ago": 24,
+      "raw_url": "https://www.adzuna.at/land/ad/5769143355?se=hpbmC8V-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=D4D01862024A18BFEAA96FD6E83E44D600E8D2E7",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=today-experts-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5769143355%3Fse%3DhpbmC8V-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DD4D01862024A18BFEAA96FD6E83E44D600E8D2E7"
+    },
+    {
+      "company": "XAL GmbH",
+      "title": "HTL Absolvent (m/w/d) Einkauf",
+      "type": "Absolvent",
+      "city": "Graz",
+      "location": "Graz, Steiermark",
+      "posted": "2026-05-27T10:16:46Z",
+      "posted_days_ago": 47,
+      "raw_url": "https://www.adzuna.at/land/ad/5742059993?se=hpbmC8V-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=6E125034B327A7FB7EFF5488B681FA8FD175E104",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=xal-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5742059993%3Fse%3DhpbmC8V-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D6E125034B327A7FB7EFF5488B681FA8FD175E104"
+    },
+    {
       "company": "BILLA AG",
       "title": "Trainee Fachberater:in Frische für das Gebiet Steiermark",
       "type": "Junior",
@@ -4774,8 +4840,19 @@
       "location": "Graz, Steiermark",
       "posted": "2026-06-30T06:58:55Z",
       "posted_days_ago": 13,
-      "raw_url": "https://www.adzuna.at/land/ad/5781782345?se=WvpZFsR-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=10BBD079D2EE0AA82CAC8AA6D393F1433D1A6DA5",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=billa-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5781782345%3Fse%3DWvpZFsR-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D10BBD079D2EE0AA82CAC8AA6D393F1433D1A6DA5"
+      "raw_url": "https://www.adzuna.at/land/ad/5781782345?se=COy-C8V-8RGroMC9Z2JQdA&utm_medium=api&utm_source=8efdd1b9&v=10BBD079D2EE0AA82CAC8AA6D393F1433D1A6DA5",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=billa-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5781782345%3Fse%3DCOy-C8V-8RGroMC9Z2JQdA%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D10BBD079D2EE0AA82CAC8AA6D393F1433D1A6DA5"
+    },
+    {
+      "company": "VACE Engineering GmbH",
+      "title": "Junior Project Engineer (m/f/d)",
+      "type": "Junior",
+      "city": "Graz",
+      "location": "Graz, Steiermark",
+      "posted": "2026-06-09T09:38:21Z",
+      "posted_days_ago": 34,
+      "raw_url": "https://www.adzuna.at/land/ad/5756979110?se=hpbmC8V-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=ED7E98D7FDB1AE2BECB402DD0994AC5F8953D048",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=vace-engineering-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5756979110%3Fse%3DhpbmC8V-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DED7E98D7FDB1AE2BECB402DD0994AC5F8953D048"
     },
     {
       "company": "HRlab",
@@ -4796,8 +4873,8 @@
       "location": "Graz, Steiermark",
       "posted": "2026-07-11T08:49:52Z",
       "posted_days_ago": 2,
-      "raw_url": "https://www.adzuna.at/land/ad/5796614514?se=WvpZFsR-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=CDC60012815DBC84D2A6F940DECF748654F8AEDD",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=infineon-technologies-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796614514%3Fse%3DWvpZFsR-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DCDC60012815DBC84D2A6F940DECF748654F8AEDD"
+      "raw_url": "https://www.adzuna.at/land/ad/5796614514?se=COy-C8V-8RGroMC9Z2JQdA&utm_medium=api&utm_source=8efdd1b9&v=CDC60012815DBC84D2A6F940DECF748654F8AEDD",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=infineon-technologies-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796614514%3Fse%3DCOy-C8V-8RGroMC9Z2JQdA%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DCDC60012815DBC84D2A6F940DECF748654F8AEDD"
     },
     {
       "company": "Steiermärkische Sparkasse",
@@ -4807,41 +4884,8 @@
       "location": "Graz, Steiermark",
       "posted": "2026-07-07T09:57:36Z",
       "posted_days_ago": 6,
-      "raw_url": "https://www.adzuna.at/land/ad/5790740566?se=fI9SFsR-8RGgX8pGgfOrZg&utm_medium=api&utm_source=8efdd1b9&v=DBBB0970CD9F7F646C8596028CF4B8694E354EC5",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=steierm-rkische-sparkasse&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5790740566%3Fse%3DfI9SFsR-8RGgX8pGgfOrZg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DDBBB0970CD9F7F646C8596028CF4B8694E354EC5"
-    },
-    {
-      "company": "ANDRITZ",
-      "title": "Werkstudent:in Patentmanagement & Recherche (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Graz",
-      "location": "Graz, Steiermark",
-      "posted": "2026-07-11T08:50:01Z",
-      "posted_days_ago": 2,
-      "raw_url": "https://www.adzuna.at/land/ad/5796614633?se=qlxSFsR-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=65BF5AB4D38C8309817DB1023BE64CA1229608CF",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=andritz&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796614633%3Fse%3DqlxSFsR-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D65BF5AB4D38C8309817DB1023BE64CA1229608CF"
-    },
-    {
-      "company": "Jungheinrich Systemlösungen GmbH",
-      "title": "Werkstudent Buchhaltung w/m/d",
-      "type": "Werkstudent",
-      "city": "Graz",
-      "location": "Graz, Steiermark",
-      "posted": "2026-06-26T07:12:38Z",
-      "posted_days_ago": 17,
-      "raw_url": "https://www.adzuna.at/land/ad/5777269312?se=qlxSFsR-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=2524EC468804B598280A6441D2D08A839E9CA831",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=jungheinrich-systeml-sungen-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5777269312%3Fse%3DqlxSFsR-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D2524EC468804B598280A6441D2D08A839E9CA831"
-    },
-    {
-      "company": "Jungheinrich Systemlösungen GmbH",
-      "title": "IT Werkstudent (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Graz",
-      "location": "Graz, Steiermark",
-      "posted": "2026-06-13T10:44:38Z",
-      "posted_days_ago": 30,
-      "raw_url": "https://www.adzuna.at/land/ad/5762310537?se=qlxSFsR-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=3E741C6097F9FB2C53493CA995D44564CFED77F8",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=jungheinrich-systeml-sungen-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5762310537%3Fse%3DqlxSFsR-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D3E741C6097F9FB2C53493CA995D44564CFED77F8"
+      "raw_url": "https://www.adzuna.at/land/ad/5790740566?se=KGboC8V-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=DBBB0970CD9F7F646C8596028CF4B8694E354EC5",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=steierm-rkische-sparkasse&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5790740566%3Fse%3DKGboC8V-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DDBBB0970CD9F7F646C8596028CF4B8694E354EC5"
     },
     {
       "company": "SWAN",
@@ -4853,6 +4897,28 @@
       "posted_days_ago": 62,
       "raw_url": "https://www.adzuna.at/details/5727379562?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=swan&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5727379562%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "1KOMMA5°",
+      "title": "Graduate Program Operations (m/w/d) - 12 Monate",
+      "type": "Absolvent",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-05-04T16:02:32+00:00",
+      "posted_days_ago": 70,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2623047",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2623047"
+    },
+    {
+      "company": "1KOMMA5°",
+      "title": "Sales Graduate Program (m/w/d)",
+      "type": "Absolvent",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2024-02-26T19:54:20+00:00",
+      "posted_days_ago": 868,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/1440466",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F1440466"
     },
     {
       "company": "A.S.I. Wirtschaftsberatung AG",
@@ -5031,6 +5097,39 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=zollsoft-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13635-36f73e3a_JB5185459-S"
     },
     {
+      "company": "1KOMMA5°",
+      "title": "(Junior) Video Creator / Videograph / Post-Production (m/w/d)",
+      "type": "Junior",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-07-13T12:47:38+00:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2709522",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2709522"
+    },
+    {
+      "company": "1KOMMA5°",
+      "title": "(Junior) Operations Manager Supply Chain (m/w/d)",
+      "type": "Junior",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-06-12T09:11:54+00:00",
+      "posted_days_ago": 31,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2669412",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2669412"
+    },
+    {
+      "company": "1KOMMA5°",
+      "title": "(Junior) Controller (m/f/d)",
+      "type": "Junior",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-04-22T18:09:36+00:00",
+      "posted_days_ago": 82,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2610557",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2610557"
+    },
+    {
       "company": "Academic Work Germany GmbH",
       "title": "Trainee Data Engineer (m/w/d)",
       "type": "Junior",
@@ -5163,17 +5262,6 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ey-consulting-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F15548-1428931-2-S"
     },
     {
-      "company": "EY Consulting GmbH",
-      "title": "Consultant Risk Management - Fast Track Trainee Program (w/m/d)",
-      "type": "Junior",
-      "city": "Hamburg",
-      "location": "Hamburg",
-      "posted": "2026-03-10",
-      "posted_days_ago": 126,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1465507-2-S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ey-consulting-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F15548-1465507-2-S"
-    },
-    {
       "company": "FERCHAU GmbH Niederlassung Hamburg-City",
       "title": "Sales Trainee (m/w/d)",
       "type": "Junior",
@@ -5295,17 +5383,6 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=pflegen-wohnen-hamburg-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F14081-JOB-839061-S"
     },
     {
-      "company": "REWE Markt GmbH ZwNL Nord",
-      "title": "Trainee zum/zur selbstständigen REWE-Kaufmann/-frau (m/w/d) Großraum Hamburg",
-      "type": "Junior",
-      "city": "Hamburg",
-      "location": "Hamburg",
-      "posted": "2026-03-18",
-      "posted_days_ago": 118,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1386574-28082-1-S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=rewe-markt-gmbh-zwnl-nord&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F12608-1386574-28082-1-S"
-    },
-    {
       "company": "rocket match powered by notificAI GmbH",
       "title": "Trainee Einrichtungsleitung (m/w/d) in Hamburg",
       "type": "Junior",
@@ -5328,17 +5405,6 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=timecrew-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F14751-221A3304-S"
     },
     {
-      "company": "UKE-Akademie für Bildung und Karriere",
-      "title": "Trainee zum/zur  Lehrer:in (all genders) an der Pflegeschule",
-      "type": "Junior",
-      "city": "Hamburg",
-      "location": "Hamburg",
-      "posted": "2026-03-02",
-      "posted_days_ago": 134,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18593-1544885-1-S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=uke-akademie-f-r-bildung-und-karriere&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F18593-1544885-1-S"
-    },
-    {
       "company": "VINCI Construction Shared Services GmbH",
       "title": "Trainee Bauleitung (m/w/d) für den Bereich Bauwerksinstandsetzung",
       "type": "Junior",
@@ -5359,6 +5425,17 @@
       "posted_days_ago": 109,
       "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002838514-S",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=vinci-construction-shared-services-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F10001-1002838514-S"
+    },
+    {
+      "company": "1KOMMA5°",
+      "title": "Internship Energy Analyst (m/f/d)",
+      "type": "Praktikum",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-05-27T16:04:05+00:00",
+      "posted_days_ago": 47,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2649362",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2649362"
     },
     {
       "company": "Backdigital GmbH",
@@ -5458,17 +5535,6 @@
       "posted_days_ago": 5,
       "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2092-S",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=k-s-dr-krantz-sozialbau-und-betreuung-se-co-kg&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F14927-2092-S"
-    },
-    {
-      "company": "Kontrast Personalberatung GmbH",
-      "title": "Praktikum Personalberatung, Recruiting & Eignungsdiagnostik (m/w/d)",
-      "type": "Praktikum",
-      "city": "Hamburg",
-      "location": "Hamburg",
-      "posted": "2026-04-22",
-      "posted_days_ago": 83,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002963488-S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=kontrast-personalberatung-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F10001-1002963488-S"
     },
     {
       "company": "Lufthansa Technik AG",
@@ -5691,6 +5757,17 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=zeb&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13644-236951-S"
     },
     {
+      "company": "1KOMMA5°",
+      "title": "Werkstudent:in (m/w/d) - ESG & Sustainability",
+      "type": "Werkstudent",
+      "city": "Hamburg",
+      "location": "Hamburg",
+      "posted": "2026-07-06T14:37:13+00:00",
+      "posted_days_ago": 7,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2700641",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2700641"
+    },
+    {
       "company": "Academic Work Germany GmbH",
       "title": "Werkstudent (m/w/d)",
       "type": "Werkstudent",
@@ -5810,17 +5887,6 @@
       "posted_days_ago": 7,
       "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003342500-S",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=dmg-dental-material-gesellschaft-mbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F10001-1003342500-S"
-    },
-    {
-      "company": "DMG Dental-Material Gesellschaft mbH",
-      "title": "Werkstudent (m/w/d) Produktmanagement Dental",
-      "type": "Werkstudent",
-      "city": "Hamburg",
-      "location": "Hamburg",
-      "posted": "2026-06-29",
-      "posted_days_ago": 15,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003300634-S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=dmg-dental-material-gesellschaft-mbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F10001-1003300634-S"
     },
     {
       "company": "Doctolib",
@@ -6769,17 +6835,6 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=wisag-elektrotechnik-mitteldtl-gmbh-co-kg-region&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13465-00021a65678001-S"
     },
     {
-      "company": "WFL Millturn Technologies GmbH & Co. KG",
-      "title": "Werkstudent (m/w/d) Lean Management / Produktion",
-      "type": "Werkstudent",
-      "city": "Linz",
-      "location": "Linz, Oberösterreich",
-      "posted": "2026-07-04T09:50:39Z",
-      "posted_days_ago": 9,
-      "raw_url": "https://www.adzuna.at/land/ad/5787699312?se=qNhfFsR-8RGfuPZ_H4hNCg&utm_medium=api&utm_source=8efdd1b9&v=184B96D12B5BC4A909F4B1ECDB53FA77DC0583E8",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=wfl-millturn-technologies-gmbh-co-kg&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5787699312%3Fse%3DqNhfFsR-8RGfuPZ_H4hNCg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D184B96D12B5BC4A909F4B1ECDB53FA77DC0583E8"
-    },
-    {
       "company": "A.S.I. Wirtschaftsberatung AG",
       "title": "Absolvent/-in Wirtschaftswissenschaften als Trainee Finanz",
       "type": "Absolvent",
@@ -7033,6 +7088,17 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=zetcon-ingenieure-gmbh&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13635-b35b6241_JB5183872-S"
     },
     {
+      "company": "1KOMMA5°",
+      "title": "(Junior) Controller & Business Development Manager (m/w/d)",
+      "type": "Junior",
+      "city": "Munich",
+      "location": "München",
+      "posted": "2026-06-25T17:23:34+00:00",
+      "posted_days_ago": 18,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2687536",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2687536"
+    },
+    {
       "company": "avodaq",
       "title": "Trainee IT System Engineer (m/w/d) Security / Data Center / Collaboration",
       "type": "Junior",
@@ -7231,17 +7297,6 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=mercedes-benz-group-ag&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13151-1565560-1-S"
     },
     {
-      "company": "Mercedes-Benz Group AG",
-      "title": "Sales Trainee (w/m/d) für Transporter in der Mercedes-Benz Niederlassung Standort München Perlach",
-      "type": "Junior",
-      "city": "Munich",
-      "location": "München",
-      "posted": "2026-02-10",
-      "posted_days_ago": 154,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1536744-1-S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=mercedes-benz-group-ag&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13151-1536744-1-S"
-    },
-    {
       "company": "Mömax Deutschland GmbH & Co. KG",
       "title": "Trainee zur Büroleitung (m/w/d)",
       "type": "Junior",
@@ -7396,6 +7451,17 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bmw-ag&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F12462-1590294-1-S"
     },
     {
+      "company": "Building Radar",
+      "title": "Praktikum Product Builder (m/w/d)",
+      "type": "Praktikum",
+      "city": "Munich",
+      "location": "München",
+      "posted": "2026-06-18T08:41:22+00:00",
+      "posted_days_ago": 25,
+      "raw_url": "https://building-radar.jobs.personio.de/job/2677504",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=building-radar&url=https%3A%2F%2Fbuilding-radar.jobs.personio.de%2Fjob%2F2677504"
+    },
+    {
       "company": "Celonis",
       "title": "Brand Design Intern",
       "type": "Praktikum",
@@ -7493,17 +7559,6 @@
       "posted_days_ago": 33,
       "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-872cc4bd-e3e3-4a70--S",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=mtu-aero-engines-ag&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F12951-872cc4bd-e3e3-4a70--S"
-    },
-    {
-      "company": "MTU Aero Engines AG",
-      "title": "Praktikum IT (all genders)",
-      "type": "Praktikum",
-      "city": "Munich",
-      "location": "München",
-      "posted": "2026-06-11",
-      "posted_days_ago": 33,
-      "raw_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-24105a9b-eeca-4b38--S",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=mtu-aero-engines-ag&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F12951-24105a9b-eeca-4b38--S"
     },
     {
       "company": "Nexia GmbH",
@@ -7693,6 +7748,17 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=zeb&url=https%3A%2F%2Fwww.arbeitsagentur.de%2Fjobsuche%2Fjobdetail%2F13644-236951-S"
     },
     {
+      "company": "1KOMMA5°",
+      "title": "Werkstudent:in Marketing & Eventmanagement Bayern (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Munich",
+      "location": "München",
+      "posted": "2026-07-03T09:06:45+00:00",
+      "posted_days_ago": 10,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2697195",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2697195"
+    },
+    {
       "company": "Academic Work Germany GmbH",
       "title": "Werkstudent (m/w/d) Sales & Operations",
       "type": "Werkstudent",
@@ -7823,17 +7889,6 @@
       "posted_days_ago": 3,
       "raw_url": "https://jobs.lever.co/finn/ea37f30a-0aa0-4339-adc5-f948afe2af37",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fea37f30a-0aa0-4339-adc5-f948afe2af37"
-    },
-    {
-      "company": "FINN",
-      "title": "Working Student Operations and Car Handover - Onsite (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Munich",
-      "location": "Munich",
-      "posted": "2026-06-17T13:28:21.163Z",
-      "posted_days_ago": 26,
-      "raw_url": "https://jobs.lever.co/finn/da172d0e-e4dc-4c06-b81c-aba8ba244374",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fda172d0e-e4dc-4c06-b81c-aba8ba244374"
     },
     {
       "company": "Formel D",
@@ -10362,8 +10417,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-06-29T19:20:30Z",
       "posted_days_ago": 14,
-      "raw_url": "https://www.adzuna.at/land/ad/5781250928?se=_ltZFsR-8RGZE54WzbguAQ&utm_medium=api&utm_source=8efdd1b9&v=9F297385AD00E19075811346340170606FE14EC8",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=beko-solutions-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5781250928%3Fse%3D_ltZFsR-8RGZE54WzbguAQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D9F297385AD00E19075811346340170606FE14EC8"
+      "raw_url": "https://www.adzuna.at/land/ad/5781250928?se=Ji2lDMV-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=9F297385AD00E19075811346340170606FE14EC8",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=beko-solutions-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5781250928%3Fse%3DJi2lDMV-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D9F297385AD00E19075811346340170606FE14EC8"
     },
     {
       "company": "Heidi Rannegger Immobilienverwaltungsges.m.b.H.",
@@ -10373,8 +10428,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-03T17:56:23Z",
       "posted_days_ago": 10,
-      "raw_url": "https://www.adzuna.at/land/ad/5786991495?se=_ltZFsR-8RGZE54WzbguAQ&utm_medium=api&utm_source=8efdd1b9&v=C14A0AFECDE5E142423C4CDF93676C9F1FEC3BB3",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=heidi-rannegger-immobilienverwaltungsges-m-b-h&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5786991495%3Fse%3D_ltZFsR-8RGZE54WzbguAQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DC14A0AFECDE5E142423C4CDF93676C9F1FEC3BB3"
+      "raw_url": "https://www.adzuna.at/land/ad/5786991495?se=Ji2lDMV-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=C14A0AFECDE5E142423C4CDF93676C9F1FEC3BB3",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=heidi-rannegger-immobilienverwaltungsges-m-b-h&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5786991495%3Fse%3DJi2lDMV-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DC14A0AFECDE5E142423C4CDF93676C9F1FEC3BB3"
     },
     {
       "company": "ista Österreich GmbH",
@@ -10384,8 +10439,8 @@
       "location": "Landstraße, Wien",
       "posted": "2026-05-29T10:25:52Z",
       "posted_days_ago": 45,
-      "raw_url": "https://www.adzuna.at/land/ad/5744409124?se=_ltZFsR-8RGZE54WzbguAQ&utm_medium=api&utm_source=8efdd1b9&v=81F889178C2A349822AB4C275FC1C1F0A53E8B9B",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ista-sterreich-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5744409124%3Fse%3D_ltZFsR-8RGZE54WzbguAQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D81F889178C2A349822AB4C275FC1C1F0A53E8B9B"
+      "raw_url": "https://www.adzuna.at/land/ad/5744409124?se=Ji2lDMV-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=81F889178C2A349822AB4C275FC1C1F0A53E8B9B",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ista-sterreich-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5744409124%3Fse%3DJi2lDMV-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D81F889178C2A349822AB4C275FC1C1F0A53E8B9B"
     },
     {
       "company": "teampool engineering gmbh",
@@ -10395,8 +10450,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-05-20T10:12:32Z",
       "posted_days_ago": 54,
-      "raw_url": "https://www.adzuna.at/land/ad/5734934698?se=_ltZFsR-8RGZE54WzbguAQ&utm_medium=api&utm_source=8efdd1b9&v=FD291254CC5D68F0D56F83AB140B257FF0D1EE2B",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=teampool-engineering-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5734934698%3Fse%3D_ltZFsR-8RGZE54WzbguAQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DFD291254CC5D68F0D56F83AB140B257FF0D1EE2B"
+      "raw_url": "https://www.adzuna.at/land/ad/5734934698?se=Ji2lDMV-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=FD291254CC5D68F0D56F83AB140B257FF0D1EE2B",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=teampool-engineering-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5734934698%3Fse%3DJi2lDMV-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DFD291254CC5D68F0D56F83AB140B257FF0D1EE2B"
     },
     {
       "company": "Eurest",
@@ -10417,8 +10472,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-06-17T10:14:01Z",
       "posted_days_ago": 26,
-      "raw_url": "https://www.adzuna.at/land/ad/5766534828?se=_ltZFsR-8RGZE54WzbguAQ&utm_medium=api&utm_source=8efdd1b9&v=9FFA2A3FF68EAD095BFD3AECBF62098C4A71585C",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=kpmg-sterreich&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5766534828%3Fse%3D_ltZFsR-8RGZE54WzbguAQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D9FFA2A3FF68EAD095BFD3AECBF62098C4A71585C"
+      "raw_url": "https://www.adzuna.at/land/ad/5766534828?se=Ji2lDMV-8RGJvOn3FPIDyg&utm_medium=api&utm_source=8efdd1b9&v=9FFA2A3FF68EAD095BFD3AECBF62098C4A71585C",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=kpmg-sterreich&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5766534828%3Fse%3DJi2lDMV-8RGJvOn3FPIDyg%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D9FFA2A3FF68EAD095BFD3AECBF62098C4A71585C"
     },
     {
       "company": "Vamed Vitality World",
@@ -10428,8 +10483,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-11T06:59:36Z",
       "posted_days_ago": 2,
-      "raw_url": "https://www.adzuna.at/land/ad/5796578222?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=DB1658F2A37C23163AF860611D22E51B329E337A",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=vamed-vitality-world&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796578222%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DDB1658F2A37C23163AF860611D22E51B329E337A"
+      "raw_url": "https://www.adzuna.at/land/ad/5796578222?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=DB1658F2A37C23163AF860611D22E51B329E337A",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=vamed-vitality-world&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796578222%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DDB1658F2A37C23163AF860611D22E51B329E337A"
     },
     {
       "company": "A1 Telekom Austria AG",
@@ -10439,8 +10494,8 @@
       "location": "Leopoldstadt, Wien",
       "posted": "2026-07-11T11:55:44Z",
       "posted_days_ago": 2,
-      "raw_url": "https://www.adzuna.at/land/ad/5796828738?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=91277823CE36CEAEC649B12C8F296FFD6818ECBF",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796828738%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D91277823CE36CEAEC649B12C8F296FFD6818ECBF"
+      "raw_url": "https://www.adzuna.at/land/ad/5796828738?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=91277823CE36CEAEC649B12C8F296FFD6818ECBF",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5796828738%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D91277823CE36CEAEC649B12C8F296FFD6818ECBF"
     },
     {
       "company": "A1 Telekom Austria AG",
@@ -10450,8 +10505,8 @@
       "location": "Leopoldstadt, Wien",
       "posted": "2026-07-10T08:45:46Z",
       "posted_days_ago": 3,
-      "raw_url": "https://www.adzuna.at/land/ad/5795164929?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=8E8DB64A307A7D7750120427B81709F1BA0D0ADD",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5795164929%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D8E8DB64A307A7D7750120427B81709F1BA0D0ADD"
+      "raw_url": "https://www.adzuna.at/land/ad/5795164929?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=8E8DB64A307A7D7750120427B81709F1BA0D0ADD",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5795164929%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D8E8DB64A307A7D7750120427B81709F1BA0D0ADD"
     },
     {
       "company": "A1 Telekom Austria AG",
@@ -10461,8 +10516,8 @@
       "location": "Leopoldstadt, Wien",
       "posted": "2026-07-09T08:44:10Z",
       "posted_days_ago": 4,
-      "raw_url": "https://www.adzuna.at/land/ad/5793823452?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=DEE92436D70D950FC583AC20DE421216DB17C0EA",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5793823452%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DDEE92436D70D950FC583AC20DE421216DB17C0EA"
+      "raw_url": "https://www.adzuna.at/land/ad/5793823452?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=DEE92436D70D950FC583AC20DE421216DB17C0EA",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5793823452%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DDEE92436D70D950FC583AC20DE421216DB17C0EA"
     },
     {
       "company": "A1 Telekom Austria AG",
@@ -10472,8 +10527,8 @@
       "location": "Leopoldstadt, Wien",
       "posted": "2026-07-07T09:50:19Z",
       "posted_days_ago": 6,
-      "raw_url": "https://www.adzuna.at/land/ad/5790712025?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=21A236390B6522BF6F572297CAAEC98A999D4650",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5790712025%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D21A236390B6522BF6F572297CAAEC98A999D4650"
+      "raw_url": "https://www.adzuna.at/land/ad/5790712025?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=21A236390B6522BF6F572297CAAEC98A999D4650",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a1-telekom-austria-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5790712025%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D21A236390B6522BF6F572297CAAEC98A999D4650"
     },
     {
       "company": "Amundi Austria GmbH",
@@ -10483,8 +10538,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-06-13T10:44:49Z",
       "posted_days_ago": 30,
-      "raw_url": "https://www.adzuna.at/land/ad/5762310687?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=47B6AC8DBDECA34F51AD6FF2BA57D602927CC919",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=amundi-austria-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5762310687%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D47B6AC8DBDECA34F51AD6FF2BA57D602927CC919"
+      "raw_url": "https://www.adzuna.at/land/ad/5762310687?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=47B6AC8DBDECA34F51AD6FF2BA57D602927CC919",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=amundi-austria-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5762310687%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D47B6AC8DBDECA34F51AD6FF2BA57D602927CC919"
     },
     {
       "company": "Bitmovin",
@@ -10560,8 +10615,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-06-25T07:06:59Z",
       "posted_days_ago": 18,
-      "raw_url": "https://www.adzuna.at/land/ad/5775782988?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=B87453170AA55A81734F439BE4FB70AFA9132C40",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=deloitte&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5775782988%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DB87453170AA55A81734F439BE4FB70AFA9132C40"
+      "raw_url": "https://www.adzuna.at/land/ad/5775782988?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=B87453170AA55A81734F439BE4FB70AFA9132C40",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=deloitte&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5775782988%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DB87453170AA55A81734F439BE4FB70AFA9132C40"
     },
     {
       "company": "Falstaff Verlag",
@@ -10593,8 +10648,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-10T08:48:32Z",
       "posted_days_ago": 3,
-      "raw_url": "https://www.adzuna.at/land/ad/5795166926?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=8478488AA0A6D2343B30200E00AC41C7940D1E74",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hostu-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5795166926%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D8478488AA0A6D2343B30200E00AC41C7940D1E74"
+      "raw_url": "https://www.adzuna.at/land/ad/5795166926?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=8478488AA0A6D2343B30200E00AC41C7940D1E74",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hostu-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5795166926%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D8478488AA0A6D2343B30200E00AC41C7940D1E74"
     },
     {
       "company": "Indie Campers",
@@ -10637,8 +10692,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-03T10:40:23Z",
       "posted_days_ago": 10,
-      "raw_url": "https://www.adzuna.at/land/ad/5786612418?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=38567BB4690CB3D7D3FDD750473728A645E74BAC",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=merck-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5786612418%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D38567BB4690CB3D7D3FDD750473728A645E74BAC"
+      "raw_url": "https://www.adzuna.at/land/ad/5786612418?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=38567BB4690CB3D7D3FDD750473728A645E74BAC",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=merck-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5786612418%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D38567BB4690CB3D7D3FDD750473728A645E74BAC"
     },
     {
       "company": "Merck Gesellschaft mbH",
@@ -10648,8 +10703,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-02T10:25:05Z",
       "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.at/land/ad/5785206139?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=E29194D940819FF0AD4CF87B1105CC462C0D018C",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=merck-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785206139%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DE29194D940819FF0AD4CF87B1105CC462C0D018C"
+      "raw_url": "https://www.adzuna.at/land/ad/5785206139?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=E29194D940819FF0AD4CF87B1105CC462C0D018C",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=merck-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785206139%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DE29194D940819FF0AD4CF87B1105CC462C0D018C"
     },
     {
       "company": "Merck Gesellschaft mbH",
@@ -10659,8 +10714,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-06-13T10:44:47Z",
       "posted_days_ago": 30,
-      "raw_url": "https://www.adzuna.at/land/ad/5762310658?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=328BACC60F3D5AF3C879CBD94A5419D5B39A05B5",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=merck-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5762310658%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D328BACC60F3D5AF3C879CBD94A5419D5B39A05B5"
+      "raw_url": "https://www.adzuna.at/land/ad/5762310658?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=328BACC60F3D5AF3C879CBD94A5419D5B39A05B5",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=merck-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5762310658%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D328BACC60F3D5AF3C879CBD94A5419D5B39A05B5"
     },
     {
       "company": "Oesterreichische Nationalbank",
@@ -10670,8 +10725,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-03T10:39:37Z",
       "posted_days_ago": 10,
-      "raw_url": "https://www.adzuna.at/land/ad/5786611894?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=55F7D7902C26FF887967B512A8D2EFC76BF029EC",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=oesterreichische-nationalbank&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5786611894%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D55F7D7902C26FF887967B512A8D2EFC76BF029EC"
+      "raw_url": "https://www.adzuna.at/land/ad/5786611894?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=55F7D7902C26FF887967B512A8D2EFC76BF029EC",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=oesterreichische-nationalbank&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5786611894%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D55F7D7902C26FF887967B512A8D2EFC76BF029EC"
     },
     {
       "company": "ORF Marketing & Creation GmbH & Co KG",
@@ -10681,8 +10736,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-07T18:10:34Z",
       "posted_days_ago": 6,
-      "raw_url": "https://www.adzuna.at/land/ad/5791182094?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=6AFBDD483ED7269D3A0871000416CB4BBC6432FD",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=orf-marketing-creation-gmbh-co-kg&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5791182094%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D6AFBDD483ED7269D3A0871000416CB4BBC6432FD"
+      "raw_url": "https://www.adzuna.at/land/ad/5791182094?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=6AFBDD483ED7269D3A0871000416CB4BBC6432FD",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=orf-marketing-creation-gmbh-co-kg&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5791182094%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D6AFBDD483ED7269D3A0871000416CB4BBC6432FD"
     },
     {
       "company": "Siemens Personaldienstleistungen GmbH",
@@ -10692,8 +10747,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-06-29T19:20:48Z",
       "posted_days_ago": 14,
-      "raw_url": "https://www.adzuna.at/land/ad/5781251407?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=BC77A0C3B75E44D8F680901F3FAB91A0A805AA8A",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=siemens-personaldienstleistungen-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5781251407%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DBC77A0C3B75E44D8F680901F3FAB91A0A805AA8A"
+      "raw_url": "https://www.adzuna.at/land/ad/5781251407?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=BC77A0C3B75E44D8F680901F3FAB91A0A805AA8A",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=siemens-personaldienstleistungen-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5781251407%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DBC77A0C3B75E44D8F680901F3FAB91A0A805AA8A"
     },
     {
       "company": "Verein LOK Leben ohne Krankenhaus",
@@ -10736,8 +10791,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-09T08:43:38Z",
       "posted_days_ago": 4,
-      "raw_url": "https://www.adzuna.at/land/ad/5793823225?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=480D1DC831BFE9FB93D8C041AA2C7F926C972FBC",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=volksbank-wien-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5793823225%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D480D1DC831BFE9FB93D8C041AA2C7F926C972FBC"
+      "raw_url": "https://www.adzuna.at/land/ad/5793823225?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=480D1DC831BFE9FB93D8C041AA2C7F926C972FBC",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=volksbank-wien-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5793823225%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D480D1DC831BFE9FB93D8C041AA2C7F926C972FBC"
     },
     {
       "company": "VOLKSBANK WIEN AG",
@@ -10747,8 +10802,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-02T10:24:03Z",
       "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.at/land/ad/5785205094?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=CCF2BC6055025565D18736BCF057C05FC2B7BC75",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=volksbank-wien-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785205094%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DCCF2BC6055025565D18736BCF057C05FC2B7BC75"
+      "raw_url": "https://www.adzuna.at/land/ad/5785205094?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=CCF2BC6055025565D18736BCF057C05FC2B7BC75",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=volksbank-wien-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785205094%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DCCF2BC6055025565D18736BCF057C05FC2B7BC75"
     },
     {
       "company": "VOLKSBANK WIEN AG",
@@ -10758,8 +10813,8 @@
       "location": "Wien, Österreich",
       "posted": "2026-07-02T10:24:44Z",
       "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.at/land/ad/5785205493?se=OIhXFsR-8RGs7dgs9IoaeQ&utm_medium=api&utm_source=8efdd1b9&v=768EC226777BA48D1332BF22E8552DC0E2D7EF52",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=volksbank-wien-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785205493%3Fse%3DOIhXFsR-8RGs7dgs9IoaeQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D768EC226777BA48D1332BF22E8552DC0E2D7EF52"
+      "raw_url": "https://www.adzuna.at/land/ad/5785205493?se=buajDMV-8RGUz5ES-7gh4g&utm_medium=api&utm_source=8efdd1b9&v=768EC226777BA48D1332BF22E8552DC0E2D7EF52",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=volksbank-wien-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5785205493%3Fse%3DbuajDMV-8RGUz5ES-7gh4g%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D768EC226777BA48D1332BF22E8552DC0E2D7EF52"
     },
     {
       "company": "BWS Consulting Group GmbH",
@@ -10795,127 +10850,6 @@
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=scandit&url=https%3A%2F%2Fwww.scandit.com%2Fcareers%2Fjob-description%2F%3Fgh_jid%3D7434825"
     },
     {
-      "company": "A+W, Sing, Enastra, icccon",
-      "title": "Werkstudent:in auf Stundenbasis (20-50%) aus den Technik-, Architektur- und Baustudiengängen",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-03T01:03:03Z",
-      "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.ch/details/5786105826?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=a-w-sing-enastra-icccon&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5786105826%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Accenture",
-      "title": "Werkstudent Marketing & Communications - Client Marketing/Business Operations (all genders)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-04T23:56:23Z",
-      "posted_days_ago": 9,
-      "raw_url": "https://www.adzuna.ch/details/5788280621?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=accenture&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5788280621%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "AW DeutschSchweiz",
-      "title": "Werkstudent:in auf Stundenbasis aus den Technik-, Architektur- und Baustudiengängen",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-02T17:09:30Z",
-      "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.ch/land/ad/5785618865?se=xFxWFsR-8RGroMC9Z2JQdA&utm_medium=api&utm_source=8efdd1b9&v=0E1094079C366DB0F12187F28648D7B23E96AFC6",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=aw-deutschschweiz&url=https%3A%2F%2Fwww.adzuna.ch%2Fland%2Fad%2F5785618865%3Fse%3DxFxWFsR-8RGroMC9Z2JQdA%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D0E1094079C366DB0F12187F28648D7B23E96AFC6"
-    },
-    {
-      "company": "AW DeutschSchweiz",
-      "title": "Werkstudent:in auf Stundenbasis (20-50%) aus den Technik-, Architektur- und Baustudiengängen",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-02T16:57:11Z",
-      "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.ch/land/ad/5785569264?se=xFxWFsR-8RGroMC9Z2JQdA&utm_medium=api&utm_source=8efdd1b9&v=29709AF8EE23E598A347E4F0577552CD87A74011",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=aw-deutschschweiz&url=https%3A%2F%2Fwww.adzuna.ch%2Fland%2Fad%2F5785569264%3Fse%3DxFxWFsR-8RGroMC9Z2JQdA%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D29709AF8EE23E598A347E4F0577552CD87A74011"
-    },
-    {
-      "company": "Bank Julius Bär & Co. AG",
-      "title": "Compliance Working Student – Monitoring & Control Execution 60 - 80% (f/m/d)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-06T23:27:09Z",
-      "posted_days_ago": 7,
-      "raw_url": "https://www.adzuna.ch/details/5790239595?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bank-julius-b-r-co-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5790239595%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Bank Julius Bär & Co. AG",
-      "title": "Learning & Development Coordinator In COO (Working Student) 60%",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-02T22:43:44Z",
-      "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.ch/details/5785818768?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bank-julius-b-r-co-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5785818768%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Berliner Stadtreinigung",
-      "title": "Job in Deutschland (Berlin): Werkstudent:in im Bereich Projekte und Engineering (w/m/d)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-05-29T14:01:54Z",
-      "posted_days_ago": 410,
-      "raw_url": "https://www.adzuna.ch/details/5221630502?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=berliner-stadtreinigung&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5221630502%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "beUnity AG",
-      "title": "Werkstudent:in Growth Marketing & AI Operations 40%",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-04T04:37:30Z",
-      "posted_days_ago": 9,
-      "raw_url": "https://www.adzuna.ch/details/5787494767?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=beunity-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5787494767%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Boost inc",
-      "title": "Abschlussarbeit (B.A./M.A.) / Werkstudent*in – Operational Excellence & Supply Chain Strategy, Boostbar - Zürich (100%)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-04-24T23:57:20Z",
-      "posted_days_ago": 80,
-      "raw_url": "https://www.adzuna.ch/details/5709749442?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=boost-inc&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5709749442%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "chargecloud GmbH",
-      "title": "Job in Deutschland (Köln): Werkstudent:in für italienische Help Center Dokumentation (all genders)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-05-25T01:54:54Z",
-      "posted_days_ago": 415,
-      "raw_url": "https://www.adzuna.ch/details/5215137995?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=chargecloud-gmbh&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5215137995%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "CITTI Handelsgesellschaft mbH & Co. KG",
-      "title": "Job in Deutschland (Kiel): Werkstudent (m/w/d) für die Sachbearbeitung in der HR-Abteilung",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-05-28T01:59:13Z",
-      "posted_days_ago": 412,
-      "raw_url": "https://www.adzuna.ch/details/5219259310?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=citti-handelsgesellschaft-mbh-co-kg&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5219259310%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
       "company": "DeepJudge",
       "title": "Working Student Quality Assurance (40-60%)",
       "type": "Werkstudent",
@@ -10925,149 +10859,6 @@
       "posted_days_ago": 33,
       "raw_url": "https://jobs.ashbyhq.com/deepjudge/d044d6e2-992b-477b-82a3-4f01f1ba1a8a",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=deepjudge&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fdeepjudge%2Fd044d6e2-992b-477b-82a3-4f01f1ba1a8a"
-    },
-    {
-      "company": "DKV Mobility Group SE",
-      "title": "Job in Deutschland (Ratingen): Werkstudent Project Management Office (gn)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-06-06T14:11:43Z",
-      "posted_days_ago": 402,
-      "raw_url": "https://www.adzuna.ch/details/5236183188?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=dkv-mobility-group-se&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5236183188%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Hermann Menton GmbH & Co KG",
-      "title": "Job in Deutschland (Reutlingen): Werkstudent*in Content Creator (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-06-08T14:20:59Z",
-      "posted_days_ago": 400,
-      "raw_url": "https://www.adzuna.ch/details/5240049641?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hermann-menton-gmbh-co-kg&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5240049641%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "HIL Heeresinstandsetzungslogistik GmbH",
-      "title": "Job in Deutschland (Bonn): Werkstudent Content Creation Schwerpunkt Video (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-06-11T02:17:34Z",
-      "posted_days_ago": 397,
-      "raw_url": "https://www.adzuna.ch/details/5243459405?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hil-heeresinstandsetzungslogistik-gmbh&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5243459405%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "IPPEN.MEDIA",
-      "title": "Job in Deutschland (München): Werkstudent Digital Marketing (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-05-28T13:59:42Z",
-      "posted_days_ago": 411,
-      "raw_url": "https://www.adzuna.ch/details/5219929721?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ippen-media&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5219929721%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Livit AG",
-      "title": "Werkstudent:in HR Services",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-04T23:56:29Z",
-      "posted_days_ago": 9,
-      "raw_url": "https://www.adzuna.ch/details/5788281575?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=livit-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5788281575%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Migros-Genossenschafts-Bund",
-      "title": "Werkstudent*in SAP SuccessFactors",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-10T17:39:05Z",
-      "posted_days_ago": 3,
-      "raw_url": "https://www.adzuna.ch/details/5795748441?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=migros-genossenschafts-bund&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5795748441%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "NSM MAGNETTECHNIK GmbH",
-      "title": "Job in Deutschland (Olfen): Werkstudent (m/w/d) Finanzbuchhaltung",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-06-05T14:09:27Z",
-      "posted_days_ago": 403,
-      "raw_url": "https://www.adzuna.ch/details/5234535102?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=nsm-magnettechnik-gmbh&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5234535102%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Pro Senectute Schweiz",
-      "title": "Werkstudent:in im Bereich Weiterbildung",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-02T17:09:39Z",
-      "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.ch/land/ad/5785619910?se=xFxWFsR-8RGroMC9Z2JQdA&utm_medium=api&utm_source=8efdd1b9&v=2D3C4CE5B85BC94462384A4CF26A912229AF49C8",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=pro-senectute-schweiz&url=https%3A%2F%2Fwww.adzuna.ch%2Fland%2Fad%2F5785619910%3Fse%3DxFxWFsR-8RGroMC9Z2JQdA%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D2D3C4CE5B85BC94462384A4CF26A912229AF49C8"
-    },
-    {
-      "company": "Pro Senectute Schweiz",
-      "title": "Werkstudent:in im Bereich Weiterbildung (40%)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-02T16:57:26Z",
-      "posted_days_ago": 11,
-      "raw_url": "https://www.adzuna.ch/land/ad/5785570166?se=xFxWFsR-8RGroMC9Z2JQdA&utm_medium=api&utm_source=8efdd1b9&v=B802BEDB077B9625194BF4A993FA1A99CAC72D7F",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=pro-senectute-schweiz&url=https%3A%2F%2Fwww.adzuna.ch%2Fland%2Fad%2F5785570166%3Fse%3DxFxWFsR-8RGroMC9Z2JQdA%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DB802BEDB077B9625194BF4A993FA1A99CAC72D7F"
-    },
-    {
-      "company": "Profil",
-      "title": "Job in Deutschland (Neuss): Werkstudent (m/w/d) der Medizin oder der Naturwissenschaften für den Labor Bereich",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-05-31T14:03:53Z",
-      "posted_days_ago": 408,
-      "raw_url": "https://www.adzuna.ch/details/5224868185?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=profil&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5224868185%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Semmel Concerts Entertainment GmbH",
-      "title": "Job in Deutschland (Oberhausen): Aushilfen Gastronomie & Gästeservice (m/w/d) im Theater als Minijob / Midijob oder Werkstudent:in",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2025-06-03T14:06:51Z",
-      "posted_days_ago": 405,
-      "raw_url": "https://www.adzuna.ch/details/5230522503?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=semmel-concerts-entertainment-gmbh&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5230522503%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "SIX Group AG",
-      "title": "Working Student Team Support - Enterprise Architecture & IT Governance (40-60%)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-04T23:56:22Z",
-      "posted_days_ago": 9,
-      "raw_url": "https://www.adzuna.ch/details/5788280391?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=six-group-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5788280391%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Stiftung GFZ",
-      "title": "Werkstudent/-in Facility Management 20 - 50 % - GFZ (Kita/FamZ/GS)",
-      "type": "Werkstudent",
-      "city": "Zurich",
-      "location": "Zürich",
-      "posted": "2026-07-08T23:26:25Z",
-      "posted_days_ago": 5,
-      "raw_url": "https://www.adzuna.ch/details/5793114005?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=stiftung-gfz&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5793114005%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     }
   ]
 }
