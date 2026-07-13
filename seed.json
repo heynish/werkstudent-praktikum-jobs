@@ -1,6 +1,12 @@
 {
-  "note": "DACH employers on public ATS job-board APIs (Greenhouse/Lever/Ashby). Auto-harvested + curated. Grow via /growth artifact or community PRs. Companies with no early-career role today are kept; they populate automatically when they post one.",
+  "note": "DACH employers on public ATS job-board APIs (Greenhouse/Lever/Ashby/Personio). Auto-harvested + curated. Grow via /growth artifact or community PRs. Companies with no early-career role today are kept; they populate automatically when they post one.",
   "companies": [
+    {
+      "name": "1KOMMA5°",
+      "ats": "personio",
+      "token": "1komma5grad",
+      "careers_url": ""
+    },
     {
       "name": "Adyen",
       "ats": "greenhouse",
@@ -17,6 +23,12 @@
       "name": "Aircall",
       "ats": "lever",
       "token": "aircall",
+      "careers_url": ""
+    },
+    {
+      "name": "Alasco",
+      "ats": "personio",
+      "token": "alasco",
       "careers_url": ""
     },
     {
@@ -50,6 +62,18 @@
       "careers_url": ""
     },
     {
+      "name": "Building Radar",
+      "ats": "personio",
+      "token": "building-radar",
+      "careers_url": ""
+    },
+    {
+      "name": "Bunch",
+      "ats": "personio",
+      "token": "bunch",
+      "careers_url": ""
+    },
+    {
       "name": "Celonis",
       "ats": "greenhouse",
       "token": "celonis",
@@ -59,6 +83,12 @@
       "name": "Choco",
       "ats": "ashby",
       "token": "choco",
+      "careers_url": ""
+    },
+    {
+      "name": "Clark",
+      "ats": "personio",
+      "token": "clark",
       "careers_url": ""
     },
     {
@@ -101,6 +131,12 @@
       "name": "Enpal",
       "ats": "ashby",
       "token": "enpal",
+      "careers_url": ""
+    },
+    {
+      "name": "Everphone",
+      "ats": "personio",
+      "token": "everphone",
       "careers_url": ""
     },
     {
@@ -161,6 +197,12 @@
       "name": "Helsing",
       "ats": "greenhouse",
       "token": "helsing",
+      "careers_url": ""
+    },
+    {
+      "name": "Instaffo",
+      "ats": "personio",
+      "token": "instaffo",
       "careers_url": ""
     },
     {
@@ -251,6 +293,18 @@
       "name": "Parloa",
       "ats": "greenhouse",
       "token": "parloa",
+      "careers_url": ""
+    },
+    {
+      "name": "Penta",
+      "ats": "personio",
+      "token": "penta",
+      "careers_url": ""
+    },
+    {
+      "name": "Personio",
+      "ats": "personio",
+      "token": "personio",
       "careers_url": ""
     },
     {

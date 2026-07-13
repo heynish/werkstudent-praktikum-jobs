@@ -93,12 +93,53 @@ async function fetchAshby(c) {
     posted: j.publishedAt || null,
   }));
 }
-const ADAPTERS = { greenhouse: fetchGreenhouse, lever: fetchLever, ashby: fetchAshby };
+// Personio powers a huge share of German SMB/scale-up hiring. Each customer exposes
+// a public XML feed at https://<token>.jobs.personio.de/xml (built to be consumed).
+// Zero-dep XML: split on <position> and pluck the FIRST <name> (the title precedes
+// the jobDescriptions, whose entries also use <name>).
+const decodeEntities = (s) =>
+  s
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;|&#0?39;/g, "'")
+    .replace(/&#0?38;/g, "&");
+
+async function fetchPersonio(c) {
+  const xml = await getText(`https://${c.token}.jobs.personio.de/xml`);
+  const out = [];
+  for (const block of xml.split("<position>").slice(1)) {
+    const seg = block.split("</position>")[0];
+    const pick = (tag) => {
+      const m = seg.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`));
+      return m ? m[1].trim() : "";
+    };
+    const id = pick("id");
+    const name = decodeEntities(pick("name"));
+    if (!id || !name) continue;
+    out.push({
+      company: c.name,
+      title: name,
+      location: pick("office"),
+      url: `https://${c.token}.jobs.personio.de/job/${id}`,
+      posted: pick("createdAt") || null,
+    });
+  }
+  return out;
+}
+const ADAPTERS = { greenhouse: fetchGreenhouse, lever: fetchLever, ashby: fetchAshby, personio: fetchPersonio };
 
 async function getJson(url) {
   const res = await fetch(url, { headers: { "user-agent": "werkstudent-praktikum-jobs/1.0" } });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
   return res.json();
+}
+
+async function getText(url) {
+  const res = await fetch(url, { headers: { "user-agent": "werkstudent-praktikum-jobs/1.0" } });
+  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  return res.text();
 }
 
 // ---- Arbeitsagentur (German Federal Employment Agency) public jobs API -------
@@ -330,7 +371,7 @@ function renderReadme(roles, companies, generatedAt, errors) {
   L.push(`- 💻 [**Absolventen- & Berufseinsteiger-Tech-Jobs**](https://github.com/heynish/absolventen-tech-jobs-dach) — Informatik, Software, Data`);
   L.push("");
   L.push(`### Dein Unternehmen fehlt?`);
-  L.push(`Öffne einen PR gegen \`seed.json\` (nur öffentliche Greenhouse/Lever/Ashby-Boards). Generator: \`build.mjs\`, läuft täglich per GitHub Action.`);
+  L.push(`Öffne einen PR gegen \`seed.json\` (nur öffentliche Greenhouse/Lever/Ashby/Personio-Boards). Generator: \`build.mjs\`, läuft täglich per GitHub Action.`);
   L.push("");
   L.push(`<sub>Auto-generiert aus öffentlichen ATS-Job-APIs. Powered by [Careerkit](${INSTALL_URL}).${errors.length ? ` Quellen mit Fehler beim letzten Lauf: ${errors.length}.` : ""}</sub>`);
   return L.join("\n") + "\n";
