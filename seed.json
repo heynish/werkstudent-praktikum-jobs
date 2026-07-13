@@ -26,6 +26,12 @@
       "careers_url": ""
     },
     {
+      "name": "Beat81",
+      "ats": "greenhouse",
+      "token": "beat81",
+      "careers_url": ""
+    },
+    {
       "name": "Bitmovin",
       "ats": "greenhouse",
       "token": "bitmovin",
@@ -47,6 +53,12 @@
       "name": "Celonis",
       "ats": "greenhouse",
       "token": "celonis",
+      "careers_url": ""
+    },
+    {
+      "name": "Choco",
+      "ats": "ashby",
+      "token": "choco",
       "careers_url": ""
     },
     {
@@ -74,9 +86,21 @@
       "careers_url": ""
     },
     {
+      "name": "DeepJudge",
+      "ats": "ashby",
+      "token": "deepjudge",
+      "careers_url": ""
+    },
+    {
       "name": "Doctolib",
       "ats": "greenhouse",
       "token": "doctolib",
+      "careers_url": ""
+    },
+    {
+      "name": "Enpal",
+      "ats": "ashby",
+      "token": "enpal",
       "careers_url": ""
     },
     {
@@ -164,9 +188,21 @@
       "careers_url": ""
     },
     {
+      "name": "Langfuse",
+      "ats": "ashby",
+      "token": "langfuse",
+      "careers_url": ""
+    },
+    {
       "name": "Ledgy",
       "ats": "greenhouse",
       "token": "ledgy",
+      "careers_url": ""
+    },
+    {
+      "name": "Luminovo",
+      "ats": "ashby",
+      "token": "luminovo",
       "careers_url": ""
     },
     {
@@ -176,15 +212,39 @@
       "careers_url": ""
     },
     {
+      "name": "Marvel Fusion",
+      "ats": "greenhouse",
+      "token": "marvelfusion",
+      "careers_url": ""
+    },
+    {
+      "name": "MessageBird",
+      "ats": "greenhouse",
+      "token": "bird",
+      "careers_url": ""
+    },
+    {
       "name": "MOIA",
       "ats": "greenhouse",
       "token": "moia",
       "careers_url": ""
     },
     {
+      "name": "Moonfare",
+      "ats": "greenhouse",
+      "token": "moonfare",
+      "careers_url": ""
+    },
+    {
       "name": "N26",
       "ats": "greenhouse",
       "token": "n26",
+      "careers_url": ""
+    },
+    {
+      "name": "n8n",
+      "ats": "ashby",
+      "token": "n8n",
       "careers_url": ""
     },
     {
@@ -230,6 +290,12 @@
       "careers_url": ""
     },
     {
+      "name": "Remote",
+      "ats": "greenhouse",
+      "token": "remote",
+      "careers_url": ""
+    },
+    {
       "name": "ResearchGate",
       "ats": "lever",
       "token": "researchgate",
@@ -242,6 +308,12 @@
       "careers_url": ""
     },
     {
+      "name": "SimScale",
+      "ats": "greenhouse",
+      "token": "simscale",
+      "careers_url": ""
+    },
+    {
       "name": "Solaris",
       "ats": "greenhouse",
       "token": "solarisbank",
@@ -251,6 +323,12 @@
       "name": "Sonar",
       "ats": "lever",
       "token": "sonarsource",
+      "careers_url": ""
+    },
+    {
+      "name": "Spryker",
+      "ats": "greenhouse",
+      "token": "spryker",
       "careers_url": ""
     },
     {
@@ -269,6 +347,12 @@
       "name": "SumUp",
       "ats": "greenhouse",
       "token": "sumup",
+      "careers_url": ""
+    },
+    {
+      "name": "Tacto",
+      "ats": "ashby",
+      "token": "tacto",
       "careers_url": ""
     },
     {
