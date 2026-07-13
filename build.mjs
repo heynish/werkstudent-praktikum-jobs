@@ -322,6 +322,13 @@ function renderReadme(roles, companies, generatedAt, errors) {
   }
 
   L.push(`---`);
+  L.push(`### Spezialisierte Listen`);
+  L.push(`Gefiltert nach Zielgruppe, täglich aus dieser Liste aktualisiert:`);
+  L.push("");
+  L.push(`- 🎓 [**Studentenjobs (Werkstudent + Praktikum)**](https://github.com/heynish/studenten-jobs-dach) — für Studierende`);
+  L.push(`- 🌍 [**English-speaking jobs in Germany**](https://github.com/heynish/english-jobs-germany) — no German required`);
+  L.push(`- 💻 [**Absolventen- & Berufseinsteiger-Tech-Jobs**](https://github.com/heynish/absolventen-tech-jobs-dach) — Informatik, Software, Data`);
+  L.push("");
   L.push(`### Dein Unternehmen fehlt?`);
   L.push(`Öffne einen PR gegen \`seed.json\` (nur öffentliche Greenhouse/Lever/Ashby-Boards). Generator: \`build.mjs\`, läuft täglich per GitHub Action.`);
   L.push("");
