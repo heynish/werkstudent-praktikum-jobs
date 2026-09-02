@@ -1,8 +1,140 @@
 {
-  "generated_at": "2026-09-01T09:38:40.004Z",
-  "count": 160,
+  "generated_at": "2026-09-02T09:09:37.145Z",
+  "count": 189,
   "source": "company ATS boards (Greenhouse/Lever/Ashby) + Arbeitsagentur",
   "roles": [
+    {
+      "company": "3ds",
+      "title": "Trainee (m/f/d) - Strategy & Market Expansion",
+      "type": "Junior",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-07-30T23:34:39Z",
+      "posted_days_ago": 33,
+      "raw_url": "https://www.adzuna.ch/details/5821477947?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=3ds&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5821477947%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "JYSK",
+      "title": "Verkaufsleiter/in Trainee 100% für die Region Basel",
+      "type": "Junior",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-18T04:04:53Z",
+      "posted_days_ago": 15,
+      "raw_url": "https://www.adzuna.ch/details/5845844741?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=jysk&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5845844741%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Memox Deutschland GmbH",
+      "title": "Trainee Eventmanagement & Sales (m/w/d)",
+      "type": "Junior",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-13T01:25:04Z",
+      "posted_days_ago": 20,
+      "raw_url": "https://www.adzuna.ch/details/5839011641?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=memox-deutschland-gmbh&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5839011641%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Mövenpick Hotel Basel",
+      "title": "Trainee Front Office (m/w/d)",
+      "type": "Junior",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-01T09:02:03Z",
+      "posted_days_ago": 32,
+      "raw_url": "https://www.adzuna.ch/land/ad/5823494104?se=znL-BK6m8RG-feZT2Vw-_w&utm_medium=api&utm_source=8efdd1b9&v=9E7092220545184F8773A6CA350D2A8A2108D073",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=m-venpick-hotel-basel&url=https%3A%2F%2Fwww.adzuna.ch%2Fland%2Fad%2F5823494104%3Fse%3DznL-BK6m8RG-feZT2Vw-_w%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D9E7092220545184F8773A6CA350D2A8A2108D073"
+    },
+    {
+      "company": "PricewaterhouseCoopers",
+      "title": "WMS Praktikum in der Wirtschaftsprüfung",
+      "type": "Praktikum",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-05T23:36:51Z",
+      "posted_days_ago": 27,
+      "raw_url": "https://www.adzuna.ch/details/5829461557?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=pricewaterhousecoopers&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5829461557%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Gruner AG",
+      "title": "Werkstudent:in Digital Business Solutions - Data Analytics 40-60%",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-27T23:49:24Z",
+      "posted_days_ago": 5,
+      "raw_url": "https://www.adzuna.ch/details/5858699654?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=gruner-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5858699654%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Gruner AG",
+      "title": "Praktikant:in / Werkstudent:in Gebäudetechnik 80-100% (Basel)",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-05T23:36:21Z",
+      "posted_days_ago": 27,
+      "raw_url": "https://www.adzuna.ch/details/5829458413?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=gruner-ag&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5829458413%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Helvetia Versicherungen",
+      "title": "Werkstudent Kundenservice Schaden Für Handykasko-, Hausratkasko- Und Glasschäden (w/m/d) Teilzeit",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-26T23:50:20Z",
+      "posted_days_ago": 6,
+      "raw_url": "https://www.adzuna.ch/details/5857278324?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=helvetia-versicherungen&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5857278324%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Helvetia Versicherungen",
+      "title": "Werkstudent Transaction Management Real Estate (w/m/d) Teilzeit",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-23T23:52:42Z",
+      "posted_days_ago": 9,
+      "raw_url": "https://www.adzuna.ch/details/5853882216?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=helvetia-versicherungen&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5853882216%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Helvetia Versicherungen",
+      "title": "Werkstudent Construction Management (w/m/d) Teilzeit",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-16T23:51:32Z",
+      "posted_days_ago": 16,
+      "raw_url": "https://www.adzuna.ch/details/5844501849?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=helvetia-versicherungen&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5844501849%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Ridgeline Discovery",
+      "title": "IT Student Support / Werkstudent:in IT (50–80%, Start: Immediately / Upon Agreement)",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-18T01:29:52Z",
+      "posted_days_ago": 15,
+      "raw_url": "https://www.adzuna.ch/details/5845674098?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ridgeline-discovery&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5845674098%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Sympany",
+      "title": "Werkstudent Aktuariat (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Basel",
+      "location": "Basel, Basel-Stadt",
+      "posted": "2026-08-20T23:51:53Z",
+      "posted_days_ago": 12,
+      "raw_url": "https://www.adzuna.ch/details/5849979368?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sympany&url=https%3A%2F%2Fwww.adzuna.ch%2Fdetails%2F5849979368%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
     {
       "company": "1KOMMA5°",
       "title": "Graduate Program - Sales & Business Operations",
@@ -10,7 +142,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2025-09-22T14:48:49+00:00",
-      "posted_days_ago": 344,
+      "posted_days_ago": 345,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2354909",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2354909"
     },
@@ -21,7 +153,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-02-24T11:03:38+00:00",
-      "posted_days_ago": 189,
+      "posted_days_ago": 190,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2542120",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2542120"
     },
@@ -32,7 +164,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2025-09-19T14:32:16+00:00",
-      "posted_days_ago": 347,
+      "posted_days_ago": 348,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2351733",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2351733"
     },
@@ -43,7 +175,7 @@
       "city": "Berlin",
       "location": "Berlin 🇩🇪",
       "posted": "2021-07-08T14:35:56.058Z",
-      "posted_days_ago": 1881,
+      "posted_days_ago": 1882,
       "raw_url": "https://jobs.lever.co/agicap/ab0c9a50-fb06-467d-9747-eee09154a291",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=agicap&url=https%3A%2F%2Fjobs.lever.co%2Fagicap%2Fab0c9a50-fb06-467d-9747-eee09154a291"
     },
@@ -54,7 +186,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-31T03:39:36-04:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7737188003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7737188003"
     },
@@ -65,7 +197,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-31T03:39:39-04:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7648739003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7648739003"
     },
@@ -76,7 +208,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-20T13:00:30.300+00:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://jobs.ashbyhq.com/enpal/a27de2c8-b69a-4e33-86d7-f8270393e99e",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fa27de2c8-b69a-4e33-86d7-f8270393e99e"
     },
@@ -87,7 +219,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-12T11:49:05.322+00:00",
-      "posted_days_ago": 20,
+      "posted_days_ago": 21,
       "raw_url": "https://jobs.ashbyhq.com/enpal/e6b5423f-66fb-4fab-8784-d5e4744c3383",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fe6b5423f-66fb-4fab-8784-d5e4744c3383"
     },
@@ -98,7 +230,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-22T05:20:06-04:00",
-      "posted_days_ago": 41,
+      "posted_days_ago": 42,
       "raw_url": "https://www.finanzcheck.de/jobs/?gh_jid=7581974003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finanzcheck&url=https%3A%2F%2Fwww.finanzcheck.de%2Fjobs%2F%3Fgh_jid%3D7581974003"
     },
@@ -109,7 +241,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-31T09:39:01-04:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://careers.hellofresh.com/global/en/job/8156206?gh_jid=8156206",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hellofresh&url=https%3A%2F%2Fcareers.hellofresh.com%2Fglobal%2Fen%2Fjob%2F8156206%3Fgh_jid%3D8156206"
     },
@@ -120,9 +252,20 @@
       "city": "Berlin",
       "location": "Berlin; London; Munich",
       "posted": "2026-08-20T04:41:18-04:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://helsing.ai/jobs/4939402101?gh_jid=4939402101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=helsing&url=https%3A%2F%2Fhelsing.ai%2Fjobs%2F4939402101%3Fgh_jid%3D4939402101"
+    },
+    {
+      "company": "N26",
+      "title": "Junior iOS Engineer - Payments",
+      "type": "Junior",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-09-01T10:55:07-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://n26.com/en-eu/careers/positions/8163939?gh_jid=8163939",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=n26&url=https%3A%2F%2Fn26.com%2Fen-eu%2Fcareers%2Fpositions%2F8163939%3Fgh_jid%3D8163939"
     },
     {
       "company": "Parloa",
@@ -131,7 +274,7 @@
       "city": "Berlin",
       "location": "Berlin Office",
       "posted": "2026-08-21T02:41:56-04:00",
-      "posted_days_ago": 11,
+      "posted_days_ago": 12,
       "raw_url": "https://job-boards.eu.greenhouse.io/parloa/jobs/4957430101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=parloa&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fparloa%2Fjobs%2F4957430101"
     },
@@ -142,7 +285,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-18T04:43:16-04:00",
-      "posted_days_ago": 14,
+      "posted_days_ago": 15,
       "raw_url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4928236101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=raisin&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fraisin%2Fjobs%2F4928236101"
     },
@@ -153,7 +296,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-10T05:49:58-04:00",
-      "posted_days_ago": 22,
+      "posted_days_ago": 23,
       "raw_url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4884939101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=raisin&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fraisin%2Fjobs%2F4884939101"
     },
@@ -164,7 +307,7 @@
       "city": "Berlin",
       "location": "Berlin, Germany",
       "posted": "2026-09-01T03:43:52-04:00",
-      "posted_days_ago": 0,
+      "posted_days_ago": 1,
       "raw_url": "https://sumup.com/careers/positions/8706595002?gh_jid=8706595002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8706595002%3Fgh_jid%3D8706595002"
     },
@@ -175,7 +318,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-10T13:08:35+00:00",
-      "posted_days_ago": 22,
+      "posted_days_ago": 23,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2747863",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2747863"
     },
@@ -186,7 +329,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-06T08:00:03+00:00",
-      "posted_days_ago": 26,
+      "posted_days_ago": 27,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2743822",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2743822"
     },
@@ -197,7 +340,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-17T10:54:39+00:00",
-      "posted_days_ago": 46,
+      "posted_days_ago": 47,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2716910",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2716910"
     },
@@ -208,7 +351,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-05-20T13:22:03+00:00",
-      "posted_days_ago": 104,
+      "posted_days_ago": 105,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2642816",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2642816"
     },
@@ -219,7 +362,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-05-19T06:42:28+00:00",
-      "posted_days_ago": 105,
+      "posted_days_ago": 106,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2638644",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2638644"
     },
@@ -230,7 +373,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-03-03T16:07:24+00:00",
-      "posted_days_ago": 182,
+      "posted_days_ago": 183,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2552130",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2552130"
     },
@@ -241,7 +384,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2025-11-14T14:09:06+00:00",
-      "posted_days_ago": 291,
+      "posted_days_ago": 292,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2428289",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2428289"
     },
@@ -252,7 +395,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2025-10-14T11:59:47+00:00",
-      "posted_days_ago": 322,
+      "posted_days_ago": 323,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2385167",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2385167"
     },
@@ -263,7 +406,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2025-09-25T11:39:49+00:00",
-      "posted_days_ago": 341,
+      "posted_days_ago": 342,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2362808",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2362808"
     },
@@ -274,7 +417,7 @@
       "city": "Berlin",
       "location": "Berlin 🇩🇪",
       "posted": "2023-01-30T14:03:36.415Z",
-      "posted_days_ago": 1310,
+      "posted_days_ago": 1311,
       "raw_url": "https://jobs.lever.co/agicap/0dc45539-9234-47bd-9bd0-1408a0218890",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=agicap&url=https%3A%2F%2Fjobs.lever.co%2Fagicap%2F0dc45539-9234-47bd-9bd0-1408a0218890"
     },
@@ -285,7 +428,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-31T13:01:09.369+00:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://jobs.ashbyhq.com/choco/b61d2dbb-94e6-45fb-850b-abc0642aca6e",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=choco&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fchoco%2Fb61d2dbb-94e6-45fb-850b-abc0642aca6e"
     },
@@ -296,7 +439,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-25T04:54:39-04:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7799489003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7799489003"
     },
@@ -307,9 +450,20 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-13T03:11:36-04:00",
-      "posted_days_ago": 19,
+      "posted_days_ago": 20,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7730040003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7730040003"
+    },
+    {
+      "company": "Enpal",
+      "title": "Business Analytics Internship (f/m/x)",
+      "type": "Praktikum",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-09-01T11:32:46.730+00:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://jobs.ashbyhq.com/enpal/cd4009d8-593b-4d48-bed8-3c1870d5a93f",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fcd4009d8-593b-4d48-bed8-3c1870d5a93f"
     },
     {
       "company": "Enpal",
@@ -318,7 +472,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-26T13:35:23.151+00:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://jobs.ashbyhq.com/enpal/5e53a3ab-c784-41d2-92a1-a103b92147e7",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2F5e53a3ab-c784-41d2-92a1-a103b92147e7"
     },
@@ -329,7 +483,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-25T12:54:15.356+00:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://jobs.ashbyhq.com/enpal/e4e82adb-9bab-4a05-b6d3-4cb8fd1b84f6",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fe4e82adb-9bab-4a05-b6d3-4cb8fd1b84f6"
     },
@@ -340,7 +494,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-14T12:47:23.248+00:00",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://jobs.ashbyhq.com/enpal/ca6ae5e7-5968-4fbd-8c8b-ce92e9260571",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fca6ae5e7-5968-4fbd-8c8b-ce92e9260571"
     },
@@ -351,7 +505,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-14T15:46:16.699+00:00",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://jobs.ashbyhq.com/enpal/b75bf6b5-f1af-4a3c-9ead-33e9ab819b85",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fb75bf6b5-f1af-4a3c-9ead-33e9ab819b85"
     },
@@ -362,7 +516,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-22T11:36:32.388+00:00",
-      "posted_days_ago": 41,
+      "posted_days_ago": 42,
       "raw_url": "https://jobs.ashbyhq.com/enpal/fcd40674-5f37-47e9-9ff8-6705d596dc30",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Ffcd40674-5f37-47e9-9ff8-6705d596dc30"
     },
@@ -373,7 +527,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-06-29T11:36:58.208+00:00",
-      "posted_days_ago": 64,
+      "posted_days_ago": 65,
       "raw_url": "https://jobs.ashbyhq.com/enpal/04a4eabe-88f2-4e0a-aa2f-7e4d6081c98b",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2F04a4eabe-88f2-4e0a-aa2f-7e4d6081c98b"
     },
@@ -384,7 +538,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-06-24T08:07:18.495+00:00",
-      "posted_days_ago": 69,
+      "posted_days_ago": 70,
       "raw_url": "https://jobs.ashbyhq.com/enpal/01d697a0-6c0c-4e2e-8bd1-296c71e4494a",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2F01d697a0-6c0c-4e2e-8bd1-296c71e4494a"
     },
@@ -395,7 +549,7 @@
       "city": "Berlin",
       "location": "Berlin Köpenicker Straße 154, 10997 Berlin",
       "posted": "2024-10-28T10:43:00+00:00",
-      "posted_days_ago": 673,
+      "posted_days_ago": 674,
       "raw_url": "https://everphone.jobs.personio.de/job/1794417",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=everphone&url=https%3A%2F%2Feverphone.jobs.personio.de%2Fjob%2F1794417"
     },
@@ -406,7 +560,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-26T09:21:59-04:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://job-boards.greenhouse.io/getyourguide/jobs/8158763",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=getyourguide&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fgetyourguide%2Fjobs%2F8158763"
     },
@@ -417,7 +571,7 @@
       "city": "Berlin",
       "location": "Barcelona; Berlin; London; Munich; Paris",
       "posted": "2026-08-20T04:41:11-04:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://helsing.ai/jobs/4941957101?gh_jid=4941957101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=helsing&url=https%3A%2F%2Fhelsing.ai%2Fjobs%2F4941957101%3Fgh_jid%3D4941957101"
     },
@@ -428,7 +582,7 @@
       "city": "Berlin",
       "location": "Berlin, Germany",
       "posted": "2026-08-28T13:04:23-04:00",
-      "posted_days_ago": 4,
+      "posted_days_ago": 5,
       "raw_url": "https://sumup.com/careers/positions/8759131002?gh_jid=8759131002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8759131002%3Fgh_jid%3D8759131002"
     },
@@ -439,7 +593,7 @@
       "city": "Berlin",
       "location": "Berlin, Germany",
       "posted": "2026-08-26T12:46:27-04:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://sumup.com/careers/positions/8690943002?gh_jid=8690943002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8690943002%3Fgh_jid%3D8690943002"
     },
@@ -450,7 +604,7 @@
       "city": "Berlin",
       "location": "Berlin, Germany",
       "posted": "2026-08-20T10:11:27-04:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://sumup.com/careers/positions/8615894002?gh_jid=8615894002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8615894002%3Fgh_jid%3D8615894002"
     },
@@ -461,7 +615,7 @@
       "city": "Berlin",
       "location": "Berlin, Germany",
       "posted": "2026-08-13T05:17:14-04:00",
-      "posted_days_ago": 19,
+      "posted_days_ago": 20,
       "raw_url": "https://sumup.com/careers/positions/8142115002?gh_jid=8142115002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sumup&url=https%3A%2F%2Fsumup.com%2Fcareers%2Fpositions%2F8142115002%3Fgh_jid%3D8142115002"
     },
@@ -472,7 +626,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-20T14:25:30+00:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2761994",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2761994"
     },
@@ -483,7 +637,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-10T21:41:22+00:00",
-      "posted_days_ago": 21,
+      "posted_days_ago": 22,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2748486",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2748486"
     },
@@ -494,7 +648,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-28T08:32:16+00:00",
-      "posted_days_ago": 35,
+      "posted_days_ago": 36,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2731209",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2731209"
     },
@@ -505,7 +659,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-17T10:54:20+00:00",
-      "posted_days_ago": 46,
+      "posted_days_ago": 47,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2716909",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2716909"
     },
@@ -516,7 +670,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-10T09:41:36+00:00",
-      "posted_days_ago": 53,
+      "posted_days_ago": 54,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2707581",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2707581"
     },
@@ -527,7 +681,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-05-22T15:12:06+00:00",
-      "posted_days_ago": 102,
+      "posted_days_ago": 103,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2645747",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2645747"
     },
@@ -538,7 +692,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-04-10T07:12:16+00:00",
-      "posted_days_ago": 144,
+      "posted_days_ago": 145,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2597370",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2597370"
     },
@@ -549,7 +703,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2025-10-07T08:20:00+00:00",
-      "posted_days_ago": 329,
+      "posted_days_ago": 330,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2376808",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2376808"
     },
@@ -560,7 +714,7 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-25T09:29:35-04:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7916491003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7916491003"
     },
@@ -571,9 +725,20 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-20T02:55:07-04:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://job-boards.greenhouse.io/doctolib/jobs/7863427003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=doctolib&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fdoctolib%2Fjobs%2F7863427003"
+    },
+    {
+      "company": "Enpal",
+      "title": "Werkstudent:in Office Management (w/m/d)",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-09-01T09:56:20.383+00:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://jobs.ashbyhq.com/enpal/a0d3e16c-5af5-4099-8117-a1aaccd61348",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Fa0d3e16c-5af5-4099-8117-a1aaccd61348"
     },
     {
       "company": "Enpal",
@@ -582,7 +747,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-07-09T14:19:36.314+00:00",
-      "posted_days_ago": 54,
+      "posted_days_ago": 55,
       "raw_url": "https://jobs.ashbyhq.com/enpal/4e7de8c5-5356-43f6-99ac-323b52efbc2b",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2F4e7de8c5-5356-43f6-99ac-323b52efbc2b"
     },
@@ -592,10 +757,32 @@
       "type": "Werkstudent",
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
-      "posted": "2026-08-28T07:27:25-04:00",
-      "posted_days_ago": 4,
+      "posted": "2026-09-01T11:22:49-04:00",
+      "posted_days_ago": 1,
       "raw_url": "https://careers.hellofresh.com/global/en/job/8120152?gh_jid=8120152",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hellofresh&url=https%3A%2F%2Fcareers.hellofresh.com%2Fglobal%2Fen%2Fjob%2F8120152%3Fgh_jid%3D8120152"
+    },
+    {
+      "company": "IONOS",
+      "title": "Werkstudent (w/m/d)  E-Learning / Instructional Design",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Otto-Ostrowski-Straße 7, 10249 Berlin",
+      "posted": "2026-09-02T04:31:45-04:00",
+      "posted_days_ago": 0,
+      "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4965115101",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4965115101"
+    },
+    {
+      "company": "IONOS",
+      "title": "Werkstudent (w/m/d) HR / Personaladministration",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Otto-Ostrowski-Straße 7, 10249 Berlin",
+      "posted": "2026-09-01T08:56:47-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4945359101",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4945359101"
     },
     {
       "company": "IONOS",
@@ -604,7 +791,7 @@
       "city": "Berlin",
       "location": "Revaler Straße 28-31, 10245 Berlin",
       "posted": "2026-08-28T08:14:08-04:00",
-      "posted_days_ago": 4,
+      "posted_days_ago": 5,
       "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4947943101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4947943101"
     },
@@ -615,7 +802,7 @@
       "city": "Berlin",
       "location": "Otto-Ostrowski-Straße 7, 10249 Berlin",
       "posted": "2026-08-26T08:54:06-04:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4912915101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4912915101"
     },
@@ -626,20 +813,9 @@
       "city": "Berlin",
       "location": "Revaler Straße 28-31, 10245 Berlin",
       "posted": "2026-08-18T05:27:55-04:00",
-      "posted_days_ago": 14,
+      "posted_days_ago": 15,
       "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4706706101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4706706101"
-    },
-    {
-      "company": "IONOS",
-      "title": "Werkstudent (w/m/d) HR / Personaladministration",
-      "type": "Werkstudent",
-      "city": "Berlin",
-      "location": "Otto-Ostrowski-Straße 7, 10249 Berlin",
-      "posted": "2026-08-13T04:19:10-04:00",
-      "posted_days_ago": 19,
-      "raw_url": "https://job-boards.eu.greenhouse.io/ionos/jobs/4945359101",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=ionos&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fionos%2Fjobs%2F4945359101"
     },
     {
       "company": "Parloa",
@@ -648,7 +824,7 @@
       "city": "Berlin",
       "location": "Berlin Office",
       "posted": "2026-08-21T02:38:32-04:00",
-      "posted_days_ago": 11,
+      "posted_days_ago": 12,
       "raw_url": "https://job-boards.eu.greenhouse.io/parloa/jobs/4771502101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=parloa&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fparloa%2Fjobs%2F4771502101"
     },
@@ -659,9 +835,20 @@
       "city": "Berlin",
       "location": "Berlin, Berlin, Germany",
       "posted": "2026-08-13T10:12:21-04:00",
-      "posted_days_ago": 19,
+      "posted_days_ago": 20,
       "raw_url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4938722101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=raisin&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fraisin%2Fjobs%2F4938722101"
+    },
+    {
+      "company": "Solaris",
+      "title": "Lending & Deposits Working Student",
+      "type": "Werkstudent",
+      "city": "Berlin",
+      "location": "Berlin",
+      "posted": "2026-09-01T14:05:46-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://job-boards.greenhouse.io/solarisbank/jobs/8591970002",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=solaris&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fsolarisbank%2Fjobs%2F8591970002"
     },
     {
       "company": "Solaris",
@@ -670,7 +857,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-28T07:21:28-04:00",
-      "posted_days_ago": 4,
+      "posted_days_ago": 5,
       "raw_url": "https://job-boards.greenhouse.io/solarisbank/jobs/8514915002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=solaris&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fsolarisbank%2Fjobs%2F8514915002"
     },
@@ -681,7 +868,7 @@
       "city": "Berlin",
       "location": "Frankfurt; Berlin",
       "posted": "2026-08-12T05:04:31-04:00",
-      "posted_days_ago": 20,
+      "posted_days_ago": 21,
       "raw_url": "https://job-boards.greenhouse.io/solarisbank/jobs/8614742002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=solaris&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fsolarisbank%2Fjobs%2F8614742002"
     },
@@ -692,7 +879,7 @@
       "city": "Berlin",
       "location": "Berlin",
       "posted": "2026-08-12T05:04:31-04:00",
-      "posted_days_ago": 20,
+      "posted_days_ago": 21,
       "raw_url": "https://job-boards.greenhouse.io/solarisbank/jobs/8645128002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=solaris&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fsolarisbank%2Fjobs%2F8645128002"
     },
@@ -703,7 +890,7 @@
       "city": "Berlin",
       "location": "Berlin, Germany",
       "posted": "2026-08-31T04:44:38-04:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://job-boards.greenhouse.io/tide/jobs/7980213003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=tide&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Ftide%2Fjobs%2F7980213003"
     },
@@ -714,7 +901,7 @@
       "city": "Cologne",
       "location": "Köln",
       "posted": "2026-08-26T18:55:47+00:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2769880",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2769880"
     },
@@ -725,7 +912,7 @@
       "city": "Düsseldorf",
       "location": "Düsseldorf 🇩🇪",
       "posted": "2026-06-08T09:25:08.478Z",
-      "posted_days_ago": 85,
+      "posted_days_ago": 86,
       "raw_url": "https://jobs.lever.co/agicap/07dc2f0a-2fdf-4f6b-8f3a-7509efb68b35",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=agicap&url=https%3A%2F%2Fjobs.lever.co%2Fagicap%2F07dc2f0a-2fdf-4f6b-8f3a-7509efb68b35"
     },
@@ -736,7 +923,7 @@
       "city": "Düsseldorf",
       "location": "Düsseldorf",
       "posted": "2026-09-01T03:11:39-04:00",
-      "posted_days_ago": 0,
+      "posted_days_ago": 1,
       "raw_url": "https://careers.trivago.com/apply/8759086002.?gh_jid=8759086002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=trivago&url=https%3A%2F%2Fcareers.trivago.com%2Fapply%2F8759086002.%3Fgh_jid%3D8759086002"
     },
@@ -747,31 +934,9 @@
       "city": "Frankfurt",
       "location": "Frankfurt am Main",
       "posted": "2024-10-10T08:39:52+00:00",
-      "posted_days_ago": 691,
+      "posted_days_ago": 692,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/1771151",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F1771151"
-    },
-    {
-      "company": "Hilti Austria Gesellschaft mbH",
-      "title": "Talente für unser Trainee-Programm - Sales & Marketing (w/m/d) - Vollzeit",
-      "type": "Junior",
-      "city": "Graz",
-      "location": "Graz, Steiermark",
-      "posted": "2026-08-26T18:18:51Z",
-      "posted_days_ago": 6,
-      "raw_url": "https://www.adzuna.at/details/5857160532?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hilti-austria-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5857160532%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "HRlab",
-      "title": "Praktikum im Bereich Übersetzung & Projektmanagement",
-      "type": "Praktikum",
-      "city": "Graz",
-      "location": "Graz, Steiermark",
-      "posted": "2026-04-25T00:10:46Z",
-      "posted_days_ago": 129,
-      "raw_url": "https://www.adzuna.at/details/5709758130?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hrlab&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5709758130%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "Infineon Technologies AG",
@@ -780,7 +945,7 @@
       "city": "Graz",
       "location": "Graz, Steiermark",
       "posted": "2026-08-28T07:04:24Z",
-      "posted_days_ago": 4,
+      "posted_days_ago": 5,
       "raw_url": "https://www.adzuna.at/details/5859316781?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=infineon-technologies-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5859316781%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -791,7 +956,7 @@
       "city": "Graz",
       "location": "Graz, Steiermark",
       "posted": "2026-08-27T07:04:04Z",
-      "posted_days_ago": 5,
+      "posted_days_ago": 6,
       "raw_url": "https://www.adzuna.at/details/5857908197?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=infineon-technologies-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5857908197%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -802,20 +967,9 @@
       "city": "Graz",
       "location": "Graz, Steiermark",
       "posted": "2026-08-14T07:29:59Z",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://www.adzuna.at/details/5841374175?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=infineon-technologies-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5841374175%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "SWAN",
-      "title": "Werkstudent (w/m/d) oder Praktikant (w/m/d) im SAP Logistikumfeld",
-      "type": "Werkstudent",
-      "city": "Graz",
-      "location": "Graz, Steiermark",
-      "posted": "2026-05-13T00:13:30Z",
-      "posted_days_ago": 111,
-      "raw_url": "https://www.adzuna.at/details/5727379562?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=swan&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5727379562%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "1KOMMA5°",
@@ -824,7 +978,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-05-04T16:02:32+00:00",
-      "posted_days_ago": 120,
+      "posted_days_ago": 121,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2623047",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2623047"
     },
@@ -835,7 +989,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-08-11T12:53:30+00:00",
-      "posted_days_ago": 21,
+      "posted_days_ago": 22,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2749999",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2749999"
     },
@@ -846,7 +1000,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-07-22T05:20:06-04:00",
-      "posted_days_ago": 41,
+      "posted_days_ago": 42,
       "raw_url": "https://www.finanzcheck.de/jobs/?gh_jid=7581973003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finanzcheck&url=https%3A%2F%2Fwww.finanzcheck.de%2Fjobs%2F%3Fgh_jid%3D7581973003"
     },
@@ -857,7 +1011,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-07-29T15:35:57+00:00",
-      "posted_days_ago": 34,
+      "posted_days_ago": 35,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2734052",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2734052"
     },
@@ -868,7 +1022,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-04-27T12:33:56+00:00",
-      "posted_days_ago": 127,
+      "posted_days_ago": 128,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2615062",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2615062"
     },
@@ -879,7 +1033,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-04-21T11:37:20+00:00",
-      "posted_days_ago": 133,
+      "posted_days_ago": 134,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2608070",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2608070"
     },
@@ -890,7 +1044,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-03-31T15:36:20+00:00",
-      "posted_days_ago": 154,
+      "posted_days_ago": 155,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2588875",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2588875"
     },
@@ -901,7 +1055,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-08-17T14:03:16+00:00",
-      "posted_days_ago": 15,
+      "posted_days_ago": 16,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2757163",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2757163"
     },
@@ -912,7 +1066,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2026-07-06T14:37:13+00:00",
-      "posted_days_ago": 57,
+      "posted_days_ago": 58,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2700641",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2700641"
     },
@@ -923,7 +1077,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2025-12-11T17:24:59+00:00",
-      "posted_days_ago": 264,
+      "posted_days_ago": 265,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2459225",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2459225"
     },
@@ -934,7 +1088,7 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2025-04-02T09:31:22+00:00",
-      "posted_days_ago": 517,
+      "posted_days_ago": 518,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2040966",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2040966"
     },
@@ -945,42 +1099,20 @@
       "city": "Hamburg",
       "location": "Hamburg",
       "posted": "2024-04-26T12:54:24+00:00",
-      "posted_days_ago": 858,
+      "posted_days_ago": 859,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/1543604",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F1543604"
     },
     {
-      "company": "Bosch Group",
-      "title": "Praktikum für innovative Technologie (w/m/div.)",
-      "type": "Praktikum",
-      "city": "Linz",
-      "location": "Linz, Oberösterreich",
-      "posted": "2026-08-26T22:14:52Z",
-      "posted_days_ago": 5,
-      "raw_url": "https://www.adzuna.at/details/5857237407?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bosch-group&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5857237407%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "HRlab",
-      "title": "Praktikum im Bereich Übersetzung & Projektmanagement",
-      "type": "Praktikum",
-      "city": "Linz",
-      "location": "Linz, Oberösterreich",
-      "posted": "2026-04-25T00:12:04Z",
-      "posted_days_ago": 129,
-      "raw_url": "https://www.adzuna.at/details/5709759373?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hrlab&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5709759373%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "ÖBB",
-      "title": "Pflichtpraktikant:innen im Bereich Verwertung",
-      "type": "Praktikum",
-      "city": "Linz",
-      "location": "Linz, Oberösterreich",
-      "posted": "2026-07-25T01:20:57Z",
-      "posted_days_ago": 38,
-      "raw_url": "https://www.adzuna.at/details/5814605330?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bb&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5814605330%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+      "company": "1KOMMA5°",
+      "title": "Junior Business Development Manager (m/w/d) - München / Remote",
+      "type": "Junior",
+      "city": "Munich",
+      "location": "München",
+      "posted": "2026-08-05T16:31:52+00:00",
+      "posted_days_ago": 28,
+      "raw_url": "https://1komma5grad.jobs.personio.de/job/2743131",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2743131"
     },
     {
       "company": "Building Radar",
@@ -989,7 +1121,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2026-02-03T19:00:44+00:00",
-      "posted_days_ago": 210,
+      "posted_days_ago": 211,
       "raw_url": "https://building-radar.jobs.personio.de/job/2517694",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=building-radar&url=https%3A%2F%2Fbuilding-radar.jobs.personio.de%2Fjob%2F2517694"
     },
@@ -1000,7 +1132,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2023-02-09T11:10:28+00:00",
-      "posted_days_ago": 1300,
+      "posted_days_ago": 1301,
       "raw_url": "https://building-radar.jobs.personio.de/job/1007092",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=building-radar&url=https%3A%2F%2Fbuilding-radar.jobs.personio.de%2Fjob%2F1007092"
     },
@@ -1011,7 +1143,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2025-04-01T10:30:18.965Z",
-      "posted_days_ago": 518,
+      "posted_days_ago": 519,
       "raw_url": "https://jobs.lever.co/finn/07b11edf-19b9-40c3-b210-a44d6093fcdb",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F07b11edf-19b9-40c3-b210-a44d6093fcdb"
     },
@@ -1022,7 +1154,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-04-27T20:51:14.460+00:00",
-      "posted_days_ago": 127,
+      "posted_days_ago": 128,
       "raw_url": "https://jobs.ashbyhq.com/tacto/c52d6138-bf87-4a20-8998-9976630aba92",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=tacto&url=https%3A%2F%2Fjobs.ashbyhq.com%2Ftacto%2Fc52d6138-bf87-4a20-8998-9976630aba92"
     },
@@ -1033,7 +1165,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2026-02-16T07:21:00+00:00",
-      "posted_days_ago": 197,
+      "posted_days_ago": 198,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2530738",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2530738"
     },
@@ -1044,7 +1176,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2018-09-20T19:44:28+00:00",
-      "posted_days_ago": 2903,
+      "posted_days_ago": 2904,
       "raw_url": "https://alasco.jobs.personio.de/job/89984",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=alasco&url=https%3A%2F%2Falasco.jobs.personio.de%2Fjob%2F89984"
     },
@@ -1055,7 +1187,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2018-09-20T20:03:42+00:00",
-      "posted_days_ago": 2903,
+      "posted_days_ago": 2904,
       "raw_url": "https://alasco.jobs.personio.de/job/89986",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=alasco&url=https%3A%2F%2Falasco.jobs.personio.de%2Fjob%2F89986"
     },
@@ -1066,7 +1198,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2018-09-20T19:37:29+00:00",
-      "posted_days_ago": 2903,
+      "posted_days_ago": 2904,
       "raw_url": "https://alasco.jobs.personio.de/job/89983",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=alasco&url=https%3A%2F%2Falasco.jobs.personio.de%2Fjob%2F89983"
     },
@@ -1077,7 +1209,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2026-06-18T08:41:22+00:00",
-      "posted_days_ago": 75,
+      "posted_days_ago": 76,
       "raw_url": "https://building-radar.jobs.personio.de/job/2677504",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=building-radar&url=https%3A%2F%2Fbuilding-radar.jobs.personio.de%2Fjob%2F2677504"
     },
@@ -1088,7 +1220,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2025-03-17T15:30:09+00:00",
-      "posted_days_ago": 533,
+      "posted_days_ago": 534,
       "raw_url": "https://building-radar.jobs.personio.de/job/2019583",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=building-radar&url=https%3A%2F%2Fbuilding-radar.jobs.personio.de%2Fjob%2F2019583"
     },
@@ -1099,7 +1231,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2022-04-08T13:56:28+00:00",
-      "posted_days_ago": 1607,
+      "posted_days_ago": 1608,
       "raw_url": "https://building-radar.jobs.personio.de/job/650658",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=building-radar&url=https%3A%2F%2Fbuilding-radar.jobs.personio.de%2Fjob%2F650658"
     },
@@ -1110,7 +1242,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2024-08-27T10:55:01.681Z",
-      "posted_days_ago": 735,
+      "posted_days_ago": 736,
       "raw_url": "https://jobs.lever.co/finn/fc5d1573-a0ef-4152-804f-099fb622b3b8",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Ffc5d1573-a0ef-4152-804f-099fb622b3b8"
     },
@@ -1121,7 +1253,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-07-22T08:33:09.293+00:00",
-      "posted_days_ago": 41,
+      "posted_days_ago": 42,
       "raw_url": "https://jobs.ashbyhq.com/tacto/0d9e4db6-cecf-4738-9ccc-c2655771273a",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=tacto&url=https%3A%2F%2Fjobs.ashbyhq.com%2Ftacto%2F0d9e4db6-cecf-4738-9ccc-c2655771273a"
     },
@@ -1132,7 +1264,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-07-16T11:35:19.290+00:00",
-      "posted_days_ago": 47,
+      "posted_days_ago": 48,
       "raw_url": "https://jobs.ashbyhq.com/tacto/b2bd2aec-0806-43d6-95dd-7ee337fba727",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=tacto&url=https%3A%2F%2Fjobs.ashbyhq.com%2Ftacto%2Fb2bd2aec-0806-43d6-95dd-7ee337fba727"
     },
@@ -1143,7 +1275,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-06-12T14:03:03.798+00:00",
-      "posted_days_ago": 81,
+      "posted_days_ago": 82,
       "raw_url": "https://jobs.ashbyhq.com/tacto/6b175aec-f934-4e19-9c0a-3bbc6c3b4825",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=tacto&url=https%3A%2F%2Fjobs.ashbyhq.com%2Ftacto%2F6b175aec-f934-4e19-9c0a-3bbc6c3b4825"
     },
@@ -1154,7 +1286,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-04-27T21:06:21.560+00:00",
-      "posted_days_ago": 127,
+      "posted_days_ago": 128,
       "raw_url": "https://jobs.ashbyhq.com/tacto/47883882-c0b9-47cf-acdd-35b2e0a4751b",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=tacto&url=https%3A%2F%2Fjobs.ashbyhq.com%2Ftacto%2F47883882-c0b9-47cf-acdd-35b2e0a4751b"
     },
@@ -1176,7 +1308,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2026-07-03T09:06:45+00:00",
-      "posted_days_ago": 60,
+      "posted_days_ago": 61,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2697195",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2697195"
     },
@@ -1187,7 +1319,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2026-01-29T17:41:56+00:00",
-      "posted_days_ago": 215,
+      "posted_days_ago": 216,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2512890",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2512890"
     },
@@ -1198,7 +1330,7 @@
       "city": "Munich",
       "location": "München",
       "posted": "2024-10-23T11:18:35+00:00",
-      "posted_days_ago": 678,
+      "posted_days_ago": 679,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/1788852",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F1788852"
     },
@@ -1209,7 +1341,7 @@
       "city": "Munich",
       "location": "Munich, Germany",
       "posted": "2026-08-25T12:13:20-04:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://job-boards.greenhouse.io/celonis/jobs/7886106003?gh_jid=7886106003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=celonis&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fcelonis%2Fjobs%2F7886106003%3Fgh_jid%3D7886106003"
     },
@@ -1220,7 +1352,7 @@
       "city": "Munich",
       "location": "Munich, Germany",
       "posted": "2026-08-25T12:13:20-04:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://job-boards.greenhouse.io/celonis/jobs/7805646003?gh_jid=7805646003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=celonis&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fcelonis%2Fjobs%2F7805646003%3Fgh_jid%3D7805646003"
     },
@@ -1231,7 +1363,7 @@
       "city": "Munich",
       "location": "Munich, Germany",
       "posted": "2026-08-25T12:13:20-04:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://job-boards.greenhouse.io/celonis/jobs/7743041003?gh_jid=7743041003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=celonis&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fcelonis%2Fjobs%2F7743041003%3Fgh_jid%3D7743041003"
     },
@@ -1242,7 +1374,7 @@
       "city": "Munich",
       "location": "Munich, Germany",
       "posted": "2026-08-25T12:13:20-04:00",
-      "posted_days_ago": 7,
+      "posted_days_ago": 8,
       "raw_url": "https://job-boards.greenhouse.io/celonis/jobs/7813081003?gh_jid=7813081003",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=celonis&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fcelonis%2Fjobs%2F7813081003%3Fgh_jid%3D7813081003"
     },
@@ -1253,7 +1385,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-08-27T15:11:57.593Z",
-      "posted_days_ago": 5,
+      "posted_days_ago": 6,
       "raw_url": "https://jobs.lever.co/finn/45362e9d-5498-4923-99cb-0481c3272cf5",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F45362e9d-5498-4923-99cb-0481c3272cf5"
     },
@@ -1264,7 +1396,7 @@
       "city": "Munich",
       "location": "Munich",
       "posted": "2026-08-12T11:54:26.979Z",
-      "posted_days_ago": 20,
+      "posted_days_ago": 21,
       "raw_url": "https://jobs.lever.co/finn/1b5a62ba-1ad2-42fe-9a54-620a503b7ff5",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F1b5a62ba-1ad2-42fe-9a54-620a503b7ff5"
     },
@@ -1275,7 +1407,7 @@
       "city": "Munich",
       "location": "🇩🇪 Munich (hybrid)",
       "posted": "2026-07-17T08:22:45.932+00:00",
-      "posted_days_ago": 46,
+      "posted_days_ago": 47,
       "raw_url": "https://jobs.ashbyhq.com/luminovo/d6958ec1-7f3b-455b-a720-eaffdc278f98",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=luminovo&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fluminovo%2Fd6958ec1-7f3b-455b-a720-eaffdc278f98"
     },
@@ -1286,7 +1418,7 @@
       "city": "Other DACH",
       "location": "Germany",
       "posted": "2026-08-26T15:14:14.654Z",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://jobs.lever.co/finn/cf564fce-cabe-4f7c-9752-6aa8c12af928",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2Fcf564fce-cabe-4f7c-9752-6aa8c12af928"
     },
@@ -1297,7 +1429,7 @@
       "city": "Other DACH",
       "location": "Germany",
       "posted": "2026-01-23T16:11:21.552Z",
-      "posted_days_ago": 221,
+      "posted_days_ago": 222,
       "raw_url": "https://jobs.lever.co/finn/103dc21a-1894-4cfc-a514-efa86f6c021c",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=finn&url=https%3A%2F%2Fjobs.lever.co%2Ffinn%2F103dc21a-1894-4cfc-a514-efa86f6c021c"
     },
@@ -1308,7 +1440,7 @@
       "city": "Other DACH",
       "location": "Verden, Niedersachsen, Germany",
       "posted": "2026-07-30T04:23:49-04:00",
-      "posted_days_ago": 33,
+      "posted_days_ago": 34,
       "raw_url": "https://careers.hellofresh.com/global/en/job/8053360?gh_jid=8053360",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hellofresh&url=https%3A%2F%2Fcareers.hellofresh.com%2Fglobal%2Fen%2Fjob%2F8053360%3Fgh_jid%3D8053360"
     },
@@ -1319,7 +1451,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-20T07:46:11-04:00",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4952519101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4952519101"
     },
@@ -1330,9 +1462,20 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
+      "posted_days_ago": 22,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4948911101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4948911101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Praktikant Arbeitssicherheit & Gesundheitsmanagement (m/w/d)",
+      "type": "Praktikum",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-09-01T08:13:52-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4941433101",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4941433101"
     },
     {
       "company": "Isar Aerospace",
@@ -1341,7 +1484,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-19T04:23:17-04:00",
-      "posted_days_ago": 13,
+      "posted_days_ago": 14,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4955724101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4955724101"
     },
@@ -1352,20 +1495,9 @@
       "city": "Other DACH",
       "location": "Parsdorf, Bavaria, Germany",
       "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
+      "posted_days_ago": 22,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4944474101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4944474101"
-    },
-    {
-      "company": "Isar Aerospace",
-      "title": "Praktikant Arbeitssicherheit & Gesundheitsmanagement (m/w/d)",
-      "type": "Praktikum",
-      "city": "Other DACH",
-      "location": "Ottobrunn, Bavaria, Germany",
-      "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
-      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4941433101",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4941433101"
     },
     {
       "company": "1KOMMA5°",
@@ -1374,7 +1506,7 @@
       "city": "Other DACH",
       "location": "Nürnberg",
       "posted": "2026-08-27T16:49:51+00:00",
-      "posted_days_ago": 5,
+      "posted_days_ago": 6,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2771176",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2771176"
     },
@@ -1385,9 +1517,31 @@
       "city": "Other DACH",
       "location": "Nürnberg",
       "posted": "2025-08-01T08:56:45+00:00",
-      "posted_days_ago": 396,
+      "posted_days_ago": 397,
       "raw_url": "https://1komma5grad.jobs.personio.de/job/2273280",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=1komma5&url=https%3A%2F%2F1komma5grad.jobs.personio.de%2Fjob%2F2273280"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Werkstudent Arbeitssicherheit & Gesundheitsmanagement (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-09-01T08:13:52-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4697662101",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4697662101"
+    },
+    {
+      "company": "Isar Aerospace",
+      "title": "Werkstudent Health, Safety & Environment (m/w/d)",
+      "type": "Werkstudent",
+      "city": "Other DACH",
+      "location": "Ottobrunn, Bavaria, Germany",
+      "posted": "2026-09-01T08:13:52-04:00",
+      "posted_days_ago": 1,
+      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4772565101",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4772565101"
     },
     {
       "company": "Isar Aerospace",
@@ -1396,7 +1550,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-26T05:51:00-04:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4960889101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4960889101"
     },
@@ -1407,7 +1561,7 @@
       "city": "Other DACH",
       "location": "Parsdorf, Bavaria, Germany",
       "posted": "2026-08-21T11:27:55-04:00",
-      "posted_days_ago": 11,
+      "posted_days_ago": 12,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4958455101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4958455101"
     },
@@ -1418,7 +1572,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-17T03:52:44-04:00",
-      "posted_days_ago": 15,
+      "posted_days_ago": 16,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4953614101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4953614101"
     },
@@ -1429,7 +1583,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-14T09:26:10-04:00",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4953179101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4953179101"
     },
@@ -1440,7 +1594,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-14T08:36:29-04:00",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4953152101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4953152101"
     },
@@ -1451,31 +1605,9 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany; Parsdorf, Bavaria, Germany",
       "posted": "2026-08-13T10:14:15-04:00",
-      "posted_days_ago": 19,
+      "posted_days_ago": 20,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4934396101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4934396101"
-    },
-    {
-      "company": "Isar Aerospace",
-      "title": "Werkstudent Arbeitssicherheit & Gesundheitsmanagement (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Other DACH",
-      "location": "Ottobrunn, Bavaria, Germany",
-      "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
-      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4697662101",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4697662101"
-    },
-    {
-      "company": "Isar Aerospace",
-      "title": "Werkstudent Health, Safety & Environment (m/w/d)",
-      "type": "Werkstudent",
-      "city": "Other DACH",
-      "location": "Ottobrunn, Bavaria, Germany",
-      "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
-      "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4772565101",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4772565101"
     },
     {
       "company": "Isar Aerospace",
@@ -1484,7 +1616,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
+      "posted_days_ago": 22,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4931908101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4931908101"
     },
@@ -1495,7 +1627,7 @@
       "city": "Other DACH",
       "location": "Ottobrunn, Bavaria, Germany",
       "posted": "2026-08-11T03:10:22-04:00",
-      "posted_days_ago": 21,
+      "posted_days_ago": 22,
       "raw_url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4937173101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=isar-aerospace&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fisaraerospace%2Fjobs%2F4937173101"
     },
@@ -1506,9 +1638,97 @@
       "city": "Stuttgart",
       "location": "Stuttgart",
       "posted": "2026-06-25T15:01:59.759+00:00",
-      "posted_days_ago": 68,
+      "posted_days_ago": 69,
       "raw_url": "https://jobs.ashbyhq.com/enpal/f0c5c63e-5365-4ae2-addf-34f996b6fc3d",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=enpal&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fenpal%2Ff0c5c63e-5365-4ae2-addf-34f996b6fc3d"
+    },
+    {
+      "company": "Bacon Gebäudetechnik",
+      "title": "HTL-Absolvent HKLS (m/w/d)",
+      "type": "Absolvent",
+      "city": "Vienna",
+      "location": "Liesing, Wien",
+      "posted": "2026-04-25T00:12:26Z",
+      "posted_days_ago": 130,
+      "raw_url": "https://www.adzuna.at/details/5709760029?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bacon-geb-udetechnik&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5709760029%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "BEKO",
+      "title": "Wir  HTL-Absolvent (w/m/x) für einen Kunden im Bereich der Energietechnik",
+      "type": "Absolvent",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-08-28T16:53:20Z",
+      "posted_days_ago": 5,
+      "raw_url": "https://www.adzuna.at/details/5859744111?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=beko&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5859744111%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "CONSULTATIO Holding International Wirtschaftsprüfung GmbH",
+      "title": "HAK-Absolvent für Buchhaltung (all genders)",
+      "type": "Absolvent",
+      "city": "Vienna",
+      "location": "Floridsdorf, Wien",
+      "posted": "2026-07-16T21:22:37Z",
+      "posted_days_ago": 47,
+      "raw_url": "https://www.adzuna.at/details/5803548965?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=consultatio-holding-international-wirtschaftspr-fung-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5803548965%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Heidi Rannegger Immobilienverwaltungsges.m.b.H.",
+      "title": "HAK/ JUS-HAK -Absolvent*in / AHS-Maturant*in von Wiener Hausverwaltung",
+      "type": "Absolvent",
+      "city": "Vienna",
+      "location": "Innere Stadt, Wien",
+      "posted": "2026-08-31T15:51:43Z",
+      "posted_days_ago": 2,
+      "raw_url": "https://www.adzuna.at/details/5862950888?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=heidi-rannegger-immobilienverwaltungsges-m-b-h&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5862950888%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "KPPK Ziviltechniker GmbH",
+      "title": "Projektleitung Gebäudetechnik (m/w/d) – für Absolvent:in mit technischem Hintergrund",
+      "type": "Absolvent",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-08-25T07:15:21Z",
+      "posted_days_ago": 8,
+      "raw_url": "https://www.adzuna.at/details/5855011830?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=kppk-ziviltechniker-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5855011830%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Sprecher Automation GmbH",
+      "title": "HTL-Absolvent:in Wien - Elektrotechnik / Automatisierung / Elektronik",
+      "type": "Absolvent",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-06-27T06:46:11Z",
+      "posted_days_ago": 67,
+      "raw_url": "https://www.adzuna.at/details/5778664978?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sprecher-automation-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5778664978%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "AS Watson Group",
+      "title": "Wien | Online Trainee (w/m/d)",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Liesing, Wien",
+      "posted": "2026-07-27T01:26:07Z",
+      "posted_days_ago": 37,
+      "raw_url": "https://www.adzuna.at/details/5816884794?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=as-watson-group&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5816884794%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Austro Control",
+      "title": "Fluglotse:Fluglotsin / Air Traffic Controller Trainee (m/w/d)",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Landstraße, Wien",
+      "posted": "2025-07-31T12:52:22Z",
+      "posted_days_ago": 398,
+      "raw_url": "https://www.adzuna.at/details/5329631607?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=austro-control&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5329631607%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "Bitpanda",
@@ -1517,9 +1737,108 @@
       "city": "Vienna",
       "location": "Vienna, Vienna, Austria",
       "posted": "2026-08-27T09:40:45-04:00",
-      "posted_days_ago": 5,
+      "posted_days_ago": 6,
       "raw_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4939865101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitpanda&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fbitpanda%2Fjobs%2F4939865101"
+    },
+    {
+      "company": "cbs Corporate Business Solutions GmbH",
+      "title": "Trainee SAP Consultant (m/w/d)",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Donaustadt, Wien",
+      "posted": "2026-07-04T11:32:56Z",
+      "posted_days_ago": 60,
+      "raw_url": "https://www.adzuna.at/details/5787822801?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=cbs-corporate-business-solutions-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5787822801%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Hilti Austria Gesellschaft mbH",
+      "title": "Talente für unser Trainee-Programm - Sales & Marketing (w/m/d) - Vollzeit",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Liesing, Wien",
+      "posted": "2026-09-02T03:58:30Z",
+      "posted_days_ago": 0,
+      "raw_url": "https://www.adzuna.at/details/5866101288?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hilti-austria-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5866101288%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Hilti Austria Gesellschaft mbH",
+      "title": "Global Management Development Trainee Program - Outperformer Business Track",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Liesing, Wien",
+      "posted": "2026-08-29T03:59:45Z",
+      "posted_days_ago": 4,
+      "raw_url": "https://www.adzuna.at/details/5860500367?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=hilti-austria-gesellschaft-mbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5860500367%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "iAdvise Financial Services",
+      "title": "Trainee Financial Planning & Vermögensberatung",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Landstraße, Wien",
+      "posted": "2025-03-13T10:50:09Z",
+      "posted_days_ago": 538,
+      "raw_url": "https://www.adzuna.at/details/5091003976?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=iadvise-financial-services&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5091003976%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "McDonald's Österreich",
+      "title": "Trainee Restaurantmanagement - Ausbildung zum/ zur Schichtführer:in (m/w/d)",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-09-02T10:25:59Z",
+      "posted_days_ago": 0,
+      "raw_url": "https://www.adzuna.at/details/5866723180?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=mcdonald-s-sterreich&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5866723180%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "ROXCEL Trading GmbH",
+      "title": "Finance Trainee (m/w/d)",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-08-27T18:19:09Z",
+      "posted_days_ago": 6,
+      "raw_url": "https://www.adzuna.at/details/5858511566?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=roxcel-trading-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5858511566%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "SIXT Austria",
+      "title": "Management Trainee Filiale (m/w/d) Vollzeit",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-08-07T03:53:10Z",
+      "posted_days_ago": 26,
+      "raw_url": "https://www.adzuna.at/details/5831393895?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=sixt-austria&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5831393895%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "Vamed Vitality World",
+      "title": "Management Trainee (m/w/d) Programm im Hotel, F&B und SPA",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Innere Stadt, Wien",
+      "posted": "2026-08-22T15:55:11Z",
+      "posted_days_ago": 11,
+      "raw_url": "https://www.adzuna.at/details/5852512781?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=vamed-vitality-world&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5852512781%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+    },
+    {
+      "company": "XXXLutz KG",
+      "title": "Trainee/Nachwuchsführungskraft (m/w/d)",
+      "type": "Junior",
+      "city": "Vienna",
+      "location": "Fünfhaus, Wien",
+      "posted": "2026-08-08T07:14:10Z",
+      "posted_days_ago": 25,
+      "raw_url": "https://www.adzuna.at/details/5832966293?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=xxxlutz-kg&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5832966293%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "4flow",
@@ -1528,7 +1847,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-08-08T16:46:51Z",
-      "posted_days_ago": 24,
+      "posted_days_ago": 25,
       "raw_url": "https://www.adzuna.at/details/5833562514?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=4flow&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5833562514%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1539,7 +1858,7 @@
       "city": "Vienna",
       "location": "Klagenfurt; Vienna; Denver",
       "posted": "2026-08-31T04:11:06-04:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://bitmovin.com/careers/8746202002?gh_jid=8746202002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8746202002%3Fgh_jid%3D8746202002"
     },
@@ -1550,7 +1869,7 @@
       "city": "Vienna",
       "location": "Klagenfurt; Vienna; Denver",
       "posted": "2026-08-31T08:18:24-04:00",
-      "posted_days_ago": 1,
+      "posted_days_ago": 2,
       "raw_url": "https://bitmovin.com/careers/8764225002?gh_jid=8764225002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8764225002%3Fgh_jid%3D8764225002"
     },
@@ -1561,7 +1880,7 @@
       "city": "Vienna",
       "location": "Klagenfurt; Vienna",
       "posted": "2026-08-10T04:11:22-04:00",
-      "posted_days_ago": 22,
+      "posted_days_ago": 23,
       "raw_url": "https://bitmovin.com/careers/8559479002?gh_jid=8559479002",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitmovin&url=https%3A%2F%2Fbitmovin.com%2Fcareers%2F8559479002%3Fgh_jid%3D8559479002"
     },
@@ -1572,9 +1891,31 @@
       "city": "Vienna",
       "location": "Vienna, Vienna, Austria",
       "posted": "2026-08-26T06:50:31-04:00",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4944654101",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bitpanda&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fbitpanda%2Fjobs%2F4944654101"
+    },
+    {
+      "company": "Marriott",
+      "title": "Front Office Trainee (w/m/d) ab September 2026 | Pflichtpraktikum",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Wien, Österreich",
+      "posted": "2026-08-01T12:28:32Z",
+      "posted_days_ago": 32,
+      "raw_url": "https://www.adzuna.at/land/ad/5823812804?se=UiEIBa6m8RGVmKDoJIPf9w&utm_medium=api&utm_source=8efdd1b9&v=E6B8EDA47E8C63ACEC8C31D23B37C2493431A785",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=marriott&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5823812804%3Fse%3DUiEIBa6m8RGVmKDoJIPf9w%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DE6B8EDA47E8C63ACEC8C31D23B37C2493431A785"
+    },
+    {
+      "company": "Marriott Hotels Resorts",
+      "title": "Front Office Trainee (w/m/d) ab September 2026 | Pflichtpraktikum",
+      "type": "Praktikum",
+      "city": "Vienna",
+      "location": "Innere Stadt, Wien",
+      "posted": "2026-07-31T16:44:38Z",
+      "posted_days_ago": 33,
+      "raw_url": "https://www.adzuna.at/details/5822412243?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=marriott-hotels-resorts&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5822412243%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "4flow",
@@ -1583,7 +1924,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-06-09T00:29:33Z",
-      "posted_days_ago": 84,
+      "posted_days_ago": 85,
       "raw_url": "https://www.adzuna.at/details/5756659465?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=4flow&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5756659465%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1594,7 +1935,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-07-19T01:23:24Z",
-      "posted_days_ago": 44,
+      "posted_days_ago": 45,
       "raw_url": "https://www.adzuna.at/details/5806612616?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=angst-pfister-austria&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5806612616%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1605,7 +1946,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-08-26T05:54:59Z",
-      "posted_days_ago": 6,
+      "posted_days_ago": 7,
       "raw_url": "https://www.adzuna.at/details/5856341736?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=av-group&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5856341736%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1616,7 +1957,7 @@
       "city": "Vienna",
       "location": "Innere Stadt, Wien",
       "posted": "2026-01-29T12:34:23Z",
-      "posted_days_ago": 215,
+      "posted_days_ago": 216,
       "raw_url": "https://www.adzuna.at/details/5604636889?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=aventur-family-office-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5604636889%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1627,7 +1968,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-08-28T16:53:07Z",
-      "posted_days_ago": 4,
+      "posted_days_ago": 5,
       "raw_url": "https://www.adzuna.at/details/5859743934?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=coeo-inkasso&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5859743934%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1638,7 +1979,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-03-12T22:30:18Z",
-      "posted_days_ago": 172,
+      "posted_days_ago": 173,
       "raw_url": "https://www.adzuna.at/details/5662936396?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=immoverkauf24&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5662936396%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1649,7 +1990,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2025-06-25T21:56:09Z",
-      "posted_days_ago": 432,
+      "posted_days_ago": 433,
       "raw_url": "https://www.adzuna.at/details/5268247352?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=new-fluence&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5268247352%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1660,7 +2001,7 @@
       "city": "Vienna",
       "location": "Wieden, Wien",
       "posted": "2026-08-23T16:51:53Z",
-      "posted_days_ago": 9,
+      "posted_days_ago": 10,
       "raw_url": "https://www.adzuna.at/details/5853682369?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bb&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5853682369%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1671,7 +2012,7 @@
       "city": "Vienna",
       "location": "Wieden, Wien",
       "posted": "2026-08-14T16:51:07Z",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://www.adzuna.at/details/5841901130?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=bb&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5841901130%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1682,7 +2023,7 @@
       "city": "Vienna",
       "location": "Wien, Österreich",
       "posted": "2026-08-29T07:09:41Z",
-      "posted_days_ago": 3,
+      "posted_days_ago": 4,
       "raw_url": "https://www.adzuna.at/details/5860755661?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=obi-bau-und-heimwerkerm-rkte&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5860755661%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1693,9 +2034,9 @@
       "city": "Vienna",
       "location": "Innere Stadt, Wien",
       "posted": "2026-08-26T03:55:24Z",
-      "posted_days_ago": 6,
-      "raw_url": "https://www.adzuna.at/land/ad/5856181498?se=HvNu6eil8RGeX4H6AzNbvQ&utm_medium=api&utm_source=8efdd1b9&v=449FBD0342AC5634073F58247A0BB706DD4E7FA4",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=senacor-technologies-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5856181498%3Fse%3DHvNu6eil8RGeX4H6AzNbvQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3D449FBD0342AC5634073F58247A0BB706DD4E7FA4"
+      "posted_days_ago": 7,
+      "raw_url": "https://www.adzuna.at/details/5856181498?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=senacor-technologies-ag&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5856181498%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "staff24 Personalservice GmbH",
@@ -1704,31 +2045,9 @@
       "city": "Vienna",
       "location": "Innere Stadt, Wien",
       "posted": "2026-08-28T15:56:15Z",
-      "posted_days_ago": 4,
-      "raw_url": "https://www.adzuna.at/land/ad/5859697837?se=HvNu6eil8RGeX4H6AzNbvQ&utm_medium=api&utm_source=8efdd1b9&v=C02BB5CEC50233D4F9DD2AB71B9C7CE6B41881EA",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=staff24-personalservice-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fland%2Fad%2F5859697837%3Fse%3DHvNu6eil8RGeX4H6AzNbvQ%26utm_medium%3Dapi%26utm_source%3D8efdd1b9%26v%3DC02BB5CEC50233D4F9DD2AB71B9C7CE6B41881EA"
-    },
-    {
-      "company": "Valutico",
-      "title": "Working Student Finance & Accounting (Werkstudenten)",
-      "type": "Werkstudent",
-      "city": "Vienna",
-      "location": "Wien, Österreich",
-      "posted": "2026-08-18T12:09:13Z",
-      "posted_days_ago": 14,
-      "raw_url": "https://www.adzuna.at/details/5846503344?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=valutico&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5846503344%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
-    },
-    {
-      "company": "Valutico",
-      "title": "Working Student Valuation Product & Services (Werkstudenten)",
-      "type": "Werkstudent",
-      "city": "Vienna",
-      "location": "Wien, Österreich",
-      "posted": "2026-08-12T16:33:30Z",
-      "posted_days_ago": 20,
-      "raw_url": "https://www.adzuna.at/details/5838368403?utm_medium=api&utm_source=8efdd1b9",
-      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=valutico&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5838368403%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
+      "posted_days_ago": 5,
+      "raw_url": "https://www.adzuna.at/details/5859697837?utm_medium=api&utm_source=8efdd1b9",
+      "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=staff24-personalservice-gmbh&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5859697837%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
     {
       "company": "XING",
@@ -1737,7 +2056,7 @@
       "city": "Vienna",
       "location": "Innere Stadt, Wien",
       "posted": "2026-08-19T22:56:45Z",
-      "posted_days_ago": 12,
+      "posted_days_ago": 13,
       "raw_url": "https://www.adzuna.at/details/5848717127?utm_medium=api&utm_source=8efdd1b9",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=xing&url=https%3A%2F%2Fwww.adzuna.at%2Fdetails%2F5848717127%3Futm_medium%3Dapi%26utm_source%3D8efdd1b9"
     },
@@ -1748,7 +2067,7 @@
       "city": "Zurich",
       "location": "Zürich",
       "posted": "2026-08-14T03:10:07-04:00",
-      "posted_days_ago": 18,
+      "posted_days_ago": 19,
       "raw_url": "https://job-boards.greenhouse.io/getyourguide/jobs/8124357",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=getyourguide&url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fgetyourguide%2Fjobs%2F8124357"
     },
@@ -1759,7 +2078,7 @@
       "city": "Zurich",
       "location": "Zurich HQ",
       "posted": "2026-06-10T16:05:54.151+00:00",
-      "posted_days_ago": 83,
+      "posted_days_ago": 84,
       "raw_url": "https://jobs.ashbyhq.com/deepjudge/d044d6e2-992b-477b-82a3-4f01f1ba1a8a",
       "careerkit_apply_url": "https://careerkit.me/api/apply?src=github-dach&company=deepjudge&url=https%3A%2F%2Fjobs.ashbyhq.com%2Fdeepjudge%2Fd044d6e2-992b-477b-82a3-4f01f1ba1a8a"
     }
