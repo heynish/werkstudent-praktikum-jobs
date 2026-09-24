@@ -1,0 +1,19 @@
+# Einstiegsjobs in Basel
+
+Early-career jobs in Basel. **9 offene Stellen**, aktualisiert 2026-09-24, neueste zuerst.
+
+[Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
+
+| Rolle | Unternehmen | Typ | Alter | |
+|---|---|---|---|---|
+| [Roche internship in Medicinal Chemistry - RiCH](https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Roche-internship-in-Medicinal-Chemistry---RiCH_202609-124069) | **Roche** | Praktikum | 1d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=roche&url=https%3A%2F%2Froche.wd3.myworkdayjobs.com%2Froche-ext%2Fjob%2FBasel%2FRoche-internship-in-Medicinal-Chemistry---RiCH_202609-124069) |
+| [Praktikum: Optimierung des Ersatzteilmanagements (6 Monate)](https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Praktikum---Optimierung-des-Ersatzteilmanagements--6-Monate-_202609-123640) | **Roche** | Praktikum | 7d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=roche&url=https%3A%2F%2Froche.wd3.myworkdayjobs.com%2Froche-ext%2Fjob%2FBasel%2FPraktikum---Optimierung-des-Ersatzteilmanagements--6-Monate-_202609-123640) |
+| [Hochschulpraktikum im Bereich Drug Product Clinical Supply Center](https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Hochschulpraktikum-im-Bereich-Drug-Product-Clinical-Supply-Center_202609-122551) | **Roche** | Praktikum | 13d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=roche&url=https%3A%2F%2Froche.wd3.myworkdayjobs.com%2Froche-ext%2Fjob%2FBasel%2FHochschulpraktikum-im-Bereich-Drug-Product-Clinical-Supply-Center_202609-122551) |
+| [Intern HR Biologics 80-100%](https://lonza.wd3.myworkdayjobs.com/Lonza_Careers/job/CH---Basel-HR/Intern-HR-Biologics-80-100-_R78783) | **Lonza** | Praktikum | 27d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=lonza&url=https%3A%2F%2Flonza.wd3.myworkdayjobs.com%2FLonza_Careers%2Fjob%2FCH---Basel-HR%2FIntern-HR-Biologics-80-100-_R78783) |
+| [Intern Digital Engineer](https://huntsman.wd1.myworkdayjobs.com/huntsman/job/Switzerland---Basel/Intern-Digital-Engineer_J-020117) | **Huntsman Corporation** | Praktikum | 30d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=huntsman-corporation&url=https%3A%2F%2Fhuntsman.wd1.myworkdayjobs.com%2Fhuntsman%2Fjob%2FSwitzerland---Basel%2FIntern-Digital-Engineer_J-020117) |
+| [Verkaufsleiter/in Trainee 100% für die Region Basel](https://jobs.smartrecruiters.com/jysk/744000143832146) | **JYSK** | Junior | 38d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=jysk&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fjysk%2F744000143832146) |
+| [IT Student Support / Werkstudent:in IT (50–80%, Start: Immediately / Upon Agreement)](https://ridgelinediscovery.jobs.personio.de/job/2756642) | **Ridgeline Discovery** | Werkstudent | 38d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=ridgeline-discovery&url=https%3A%2F%2Fridgelinediscovery.jobs.personio.de%2Fjob%2F2756642) |
+| [Praktikum (w/m/d) Baumanagement / Bauleitung 80-100%](https://jobs.smartrecruiters.com/DreesSommerSE/744000128439189) | **Drees & Sommer SE** | Praktikum | 121d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000128439189) |
+| [Kurzpraktikum bei Kellerhals Carrard Basel](https://kellerhals-carrard.jobs.personio.de/job/2304547) | **Kellerhals Carrard Basel** | Praktikum | 399d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=kellerhals-carrard-basel&url=https%3A%2F%2Fkellerhals-carrard.jobs.personio.de%2Fjob%2F2304547) |
+
+<sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>

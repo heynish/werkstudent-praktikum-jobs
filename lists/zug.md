@@ -1,0 +1,23 @@
+# Einstiegsjobs in Zug
+
+Early-career jobs in Zug. **13 offene Stellen**, aktualisiert 2026-09-24, neueste zuerst.
+
+[Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
+
+| Rolle | Unternehmen | Typ | Alter | |
+|---|---|---|---|---|
+| [Intern, Value & Access and Commercial (f/m/d)](https://biibhr.wd3.myworkdayjobs.com/external/job/Baar-Switzerland/Intern--Value---Access-and-Commercial--f-m-d-_REQ24089) | **Biogen** | Praktikum | 8d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=biogen&url=https%3A%2F%2Fbiibhr.wd3.myworkdayjobs.com%2Fexternal%2Fjob%2FBaar-Switzerland%2FIntern--Value---Access-and-Commercial--f-m-d-_REQ24089) |
+| [Off Premise Sales Graduate](https://jobs.smartrecruiters.com/RedBull/744000149843861) | **Red Bull** | Absolvent | 8d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000149843861) |
+| [Controlling Graduate](https://jobs.smartrecruiters.com/RedBull/744000149236208) | **Red Bull** | Absolvent | 10d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000149236208) |
+| [Supply Chain Graduate](https://jobs.smartrecruiters.com/RedBull/744000149236188) | **Red Bull** | Absolvent | 10d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000149236188) |
+| [Communications Graduate](https://jobs.smartrecruiters.com/RedBull/744000149236168) | **Red Bull** | Absolvent | 10d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000149236168) |
+| [On Premise Marketing Graduate](https://jobs.smartrecruiters.com/RedBull/744000149236098) | **Red Bull** | Absolvent | 10d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000149236098) |
+| [Intern Commercial](https://biibhr.wd3.myworkdayjobs.com/external/job/Baar-Switzerland/Intern-Commercial_REQ24033-1) | **Biogen** | Praktikum | 21d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=biogen&url=https%3A%2F%2Fbiibhr.wd3.myworkdayjobs.com%2Fexternal%2Fjob%2FBaar-Switzerland%2FIntern-Commercial_REQ24033-1) |
+| [Junior Controller 80 - 100 % (all genders) \| Bossard Group](https://bossard.wd103.myworkdayjobs.com/BossardJobs/job/Zug/Junior-Controller-80---100----all-genders----Bossard-Group_) | **Bossard** | Junior | 30d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=bossard&url=https%3A%2F%2Fbossard.wd103.myworkdayjobs.com%2FBossardJobs%2Fjob%2FZug%2FJunior-Controller-80---100----all-genders----Bossard-Group_) |
+| [WMS-Praktikum (1 Jahr) 2027](https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/WMS-Praktikum--1-Jahr--2027_R-091875) | **Johnson & Johnson / Janssen** | Praktikum | 30d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=johnson-johnson-janssen&url=https%3A%2F%2Fjj.wd5.myworkdayjobs.com%2FJJ%2Fjob%2FZug-Switzerland%2FWMS-Praktikum--1-Jahr--2027_R-091875) |
+| [Junior Legal Counsel Commodity Trading](https://jobs.smartrecruiters.com/metgroup/744000143453794) | **MET Group** | Junior | 41d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=met-group&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fmetgroup%2F744000143453794) |
+| [Graduate Software Engineer - Digital Assets](https://job-boards.eu.greenhouse.io/imc/jobs/4932192101) | **IMC** | Absolvent | 66d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=imc&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fimc%2Fjobs%2F4932192101) |
+| [Graduate Quant Researcher - Digital Assets](https://job-boards.eu.greenhouse.io/imc/jobs/4892687101) | **IMC** | Absolvent | 104d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=imc&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fimc%2Fjobs%2F4892687101) |
+| [Blockchain Developer Intern](https://job-boards.eu.greenhouse.io/dialecticch/jobs/4851646101) | **Dialectic** | Praktikum | 149d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=dialectic&url=https%3A%2F%2Fjob-boards.eu.greenhouse.io%2Fdialecticch%2Fjobs%2F4851646101) |
+
+<sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>

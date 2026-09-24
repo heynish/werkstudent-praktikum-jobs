@@ -1,0 +1,30 @@
+name: Unternehmen vorschlagen / Suggest a company
+description: Ein Unternehmen mit Werkstudenten-, Praktikums- oder Einstiegsjobs in DACH fehlt in der Liste.
+title: "Unternehmen: "
+labels: ["add-company"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke! Wir nehmen nur Unternehmen auf, deren Stellen über ein öffentliches Job-Board laufen
+        (Greenhouse, Lever, Ashby, Personio, SmartRecruiters, Recruitee, Workable, Teamtailor, Workday).
+        Den Link zur Karriereseite reicht, den Rest prüfen wir.
+  - type: input
+    id: company
+    attributes:
+      label: Unternehmen / Company
+      placeholder: z. B. Beispiel GmbH
+    validations:
+      required: true
+  - type: input
+    id: careers
+    attributes:
+      label: Link zur Karriereseite oder zu einer Stelle / Careers page or job link
+      placeholder: https://beispiel.jobs.personio.de oder https://boards.greenhouse.io/beispiel
+    validations:
+      required: true
+  - type: input
+    id: cities
+    attributes:
+      label: Städte in DACH / Cities (optional)
+      placeholder: Berlin, München, Wien

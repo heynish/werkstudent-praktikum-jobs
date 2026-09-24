@@ -1,12 +1,18 @@
 name: Refresh job list
 
-# Autonomous daily refresh. Runs the generator and commits README.md + jobs.json
-# if anything changed. Nobody runs this by hand.
+# Daily refresh: runs the generator and commits the list if anything changed.
+# build.mjs exits 1 (and writes nothing) when too many sources fail or the list
+# suddenly shrinks, so a broken run shows up red and GitHub emails the owner.
 
 on:
   schedule:
     - cron: "0 5 * * *" # daily 05:00 UTC
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: "Publish even if the list shrank a lot (after deliberately removing a source)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,24 +24,25 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: 22
       - run: node build.mjs
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '0' }}
       - name: Commit if changed
         run: |
-          if [ -n "$(git status --porcelain README.md jobs.json)" ]; then
+          git add -A README.md jobs.json jobs.csv lists
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
             git config user.name "careerkit-bot"
             git config user.email "bot@careerkit.de"
-            git add README.md jobs.json
-            git commit -m "chore: daily job list refresh"
+            git commit -m "chore: daily job list refresh ($(node -p 'require("./jobs.json").count') roles)"
             git push
-          else
-            echo "No changes."
           fi

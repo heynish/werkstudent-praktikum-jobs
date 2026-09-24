@@ -1,5 +1,5 @@
 {
-  "note": "DACH employers on public ATS job-board APIs (Greenhouse/Lever/Ashby/Personio). Auto-harvested + curated. Grow via /growth artifact or community PRs. Companies with no early-career role today are kept; they populate automatically when they post one.",
+  "note": "DACH employers with a public job-board API (Greenhouse, Lever, Ashby, Personio, SmartRecruiters, Recruitee, Workable, Teamtailor, Workday). Add companies via candidates.json + `node discover.mjs --write`, see CONTRIBUTING.md. Companies with no early-career role today are kept; they show up automatically when they post one.",
   "companies": [
     {
       "name": "1KOMMA5°",
@@ -8,9 +8,51 @@
       "careers_url": ""
     },
     {
+      "name": "abbvie",
+      "ats": "smartrecruiters",
+      "token": "abbvie",
+      "careers_url": ""
+    },
+    {
+      "name": "Accelleron",
+      "ats": "workday",
+      "token": "accelleron|wd3|accelleron",
+      "careers_url": ""
+    },
+    {
+      "name": "Accenture",
+      "ats": "workday",
+      "token": "accenture|wd103|AccentureCareers",
+      "careers_url": ""
+    },
+    {
+      "name": "AccorHotel",
+      "ats": "smartrecruiters",
+      "token": "AccorHotel",
+      "careers_url": ""
+    },
+    {
+      "name": "AceTate",
+      "ats": "smartrecruiters",
+      "token": "AceTate",
+      "careers_url": ""
+    },
+    {
+      "name": "adaptyv",
+      "ats": "ashby",
+      "token": "adaptyv",
+      "careers_url": ""
+    },
+    {
       "name": "Adyen",
       "ats": "greenhouse",
       "token": "adyen",
+      "careers_url": ""
+    },
+    {
+      "name": "afry",
+      "ats": "smartrecruiters",
+      "token": "afry",
       "careers_url": ""
     },
     {
@@ -32,15 +74,117 @@
       "careers_url": ""
     },
     {
+      "name": "Alcon",
+      "ats": "workday",
+      "token": "alcon|wd5|careers_alcon",
+      "careers_url": ""
+    },
+    {
+      "name": "Alpiq",
+      "ats": "workday",
+      "token": "alpiq|wd103|AlpiqWorkdayExternalCareers",
+      "careers_url": ""
+    },
+    {
+      "name": "Amer Sports Group - Salomon SAS",
+      "ats": "smartrecruiters",
+      "token": "Salomon",
+      "careers_url": ""
+    },
+    {
+      "name": "Amgen",
+      "ats": "workday",
+      "token": "amgen|wd1|Careers",
+      "careers_url": ""
+    },
+    {
+      "name": "AniCura Switzerland",
+      "ats": "teamtailor",
+      "token": "anicuraglobal",
+      "careers_url": ""
+    },
+    {
+      "name": "AntonPaar1",
+      "ats": "smartrecruiters",
+      "token": "AntonPaar1",
+      "careers_url": ""
+    },
+    {
+      "name": "ANYbotics",
+      "ats": "lever",
+      "token": "anybotics",
+      "careers_url": ""
+    },
+    {
       "name": "Appinio",
       "ats": "greenhouse",
       "token": "appinio",
       "careers_url": ""
     },
     {
+      "name": "Artifact",
+      "ats": "recruitee",
+      "token": "artifactsa",
+      "careers_url": ""
+    },
+    {
+      "name": "ARXADA",
+      "ats": "workday",
+      "token": "lsi|wd3|Arxada_Careers",
+      "careers_url": ""
+    },
+    {
+      "name": "Ascom",
+      "ats": "teamtailor",
+      "token": "ascom",
+      "careers_url": ""
+    },
+    {
+      "name": "AstraZeneca",
+      "ats": "workday",
+      "token": "astrazeneca|wd3|Careers",
+      "careers_url": ""
+    },
+    {
+      "name": "ATParchitekteningenieure",
+      "ats": "smartrecruiters",
+      "token": "ATParchitekteningenieure",
+      "careers_url": ""
+    },
+    {
+      "name": "Auterion",
+      "ats": "greenhouse",
+      "token": "auterion",
+      "careers_url": ""
+    },
+    {
+      "name": "Avallain",
+      "ats": "personio",
+      "token": "avallain",
+      "careers_url": ""
+    },
+    {
+      "name": "avaloq1",
+      "ats": "smartrecruiters",
+      "token": "avaloq1",
+      "careers_url": ""
+    },
+    {
+      "name": "averydennison",
+      "ats": "smartrecruiters",
+      "token": "averydennison",
+      "careers_url": ""
+    },
+    {
       "name": "Beat81",
       "ats": "greenhouse",
       "token": "beat81",
+      "careers_url": ""
+    },
+    {
+      "name": "Biogen",
+      "ats": "workday",
+      "token": "biibhr|wd3|external",
       "careers_url": ""
     },
     {
@@ -53,6 +197,36 @@
       "name": "Bitpanda",
       "ats": "greenhouse",
       "token": "bitpanda",
+      "careers_url": ""
+    },
+    {
+      "name": "blackroll.jobs.personio.com",
+      "ats": "personio",
+      "token": "blackroll",
+      "careers_url": ""
+    },
+    {
+      "name": "boost-inc.jobs.personio.com",
+      "ats": "personio",
+      "token": "boost-inc",
+      "careers_url": ""
+    },
+    {
+      "name": "BoschGroup",
+      "ats": "smartrecruiters",
+      "token": "BoschGroup",
+      "careers_url": ""
+    },
+    {
+      "name": "Bossard",
+      "ats": "workday",
+      "token": "bossard|wd103|BossardJobs",
+      "careers_url": ""
+    },
+    {
+      "name": "brainlab",
+      "ats": "smartrecruiters",
+      "token": "brainlab",
       "careers_url": ""
     },
     {
@@ -74,15 +248,39 @@
       "careers_url": ""
     },
     {
+      "name": "cbs Corporate Business Solutions",
+      "ats": "recruitee",
+      "token": "cbsconsulting",
+      "careers_url": ""
+    },
+    {
       "name": "Celonis",
       "ats": "greenhouse",
       "token": "celonis",
       "careers_url": ""
     },
     {
+      "name": "CERN",
+      "ats": "smartrecruiters",
+      "token": "CERN",
+      "careers_url": ""
+    },
+    {
+      "name": "CH Media",
+      "ats": "recruitee",
+      "token": "chmedia",
+      "careers_url": ""
+    },
+    {
       "name": "Choco",
       "ats": "ashby",
       "token": "choco",
+      "careers_url": ""
+    },
+    {
+      "name": "Citi",
+      "ats": "workday",
+      "token": "citi|wd5|2",
       "careers_url": ""
     },
     {
@@ -95,6 +293,12 @@
       "name": "ClassPass",
       "ats": "greenhouse",
       "token": "classpass",
+      "careers_url": ""
+    },
+    {
+      "name": "coface",
+      "ats": "smartrecruiters",
+      "token": "coface",
       "careers_url": ""
     },
     {
@@ -116,9 +320,69 @@
       "careers_url": ""
     },
     {
+      "name": "continental",
+      "ats": "smartrecruiters",
+      "token": "continental",
+      "careers_url": ""
+    },
+    {
+      "name": "cptr.jobs.personio.com",
+      "ats": "personio",
+      "token": "cptr",
+      "careers_url": ""
+    },
+    {
+      "name": "crowdhouse",
+      "ats": "recruitee",
+      "token": "crowdhouse",
+      "careers_url": ""
+    },
+    {
+      "name": "CSL Behring",
+      "ats": "workday",
+      "token": "csl|wd1|CSL_External",
+      "careers_url": ""
+    },
+    {
+      "name": "Customs Support",
+      "ats": "recruitee",
+      "token": "customssupport",
+      "careers_url": ""
+    },
+    {
+      "name": "David Kennedy Recruitment",
+      "ats": "teamtailor",
+      "token": "davidkennedyrecruitment",
+      "careers_url": ""
+    },
+    {
+      "name": "Db",
+      "ats": "workday",
+      "token": "db|wd3|DBWebSite",
+      "careers_url": ""
+    },
+    {
       "name": "DeepJudge",
       "ats": "ashby",
       "token": "deepjudge",
+      "careers_url": ""
+    },
+    {
+      "name": "Delta Electronics",
+      "ats": "smartrecruiters",
+      "token": "DeltaElectronics",
+      "careers_url": ""
+    },
+    {
+      "name": "Dexterous Endoscopes Sàrl",
+      "ats": "teamtailor",
+      "token": "dexterousendoscopes",
+      "careers_url": ""
+    },
+    {
+      "name": "Dialectic",
+      "ats": "greenhouse",
+      "token": "dialecticch",
       "careers_url": ""
     },
     {
@@ -128,15 +392,45 @@
       "careers_url": ""
     },
     {
+      "name": "DreesSommerSE",
+      "ats": "smartrecruiters",
+      "token": "DreesSommerSE",
+      "careers_url": ""
+    },
+    {
+      "name": "EIGHT ADVISORY SAS",
+      "ats": "recruitee",
+      "token": "8advisory",
+      "careers_url": ""
+    },
+    {
       "name": "Enpal",
       "ats": "ashby",
       "token": "enpal",
       "careers_url": ""
     },
     {
+      "name": "eurofins",
+      "ats": "smartrecruiters",
+      "token": "eurofins",
+      "careers_url": ""
+    },
+    {
       "name": "Everphone",
       "ats": "personio",
       "token": "everphone",
+      "careers_url": ""
+    },
+    {
+      "name": "evooq",
+      "ats": "smartrecruiters",
+      "token": "evooq",
+      "careers_url": ""
+    },
+    {
+      "name": "Ferring Pharmaceuticals",
+      "ats": "workday",
+      "token": "ferring|wd3|Ferring",
       "careers_url": ""
     },
     {
@@ -158,9 +452,51 @@
       "careers_url": ""
     },
     {
+      "name": "Flyability",
+      "ats": "workable",
+      "token": "flyability",
+      "careers_url": ""
+    },
+    {
       "name": "FREENOW",
       "ats": "greenhouse",
       "token": "freenow",
+      "careers_url": ""
+    },
+    {
+      "name": "Galderma",
+      "ats": "workday",
+      "token": "galderma|wd3|External",
+      "careers_url": ""
+    },
+    {
+      "name": "gambit.jobs.personio.com",
+      "ats": "personio",
+      "token": "gambit",
+      "careers_url": ""
+    },
+    {
+      "name": "GE Vernova",
+      "ats": "workday",
+      "token": "gevernova|wd5|Vernova_ExternalSite",
+      "careers_url": ""
+    },
+    {
+      "name": "Genedata",
+      "ats": "workday",
+      "token": "danaher|wd1|DanaherJobs",
+      "careers_url": ""
+    },
+    {
+      "name": "gerresheimer",
+      "ats": "smartrecruiters",
+      "token": "gerresheimer",
+      "careers_url": ""
+    },
+    {
+      "name": "GETEC",
+      "ats": "workday",
+      "token": "getec|wd103|External_Careers",
       "careers_url": ""
     },
     {
@@ -188,6 +524,12 @@
       "careers_url": ""
     },
     {
+      "name": "Harmattan AI",
+      "ats": "ashby",
+      "token": "harmattan-ai",
+      "careers_url": ""
+    },
+    {
       "name": "HelloFresh",
       "ats": "greenhouse",
       "token": "hellofresh",
@@ -200,9 +542,63 @@
       "careers_url": ""
     },
     {
+      "name": "Hitachi",
+      "ats": "workday",
+      "token": "hitachi|wd1|hitachi",
+      "careers_url": ""
+    },
+    {
+      "name": "HMGroup",
+      "ats": "smartrecruiters",
+      "token": "HMGroup",
+      "careers_url": ""
+    },
+    {
+      "name": "Holidu",
+      "ats": "personio",
+      "token": "holidu",
+      "careers_url": ""
+    },
+    {
+      "name": "Huawei Europe",
+      "ats": "teamtailor",
+      "token": "huaweidusseldorf-1719303222",
+      "careers_url": ""
+    },
+    {
+      "name": "Huntsman Corporation",
+      "ats": "workday",
+      "token": "huntsman|wd1|huntsman",
+      "careers_url": ""
+    },
+    {
+      "name": "IMC",
+      "ats": "greenhouse",
+      "token": "imc",
+      "careers_url": ""
+    },
+    {
+      "name": "Infront",
+      "ats": "teamtailor",
+      "token": "infrontsportsmediaag",
+      "careers_url": ""
+    },
+    {
       "name": "Instaffo",
       "ats": "personio",
       "token": "instaffo",
+      "careers_url": ""
+    },
+    {
+      "name": "Intrum",
+      "ats": "workday",
+      "token": "intrum|wd3|External",
+      "careers_url": ""
+    },
+    {
+      "name": "intuitive",
+      "ats": "smartrecruiters",
+      "token": "intuitive",
       "careers_url": ""
     },
     {
@@ -218,9 +614,57 @@
       "careers_url": ""
     },
     {
+      "name": "JACOBSDOUWEEGBERTS",
+      "ats": "smartrecruiters",
+      "token": "JACOBSDOUWEEGBERTS",
+      "careers_url": ""
+    },
+    {
+      "name": "Johnson & Johnson / Janssen",
+      "ats": "workday",
+      "token": "jj|wd5|JJ",
+      "careers_url": ""
+    },
+    {
+      "name": "Julius Baer",
+      "ats": "workday",
+      "token": "juliusbaer|wd3|External",
+      "careers_url": ""
+    },
+    {
+      "name": "jysk",
+      "ats": "smartrecruiters",
+      "token": "jysk",
+      "careers_url": ""
+    },
+    {
+      "name": "kanadeviainova",
+      "ats": "smartrecruiters",
+      "token": "kanadeviainova",
+      "careers_url": ""
+    },
+    {
+      "name": "Kellerhals Carrard Basel",
+      "ats": "personio",
+      "token": "kellerhals-carrard",
+      "careers_url": ""
+    },
+    {
+      "name": "Kernkraftwerk Leibstadt",
+      "ats": "teamtailor",
+      "token": "kernkraftwerkleibstadtag",
+      "careers_url": ""
+    },
+    {
       "name": "Kolibri Games",
       "ats": "lever",
       "token": "kolibrigames",
+      "careers_url": ""
+    },
+    {
+      "name": "Konecranes",
+      "ats": "smartrecruiters",
+      "token": "Konecranes",
       "careers_url": ""
     },
     {
@@ -242,6 +686,30 @@
       "careers_url": ""
     },
     {
+      "name": "Lindt & Sprüngli",
+      "ats": "workday",
+      "token": "lindtspruengli|wd103|LindtSpruengliGroupCareers",
+      "careers_url": ""
+    },
+    {
+      "name": "Logitech International S.A.",
+      "ats": "workday",
+      "token": "logitech|wd5|Logitech",
+      "careers_url": ""
+    },
+    {
+      "name": "Lombard Odier",
+      "ats": "workday",
+      "token": "lombardodier|wd3|Lombard_Odier_Careers",
+      "careers_url": ""
+    },
+    {
+      "name": "Lonza",
+      "ats": "workday",
+      "token": "lonza|wd3|Lonza_Careers",
+      "careers_url": ""
+    },
+    {
       "name": "Luminovo",
       "ats": "ashby",
       "token": "luminovo",
@@ -260,9 +728,21 @@
       "careers_url": ""
     },
     {
+      "name": "Medizinisches Zentrum Biel",
+      "ats": "smartrecruiters",
+      "token": "SwissMedicalNetwork1",
+      "careers_url": ""
+    },
+    {
       "name": "MessageBird",
       "ats": "greenhouse",
       "token": "bird",
+      "careers_url": ""
+    },
+    {
+      "name": "metgroup",
+      "ats": "smartrecruiters",
+      "token": "metgroup",
       "careers_url": ""
     },
     {
@@ -278,6 +758,24 @@
       "careers_url": ""
     },
     {
+      "name": "mountfitchetgroup",
+      "ats": "smartrecruiters",
+      "token": "mountfitchetgroup",
+      "careers_url": ""
+    },
+    {
+      "name": "MSD",
+      "ats": "workday",
+      "token": "msd|wd5|SearchJobs",
+      "careers_url": ""
+    },
+    {
+      "name": "mum.jobs.personio.com",
+      "ats": "personio",
+      "token": "mum",
+      "careers_url": ""
+    },
+    {
       "name": "N26",
       "ats": "greenhouse",
       "token": "n26",
@@ -290,8 +788,56 @@
       "careers_url": ""
     },
     {
+      "name": "nagarro1",
+      "ats": "smartrecruiters",
+      "token": "nagarro1",
+      "careers_url": ""
+    },
+    {
+      "name": "Naturenergie Hochrhein",
+      "ats": "workday",
+      "token": "energiedienst|wd103|1894-1898-2002",
+      "careers_url": ""
+    },
+    {
+      "name": "nielseniq",
+      "ats": "smartrecruiters",
+      "token": "nielseniq",
+      "careers_url": ""
+    },
+    {
+      "name": "NVIDIA",
+      "ats": "workday",
+      "token": "nvidia|wd5|NVIDIAExternalCareerSite",
+      "careers_url": ""
+    },
+    {
+      "name": "oetiker",
+      "ats": "smartrecruiters",
+      "token": "oetiker",
+      "careers_url": ""
+    },
+    {
+      "name": "omnilex.ai",
+      "ats": "ashby",
+      "token": "omnilex",
+      "careers_url": ""
+    },
+    {
+      "name": "Oviva",
+      "ats": "ashby",
+      "token": "oviva",
+      "careers_url": ""
+    },
+    {
       "name": "Parloa",
       "ats": "greenhouse",
+      "token": "parloa",
+      "careers_url": ""
+    },
+    {
+      "name": "Parloa",
+      "ats": "ashby",
       "token": "parloa",
       "careers_url": ""
     },
@@ -308,9 +854,21 @@
       "careers_url": ""
     },
     {
+      "name": "Philips",
+      "ats": "workday",
+      "token": "philips|wd3|jobs-and-careers",
+      "careers_url": ""
+    },
+    {
       "name": "Phiture",
       "ats": "greenhouse",
       "token": "phiture",
+      "careers_url": ""
+    },
+    {
+      "name": "Pierre Fabre Pharma",
+      "ats": "workday",
+      "token": "pierrefabre|wd3|External_Career_Site",
       "careers_url": ""
     },
     {
@@ -326,6 +884,12 @@
       "careers_url": ""
     },
     {
+      "name": "PureGym",
+      "ats": "recruitee",
+      "token": "puregymswiss",
+      "careers_url": ""
+    },
+    {
       "name": "Qonto",
       "ats": "lever",
       "token": "qonto",
@@ -338,9 +902,21 @@
       "careers_url": ""
     },
     {
+      "name": "RedBull",
+      "ats": "smartrecruiters",
+      "token": "RedBull",
+      "careers_url": ""
+    },
+    {
       "name": "refurbed",
       "ats": "greenhouse",
       "token": "refurbed",
+      "careers_url": ""
+    },
+    {
+      "name": "relaischateaux",
+      "ats": "smartrecruiters",
+      "token": "relaischateaux",
       "careers_url": ""
     },
     {
@@ -350,9 +926,63 @@
       "careers_url": ""
     },
     {
+      "name": "RentokilInitial1",
+      "ats": "smartrecruiters",
+      "token": "RentokilInitial1",
+      "careers_url": ""
+    },
+    {
       "name": "ResearchGate",
       "ats": "lever",
       "token": "researchgate",
+      "careers_url": ""
+    },
+    {
+      "name": "RetinAI",
+      "ats": "personio",
+      "token": "retinai",
+      "careers_url": ""
+    },
+    {
+      "name": "rexel1",
+      "ats": "smartrecruiters",
+      "token": "rexel1",
+      "careers_url": ""
+    },
+    {
+      "name": "Rhenus Logistics",
+      "ats": "workday",
+      "token": "rhe|wd3|R1111",
+      "careers_url": ""
+    },
+    {
+      "name": "Richemont",
+      "ats": "workday",
+      "token": "richemont|wd3|richemont",
+      "careers_url": ""
+    },
+    {
+      "name": "Ridgeline Discovery",
+      "ats": "personio",
+      "token": "ridgelinediscovery",
+      "careers_url": ""
+    },
+    {
+      "name": "Roche",
+      "ats": "workday",
+      "token": "roche|wd3|roche-ext",
+      "careers_url": ""
+    },
+    {
+      "name": "rolandberger",
+      "ats": "smartrecruiters",
+      "token": "rolandberger",
+      "careers_url": ""
+    },
+    {
+      "name": "salonkee",
+      "ats": "ashby",
+      "token": "salonkee",
       "careers_url": ""
     },
     {
@@ -362,9 +992,51 @@
       "careers_url": ""
     },
     {
+      "name": "Scewo",
+      "ats": "personio",
+      "token": "scewo-ag",
+      "careers_url": ""
+    },
+    {
+      "name": "securitas",
+      "ats": "smartrecruiters",
+      "token": "securitas",
+      "careers_url": ""
+    },
+    {
+      "name": "SedusGruppe",
+      "ats": "smartrecruiters",
+      "token": "SedusGruppe",
+      "careers_url": ""
+    },
+    {
+      "name": "Sereact",
+      "ats": "ashby",
+      "token": "sereact",
+      "careers_url": ""
+    },
+    {
+      "name": "sgs",
+      "ats": "smartrecruiters",
+      "token": "sgs",
+      "careers_url": ""
+    },
+    {
       "name": "SimScale",
       "ats": "greenhouse",
       "token": "simscale",
+      "careers_url": ""
+    },
+    {
+      "name": "sixt",
+      "ats": "smartrecruiters",
+      "token": "sixt",
+      "careers_url": ""
+    },
+    {
+      "name": "skydio",
+      "ats": "ashby",
+      "token": "skydio",
       "careers_url": ""
     },
     {
@@ -374,9 +1046,27 @@
       "careers_url": ""
     },
     {
+      "name": "somfygroup",
+      "ats": "smartrecruiters",
+      "token": "somfygroup",
+      "careers_url": ""
+    },
+    {
       "name": "Sonar",
       "ats": "lever",
       "token": "sonarsource",
+      "careers_url": ""
+    },
+    {
+      "name": "Sophia Genetics",
+      "ats": "workable",
+      "token": "sophia-genetics",
+      "careers_url": ""
+    },
+    {
+      "name": "SopraSteria1",
+      "ats": "smartrecruiters",
+      "token": "SopraSteria1",
       "careers_url": ""
     },
     {
@@ -392,6 +1082,18 @@
       "careers_url": ""
     },
     {
+      "name": "staubligroup",
+      "ats": "smartrecruiters",
+      "token": "staubligroup",
+      "careers_url": ""
+    },
+    {
+      "name": "StepStoneGroup",
+      "ats": "smartrecruiters",
+      "token": "StepStoneGroup",
+      "careers_url": ""
+    },
+    {
       "name": "STRATO",
       "ats": "greenhouse",
       "token": "strato",
@@ -404,9 +1106,27 @@
       "careers_url": ""
     },
     {
+      "name": "SyngentaGroup",
+      "ats": "smartrecruiters",
+      "token": "SyngentaGroup",
+      "careers_url": ""
+    },
+    {
+      "name": "SYNTEGON",
+      "ats": "smartrecruiters",
+      "token": "SYNTEGON",
+      "careers_url": ""
+    },
+    {
       "name": "Tacto",
       "ats": "ashby",
       "token": "tacto",
+      "careers_url": ""
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "ats": "workday",
+      "token": "thermofisher|wd5|ThermoFisherCareers",
       "careers_url": ""
     },
     {
@@ -416,9 +1136,21 @@
       "careers_url": ""
     },
     {
+      "name": "tnp-1.jobs.personio.com",
+      "ats": "personio",
+      "token": "tnp-1",
+      "careers_url": ""
+    },
+    {
       "name": "Trade Republic",
       "ats": "greenhouse",
       "token": "traderepublic",
+      "careers_url": ""
+    },
+    {
+      "name": "Trade Republic",
+      "ats": "greenhouse",
+      "token": "traderepublicbank",
       "careers_url": ""
     },
     {
@@ -428,15 +1160,99 @@
       "careers_url": ""
     },
     {
+      "name": "turnertownsend",
+      "ats": "smartrecruiters",
+      "token": "turnertownsend",
+      "careers_url": ""
+    },
+    {
+      "name": "umdaschgroup",
+      "ats": "smartrecruiters",
+      "token": "umdaschgroup",
+      "careers_url": ""
+    },
+    {
+      "name": "United Nations Watch",
+      "ats": "recruitee",
+      "token": "unwatch",
+      "careers_url": ""
+    },
+    {
+      "name": "Upvest",
+      "ats": "ashby",
+      "token": "upvest",
+      "careers_url": ""
+    },
+    {
       "name": "Urban Sports Club",
       "ats": "greenhouse",
       "token": "urbansportsclub",
       "careers_url": ""
     },
     {
+      "name": "Variosystems",
+      "ats": "smartrecruiters",
+      "token": "VariosystemsAG",
+      "careers_url": ""
+    },
+    {
       "name": "Vay",
       "ats": "greenhouse",
       "token": "vay",
+      "careers_url": ""
+    },
+    {
+      "name": "veeva",
+      "ats": "lever",
+      "token": "veeva",
+      "careers_url": ""
+    },
+    {
+      "name": "VeoliaEnvironnementSA",
+      "ats": "smartrecruiters",
+      "token": "VeoliaEnvironnementSA",
+      "careers_url": ""
+    },
+    {
+      "name": "volue",
+      "ats": "teamtailor",
+      "token": "volue",
+      "careers_url": ""
+    },
+    {
+      "name": "Vontobel",
+      "ats": "workday",
+      "token": "vontobel|wd3|Vontobel_External_Career",
+      "careers_url": ""
+    },
+    {
+      "name": "wabtec",
+      "ats": "smartrecruiters",
+      "token": "wabtec",
+      "careers_url": ""
+    },
+    {
+      "name": "WAREMARenkhoffSE",
+      "ats": "smartrecruiters",
+      "token": "WAREMARenkhoffSE",
+      "careers_url": ""
+    },
+    {
+      "name": "wemolo",
+      "ats": "ashby",
+      "token": "wemolo",
+      "careers_url": ""
+    },
+    {
+      "name": "Westhouse Schweiz",
+      "ats": "personio",
+      "token": "westhouse",
+      "careers_url": ""
+    },
+    {
+      "name": "Wingtra",
+      "ats": "lever",
+      "token": "wingtra-2",
       "careers_url": ""
     },
     {
@@ -449,6 +1265,24 @@
       "name": "Wooga",
       "ats": "greenhouse",
       "token": "wooga",
+      "careers_url": ""
+    },
+    {
+      "name": "WPP Media",
+      "ats": "greenhouse",
+      "token": "wppmedia",
+      "careers_url": ""
+    },
+    {
+      "name": "WSP Switzerland",
+      "ats": "teamtailor",
+      "token": "wspcentraleurope",
+      "careers_url": ""
+    },
+    {
+      "name": "Zurich Instruments",
+      "ats": "lever",
+      "token": "zurichinstruments",
       "careers_url": ""
     }
   ]

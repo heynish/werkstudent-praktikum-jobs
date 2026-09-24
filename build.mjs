@@ -1,188 +1,57 @@
 #!/usr/bin/env node
-// Werkstudent / Praktikum / Absolventen job list — generator.
-// Fetches early-career roles from public ATS job-board APIs (Greenhouse/Lever/Ashby),
-// filters to DACH, normalizes/dedups, renders README.md + jobs.json at repo root.
+// Werkstudent / Praktikum / Absolventen job list: generator.
 //
-// Zero dependencies (Node 18+ global fetch). Run: node build.mjs
+// Pulls early-career roles from the public job-board APIs of the companies in
+// seed.json (Greenhouse, Lever, Ashby, Personio, SmartRecruiters, Recruitee,
+// Workable, Teamtailor, Workday) plus Adzuna for AT/CH, keeps DACH roles,
+// classifies and dedups them, and writes:
+//   jobs.json   full dataset (read by careerkit.me and the three filtered repos)
+//   jobs.csv    the same, for spreadsheets
+//   README.md   the browsable list
+//   lists/*.md  one full page per city and per role type
 //
-// Source is ONLY public per-company ATS APIs, which are built to be consumed.
-// Do NOT add scrapers for StepStone/Indeed/aggregators (ToS risk).
+// Health guard: if too many boards fail, or the list suddenly shrinks, nothing is
+// written and the run exits 1, so the Action goes red instead of quietly
+// publishing a broken list. Set ALLOW_SHRINK=1 to accept a deliberate drop.
+//
+// Zero dependencies (Node 20+). Run: node build.mjs
 
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { ADAPTERS, SUPPORTED_ATS, getJson, pool, sleep } from "./adapters.mjs";
+import { classifyCity, classifyType, isDach } from "./classify.mjs";
 
 const DIR = dirname(fileURLToPath(import.meta.url));
+const REPO = "heynish/werkstudent-praktikum-jobs";
+const REPO_URL = `https://github.com/${REPO}`;
 
 // Careerkit links.
-const INSTALL_URL = "https://careerkit.me/de"; // top CTA -> install funnel (live page)
-const APPLY_BASE = "https://careerkit.me/api/apply"; // per-row tracked redirect (route TBD)
-// While the /apply route does not exist, per-row "Bewerben" points to the real job
-// URL (useful, no 404). jobs.json always carries the tracked link for later swap.
-const TRACKED_APPLY = true;
+const INSTALL_URL = "https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs";
+const APPLY_BASE = "https://careerkit.me/api/apply"; // tracked 302 to the real posting
 
-// ---- classification --------------------------------------------------------
+// Health thresholds.
+const MAX_FAILED_SHARE = 0.25; // more than this share of boards failing = broken run
+const MAX_SHRINK = 0.4; // losing more than this share of roles vs the last run = broken run
+const ALLOW_SHRINK = process.env.ALLOW_SHRINK === "1";
 
-// Ordered most-specific first; first match wins. Word-boundary safe so "intern"
-// does not match "internal"/"international".
-const ROLE_TYPES = [
-  { type: "Werkstudent", re: /werkstudent|working student/i },
-  { type: "Praktikum", re: /praktik|internship|\bintern\b|praktikant/i },
-  { type: "Absolvent", re: /absolvent|graduate|new[ -]?grad|berufseinsteiger/i },
-  { type: "Junior", re: /\bjunior\b|entry[ -]?level|trainee|einsteiger/i },
-];
+// README size: GitHub stops rendering very large READMEs, so the front page shows
+// the newest roles per city and links to the full per-city page.
+const README_NEW_ROWS = 40;
+const README_ROWS_PER_CITY = 15;
+const NEW_DAYS = 7;
 
-const DACH_RE =
-  /german|deutschland|\bberlin\b|munich|münchen|hamburg|cologne|köln|frankfurt|stuttgart|düsseldorf|dusseldorf|leipzig|dresden|nürnberg|nuremberg|austria|österreich|vienna|wien|graz|salzburg|switzerland|schweiz|zurich|zürich|geneva|genf|basel|\bat\b|\bch\b/i;
+const TYPE_ORDER = ["Werkstudent", "Praktikum", "Absolvent", "Junior"];
+const TYPE_LABEL = {
+  Werkstudent: "Werkstudent (Working Student)",
+  Praktikum: "Praktikum (Internship)",
+  Absolvent: "Absolvent (Graduate)",
+  Junior: "Junior / Trainee",
+};
 
-const CITY_MAP = [
-  [/berlin/i, "Berlin"],
-  [/munich|münchen/i, "Munich"],
-  [/hamburg/i, "Hamburg"],
-  [/cologne|köln/i, "Cologne"],
-  [/frankfurt/i, "Frankfurt"],
-  [/stuttgart/i, "Stuttgart"],
-  [/düsseldorf|dusseldorf/i, "Düsseldorf"],
-  [/leipzig/i, "Leipzig"],
-  [/vienna|wien/i, "Vienna"],
-  [/\bgraz\b/i, "Graz"],
-  [/\blinz\b/i, "Linz"],
-  [/salzburg/i, "Salzburg"],
-  [/innsbruck/i, "Innsbruck"],
-  [/zurich|zürich/i, "Zurich"],
-  [/geneva|genf|genève/i, "Geneva"],
-  [/\bbasel\b/i, "Basel"],
-  [/\bbern\b/i, "Bern"],
-  [/lausanne/i, "Lausanne"],
-  [/remote/i, "Remote"],
-];
-
-const classifyType = (t) => ROLE_TYPES.find(({ re }) => re.test(t))?.type ?? null;
-const classifyCity = (l) => CITY_MAP.find(([re]) => re.test(l))?.[1] ?? "Other DACH";
-const isDach = (l) => DACH_RE.test(l);
-
-// ---- ATS adapters ----------------------------------------------------------
-
-async function fetchGreenhouse(c) {
-  const d = await getJson(`https://boards-api.greenhouse.io/v1/boards/${c.token}/jobs`);
-  return (d.jobs || []).map((j) => ({
-    company: c.name,
-    title: j.title,
-    location: (j.location || {}).name || "",
-    url: j.absolute_url,
-    posted: j.updated_at || j.first_published || null,
-  }));
-}
-async function fetchLever(c) {
-  const d = await getJson(`https://api.lever.co/v0/postings/${c.token}?mode=json`);
-  return (Array.isArray(d) ? d : []).map((j) => ({
-    company: c.name,
-    title: j.text,
-    location: (j.categories || {}).location || "",
-    url: j.hostedUrl,
-    posted: j.createdAt ? new Date(j.createdAt).toISOString() : null,
-  }));
-}
-async function fetchAshby(c) {
-  const d = await getJson(`https://api.ashbyhq.com/posting-api/job-board/${c.token}`);
-  return (d.jobs || []).map((j) => ({
-    company: c.name,
-    title: j.title,
-    location: j.location || "",
-    url: j.jobUrl || j.applyUrl,
-    posted: j.publishedAt || null,
-  }));
-}
-// Personio powers a huge share of German SMB/scale-up hiring. Each customer exposes
-// a public XML feed at https://<token>.jobs.personio.de/xml (built to be consumed).
-// Zero-dep XML: split on <position> and pluck the FIRST <name> (the title precedes
-// the jobDescriptions, whose entries also use <name>).
-const decodeEntities = (s) =>
-  s
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;|&#0?39;/g, "'")
-    .replace(/&#0?38;/g, "&");
-
-async function fetchPersonio(c) {
-  const xml = await getText(`https://${c.token}.jobs.personio.de/xml`);
-  const out = [];
-  for (const block of xml.split("<position>").slice(1)) {
-    const seg = block.split("</position>")[0];
-    const pick = (tag) => {
-      const m = seg.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`));
-      return m ? m[1].trim() : "";
-    };
-    const id = pick("id");
-    const name = decodeEntities(pick("name"));
-    if (!id || !name) continue;
-    out.push({
-      company: c.name,
-      title: name,
-      location: pick("office"),
-      url: `https://${c.token}.jobs.personio.de/job/${id}`,
-      posted: pick("createdAt") || null,
-    });
-  }
-  return out;
-}
-const ADAPTERS = { greenhouse: fetchGreenhouse, lever: fetchLever, ashby: fetchAshby, personio: fetchPersonio };
-
-async function getJson(url) {
-  const res = await fetch(url, { headers: { "user-agent": "werkstudent-praktikum-jobs/1.0" } });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.json();
-}
-
-async function getText(url) {
-  const res = await fetch(url, { headers: { "user-agent": "werkstudent-praktikum-jobs/1.0" } });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.text();
-}
-
-// ---- Arbeitsagentur (German Federal Employment Agency) public jobs API -------
-// Large legal DE source. Queried by early-career keyword x city. These are DE by
-// construction, so we mark them dach:true and skip the location filter.
-const AA_KEY = "jobboerse-jobsuche"; // well-known public client key for this API
-const AA_QUERIES = ["Werkstudent", "Praktikum", "Absolvent", "Trainee", "Berufseinsteiger"];
-const AA_CITIES = [
-  "Berlin", "München", "Hamburg", "Köln", "Frankfurt", "Stuttgart",
-  "Düsseldorf", "Leipzig", "Nürnberg", "Hannover", "Dortmund", "Bremen",
-];
-const AA_SIZE = 50;
-
-async function aaQuery(was, wo) {
-  try {
-    const u = `https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?was=${encodeURIComponent(was)}&wo=${encodeURIComponent(wo)}&umkreis=0&size=${AA_SIZE}`;
-    const res = await fetch(u, { headers: { "X-API-Key": AA_KEY, "user-agent": "werkstudent-praktikum-jobs/1.0" } });
-    if (!res.ok) return [];
-    const d = await res.json();
-    return (d.stellenangebote || [])
-      .filter((j) => j.refnr && j.arbeitgeber)
-      .map((j) => ({
-        company: (j.arbeitgeber || "").trim(),
-        title: (j.titel || j.beruf || "").trim(),
-        location: (j.arbeitsort || {}).ort || wo,
-        url: `https://www.arbeitsagentur.de/jobsuche/jobdetail/${encodeURIComponent(j.refnr)}`,
-        posted: j.aktuelleVeroeffentlichungsdatum || null,
-        dach: true,
-      }));
-  } catch {
-    return [];
-  }
-}
-
-async function fetchArbeitsagentur() {
-  const tasks = [];
-  for (const was of AA_QUERIES) for (const wo of AA_CITIES) tasks.push(aaQuery(was, wo));
-  return (await Promise.all(tasks)).flat();
-}
-
-// ---- Adzuna (covers AT + CH, which Arbeitsagentur does not) ------------------
-// Keys come from env (secret), never hardcoded: this repo is public. If unset,
-// the source is skipped and the build still succeeds.
+// ---- Adzuna (extra AT + CH coverage) --------------------------------------
+// Keys come from repo secrets, never hardcoded: this repo is public. Without
+// keys the source is skipped (local runs), which is not an error.
 const ADZUNA_ID = process.env.ADZUNA_APP_ID;
 const ADZUNA_KEY = process.env.ADZUNA_APP_KEY;
 const ADZUNA_TARGETS = [
@@ -192,37 +61,32 @@ const ADZUNA_TARGETS = [
 const ADZUNA_QUERIES = ["Praktikum", "Werkstudent", "Trainee", "Absolvent"];
 
 async function adzunaQuery(country, city, what) {
-  try {
-    const u = `https://api.adzuna.com/v1/api/jobs/${country}/search/1?app_id=${ADZUNA_ID}&app_key=${ADZUNA_KEY}&what=${encodeURIComponent(what)}&where=${encodeURIComponent(city)}&results_per_page=50&content-type=application/json`;
-    const res = await fetch(u, { headers: { "user-agent": "werkstudent-praktikum-jobs/1.0" } });
-    if (!res.ok) return [];
-    const d = await res.json();
-    return (d.results || [])
-      .filter((r) => r.title && r.redirect_url)
-      .map((r) => ({
-        company: ((r.company || {}).display_name || "").trim(),
-        title: (r.title || "").trim(),
-        location: (r.location || {}).display_name || city,
-        url: r.redirect_url,
-        posted: r.created || null,
-        dach: true,
-      }));
-  } catch {
-    return [];
-  }
-}
-
-async function fetchAdzuna() {
-  if (!ADZUNA_ID || !ADZUNA_KEY) return [];
-  const tasks = [];
-  for (const t of ADZUNA_TARGETS)
-    for (const city of t.cities) for (const what of ADZUNA_QUERIES) tasks.push(adzunaQuery(t.country, city, what));
-  return (await Promise.all(tasks)).flat();
+  const u = `https://api.adzuna.com/v1/api/jobs/${country}/search/1?app_id=${ADZUNA_ID}&app_key=${ADZUNA_KEY}&what=${encodeURIComponent(what)}&where=${encodeURIComponent(city)}&results_per_page=50&content-type=application/json`;
+  const d = await getJson(u);
+  return (d.results || [])
+    .filter((r) => r.title && r.redirect_url)
+    .map((r) => ({
+      company: ((r.company || {}).display_name || "").trim(),
+      title: (r.title || "").trim(),
+      location: (r.location || {}).display_name || city,
+      url: r.redirect_url,
+      posted: r.created || null,
+      dach: true,
+      ats: "adzuna",
+    }));
 }
 
 // ---- helpers ---------------------------------------------------------------
 
-const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const slug = (s) =>
+  String(s)
+    .toLowerCase()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 const trackedApplyUrl = (r) =>
   `${APPLY_BASE}?${new URLSearchParams({ src: "github-dach", company: slug(r.company), url: r.url || "" })}`;
 function daysAgo(iso) {
@@ -231,149 +95,285 @@ function daysAgo(iso) {
   return Number.isFinite(d) ? Math.max(0, Math.round(d)) : null;
 }
 const tally = (rows, key) => rows.reduce((m, r) => ((m[r[key]] = (m[r[key]] || 0) + 1), m), {});
+const byRecent = (a, b) => (a.posted_days_ago ?? 9999) - (b.posted_days_ago ?? 9999) || a.company.localeCompare(b.company);
 
-// Cap roles per (city, type) so no single combo floods the list. Keeps the most
-// recent, so the list stays comprehensive but readable.
-const MAX_PER_COMBO = 30;
-function capPerCombo(rows, n) {
-  const groups = new Map();
-  for (const r of rows) {
-    const k = `${r.city}|${r.type}`;
-    if (!groups.has(k)) groups.set(k, []);
-    groups.get(k).push(r);
+async function previousCount() {
+  try {
+    return JSON.parse(await readFile(join(DIR, "jobs.json"), "utf8")).count || 0;
+  } catch {
+    return 0;
   }
-  const out = [];
-  for (const arr of groups.values()) {
-    arr.sort((a, b) => (a.posted_days_ago ?? 9999) - (b.posted_days_ago ?? 9999));
-    out.push(...arr.slice(0, n));
-  }
-  return out;
 }
 
 // ---- pipeline --------------------------------------------------------------
 
+async function fetchAll(companies) {
+  // Personio rate-limits by IP: one board at a time, with a pause. Everything
+  // else runs 8 at a time.
+  const isPersonio = (c) => c.ats === "personio";
+  const fetchOne = (c) => {
+    const adapter = ADAPTERS[c.ats];
+    if (!adapter) return Promise.reject(new Error(`unknown ats "${c.ats}" (supported: ${SUPPORTED_ATS.join(", ")})`));
+    return adapter(c).then((rows) => rows.map((r) => ({ ...r, ats: c.ats })));
+  };
+  const personio = companies.filter(isPersonio);
+  const others = companies.filter((c) => !isPersonio(c));
+  const [pRes, oRes] = await Promise.all([
+    pool(personio, 1, async (c) => {
+      try {
+        return await fetchOne(c);
+      } finally {
+        await sleep(700);
+      }
+    }),
+    pool(others, 8, fetchOne),
+  ]);
+  return [...personio.map((c, i) => [c, pRes[i]]), ...others.map((c, i) => [c, oRes[i]])];
+}
+
 async function run() {
   const seed = JSON.parse(await readFile(join(DIR, "seed.json"), "utf8"));
   const companies = seed.companies || [];
-  const errors = [];
-
-  const settled = await Promise.allSettled(
-    companies.map((c) => (ADAPTERS[c.ats] || (() => Promise.reject(new Error(`unknown ats "${c.ats}"`))))(c)),
-  );
-
+  const failed = [];
   const raw = [];
-  settled.forEach((s, i) => {
-    if (s.status === "fulfilled") raw.push(...s.value);
-    else errors.push(`${companies[i].name} (${companies[i].token}): ${s.reason.message}`);
-  });
+  const perAts = {};
 
-  // Arbeitsagentur (large public DE source) merged alongside the seed companies.
-  try {
-    raw.push(...(await fetchArbeitsagentur()));
-  } catch (e) {
-    errors.push(`arbeitsagentur: ${e.message}`);
+  for (const [c, s] of await fetchAll(companies)) {
+    const stat = (perAts[c.ats] ||= { boards: 0, failed: 0 });
+    stat.boards++;
+    if (s.status === "fulfilled") raw.push(...s.value);
+    else {
+      stat.failed++;
+      failed.push(`${c.name} (${c.ats}/${c.token}): ${s.reason.message}`);
+    }
   }
 
-  // Adzuna adds Austria + Switzerland (Arbeitsagentur is DE-only).
-  try {
-    raw.push(...(await fetchAdzuna()));
-  } catch (e) {
-    errors.push(`adzuna: ${e.message}`);
+  if (ADZUNA_ID && ADZUNA_KEY) {
+    const tasks = ADZUNA_TARGETS.flatMap((t) => t.cities.flatMap((city) => ADZUNA_QUERIES.map((what) => [t.country, city, what])));
+    const res = await pool(tasks, 4, ([country, city, what]) => adzunaQuery(country, city, what));
+    const stat = (perAts.adzuna = { boards: tasks.length, failed: 0 });
+    res.forEach((s, i) => {
+      if (s.status === "fulfilled") raw.push(...s.value);
+      else (stat.failed++, failed.push(`Adzuna ${tasks[i].join("/")}: ${s.reason.message}`));
+    });
   }
 
   const roles = [];
   for (const r of raw) {
-    if (!r.title || !r.location) continue;
-    if (!r.dach && !isDach(r.location)) continue;
+    if (!r.title || !r.url) continue;
+    const location = (r.location || "").replace(/\s+/g, " ").trim();
+    const match = `${location} ${r.hint || ""}`;
+    if (!r.dach && !isDach(match)) continue;
     const type = classifyType(r.title);
     if (!type) continue;
     roles.push({
-      company: r.company,
-      title: r.title.trim(),
+      company: (r.company || "").trim(),
+      title: r.title.replace(/\s+/g, " ").trim(),
       type,
-      city: classifyCity(r.location),
-      location: r.location.trim(),
+      city: classifyCity(match),
+      location,
       posted: r.posted,
       posted_days_ago: daysAgo(r.posted),
       raw_url: r.url,
       careerkit_apply_url: trackedApplyUrl(r),
+      source: r.ats,
     });
   }
 
   const seen = new Set();
-  let deduped = roles.filter((r) => {
-    const k = `${slug(r.company)}|${slug(r.title)}|${r.city}`;
-    return seen.has(k) ? false : (seen.add(k), true);
-  });
-  deduped = capPerCombo(deduped, MAX_PER_COMBO);
-  deduped.sort(
-    (a, b) => a.city.localeCompare(b.city) || a.type.localeCompare(b.type) || a.company.localeCompare(b.company),
-  );
+  const deduped = roles
+    .sort(byRecent)
+    .filter((r) => {
+      const k = `${slug(r.company)}|${slug(r.title)}|${r.city}`;
+      return seen.has(k) ? false : (seen.add(k), true);
+    })
+    .sort((a, b) => a.city.localeCompare(b.city) || a.type.localeCompare(b.type) || a.company.localeCompare(b.company));
 
-  const generatedAt = new Date().toISOString();
-  await writeFile(
-    join(DIR, "jobs.json"),
-    JSON.stringify({ generated_at: generatedAt, count: deduped.length, source: "company ATS boards (Greenhouse/Lever/Ashby) + Arbeitsagentur", roles: deduped }, null, 2),
-  );
-  await writeFile(join(DIR, "README.md"), renderReadme(deduped, companies, generatedAt, errors));
+  // ---- health guard ----
+  const boards = Object.values(perAts).reduce((s, x) => s + x.boards, 0);
+  const failedShare = boards ? failed.length / boards : 0;
+  const prev = await previousCount();
+  const problems = [];
+  if (failedShare > MAX_FAILED_SHARE)
+    problems.push(`${failed.length}/${boards} sources failed (${Math.round(failedShare * 100)}%, limit ${MAX_FAILED_SHARE * 100}%)`);
+  if (!ALLOW_SHRINK && prev >= 100 && deduped.length < prev * (1 - MAX_SHRINK))
+    problems.push(`roles dropped from ${prev} to ${deduped.length} (more than ${MAX_SHRINK * 100}%); set ALLOW_SHRINK=1 if intended`);
 
-  console.log(`Companies: ${companies.length}  errors: ${errors.length}  roles: ${deduped.length}`);
+  console.log(`Sources: ${boards}  failed: ${failed.length}  roles: ${deduped.length} (last run: ${prev})`);
+  console.log("by ats:", perAts);
   console.log("by city:", tally(deduped, "city"));
   console.log("by type:", tally(deduped, "type"));
-  if (errors.length) console.log("errors:\n  " + errors.join("\n  "));
+  if (failed.length) console.log("failed sources:\n  " + failed.join("\n  "));
+  if (problems.length) {
+    console.error("\nHEALTH CHECK FAILED, nothing written:\n  " + problems.join("\n  "));
+    process.exit(1);
+  }
+
+  // ---- write ----
+  const generatedAt = new Date().toISOString();
+  const companyCount = new Set(deduped.map((r) => r.company)).size;
+  await writeFile(
+    join(DIR, "jobs.json"),
+    JSON.stringify(
+      {
+        generated_at: generatedAt,
+        count: deduped.length,
+        companies: companyCount,
+        source: `public company job-board APIs (${Object.keys(perAts).join(", ")})`,
+        health: { sources: boards, sources_failed: failed.length, by_ats: perAts },
+        roles: deduped,
+      },
+      null,
+      2,
+    ),
+  );
+  await writeFile(join(DIR, "jobs.csv"), renderCsv(deduped));
+
+  // lists/ is fully generated: clear stale pages (a city can drop to zero).
+  await mkdir(join(DIR, "lists"), { recursive: true });
+  for (const f of await readdir(join(DIR, "lists"))) if (f.endsWith(".md")) await rm(join(DIR, "lists", f));
+  const date = generatedAt.slice(0, 10);
+  for (const city of new Set(deduped.map((r) => r.city))) {
+    const rows = deduped.filter((r) => r.city === city).sort(byRecent);
+    await writeFile(join(DIR, "lists", `${slug(city)}.md`), renderListPage(city === OTHER ? "Einstiegsjobs an weiteren Orten in DACH" : `Einstiegsjobs in ${city}`, city === OTHER ? "Early-career jobs in other DACH towns" : `Early-career jobs in ${city}`, rows, date, { showCity: false }));
+  }
+  for (const type of TYPE_ORDER) {
+    const rows = deduped.filter((r) => r.type === type).sort(byRecent);
+    if (rows.length)
+      await writeFile(join(DIR, "lists", `${slug(type)}.md`), renderListPage(`${TYPE_LABEL[type]} Jobs in DACH`, `${type} roles in Germany, Austria and Switzerland`, rows, date, { showCity: true }));
+  }
+  await writeFile(join(DIR, "README.md"), renderReadme(deduped, companyCount, companies.length, date));
 }
 
 // ---- render ----------------------------------------------------------------
 
-const escapePipe = (s) => String(s).replace(/\|/g, "\\|");
+const cell = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/[\r\n]+/g, " ");
+// "Other DACH" is the data label for towns without their own bucket; readers see
+// the town itself ("Reutlingen") and the section is called "Weitere Orte".
+const OTHER = "Other DACH";
+const cityLabel = (c) => (c === OTHER ? "Weitere Orte" : c);
+const COUNTRY_ONLY = /^(DE|DEU|AT|AUT|CH|CHE|germany|deutschland|austria|österreich|switzerland|schweiz)$/i;
+const town = (r) =>
+  (r.location.split(/,| - |\/|\(/).map((p) => p.trim()).find((p) => p && !COUNTRY_ONLY.test(p)) || r.location).slice(0, 40);
+const place = (r) => (r.city === OTHER ? town(r) : r.city);
+const age = (r) => (r.posted_days_ago == null ? "" : r.posted_days_ago === 0 ? "heute" : `${r.posted_days_ago}d`);
+const csvCell = (s) => `"${String(s ?? "").replace(/"/g, '""')}"`;
 
-function renderReadme(roles, companies, generatedAt, errors) {
-  const date = generatedAt.slice(0, 10);
+function renderCsv(rows) {
+  const cols = ["company", "title", "type", "city", "location", "posted", "raw_url", "careerkit_apply_url"];
+  return [cols.join(","), ...rows.map((r) => cols.map((c) => csvCell(r[c])).join(","))].join("\n") + "\n";
+}
+
+function table(rows, { showCity }) {
+  // A section of "Weitere Orte" needs the town column even when grouped by city.
+  showCity ||= rows.some((r) => r.city === OTHER);
+  const L = [];
+  L.push(showCity ? `| Rolle | Unternehmen | Ort | Typ | Alter | |` : `| Rolle | Unternehmen | Typ | Alter | |`);
+  L.push(showCity ? `|---|---|---|---|---|---|` : `|---|---|---|---|---|`);
+  for (const r of rows) {
+    const cells = [`[${cell(r.title)}](${r.raw_url})`, `**${cell(r.company)}**`];
+    if (showCity) cells.push(cell(place(r)));
+    cells.push(r.type, age(r), `[Bewerben](${r.careerkit_apply_url})`);
+    L.push(`| ${cells.join(" | ")} |`);
+  }
+  return L;
+}
+
+function renderListPage(titleDe, titleEn, rows, date, opts) {
+  const L = [];
+  L.push(`# ${titleDe}`);
+  L.push("");
+  L.push(`${titleEn}. **${rows.length} offene Stellen**, aktualisiert ${date}, neueste zuerst.`);
+  L.push("");
+  L.push(`[Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](${INSTALL_URL})`);
+  L.push("");
+  L.push(...table(rows, opts));
+  L.push("");
+  L.push(`<sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [${REPO}](${REPO_URL}).</sub>`);
+  return L.join("\n") + "\n";
+}
+
+function badge(label, message, color) {
+  const esc = (s) => encodeURIComponent(String(s).replace(/-/g, "--").replace(/_/g, "__"));
+  return `![${label}: ${message}](https://img.shields.io/badge/${esc(label)}-${esc(message)}-${color})`;
+}
+
+function renderReadme(roles, companyCount, seedCount, date) {
   const byCity = tally(roles, "city");
-  const cityOrder = [...new Set(roles.map((r) => r.city))].sort((a, b) => byCity[b] - byCity[a]);
+  const byType = tally(roles, "type");
+  const cities = Object.keys(byCity).sort((a, b) => (a === OTHER) - (b === OTHER) || byCity[b] - byCity[a] || a.localeCompare(b));
+  const fresh = roles.filter((r) => r.posted_days_ago != null && r.posted_days_ago <= NEW_DAYS).sort(byRecent);
 
   const L = [];
-  L.push(`# Werkstudent · Praktikum · Absolventen Jobs in DACH`);
+  L.push(`# Werkstudent, Praktikum & Absolventen Jobs in DACH`);
   L.push("");
-  L.push(`> Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) in Deutschland, Österreich und der Schweiz. **Täglich automatisch aktualisiert.**`);
-  L.push(`> A daily-updated list of early-career roles (working-student, internship, new-grad, junior) across Germany, Austria and Switzerland.`);
+  L.push(`${badge("offene Stellen", roles.length, "4c7a2e")} ${badge("Unternehmen", companyCount, "4c7a2e")} ${badge("aktualisiert", date, "blue")} ${badge("Update", "täglich", "blue")}`);
   L.push("");
-  L.push(`**${roles.length} offene Stellen** · **${companies.length} Unternehmen** · aktualisiert **${date}**`);
+  L.push(`Aktuelle Einstiegsjobs (Werkstudent, Praktikum, Absolvent, Junior) in Deutschland, Österreich und der Schweiz, direkt von den Karriereseiten der Unternehmen. Jeden Morgen automatisch aktualisiert.`);
   L.push("");
-  L.push(`## In 10 Sekunden bewerben`);
-  L.push(`Fülle jede Bewerbung automatisch aus und erstelle einen passenden, ATS-geprüften Lebenslauf mit der [**Careerkit Extension →**](${INSTALL_URL})`);
-  L.push("");
-  L.push(`⭐ Nützlich? Gib dem Repo einen Star, damit andere es finden.`);
-  L.push("");
-  L.push(`_Typen: **Werkstudent** · **Praktikum** (inkl. Internship) · **Absolvent** (New Grad) · **Junior**_`);
+  L.push(`*English: a daily-updated list of working-student, internship, graduate and junior roles across Germany, Austria and Switzerland, pulled straight from company career pages. English-only roles: see [english-jobs-germany](https://github.com/heynish/english-jobs-germany).*`);
   L.push("");
 
-  for (const city of cityOrder) {
-    const rows = roles.filter((r) => r.city === city);
-    L.push(`## ${city} (${rows.length})`);
+  L.push(`## 🔎 Finden`);
+  L.push("");
+  L.push(`**Nach Typ:** ${TYPE_ORDER.filter((t) => byType[t]).map((t) => `[${t} (${byType[t]})](lists/${slug(t)}.md)`).join(" · ")}`);
+  L.push("");
+  L.push(`**Nach Stadt:** ${cities.map((c) => `[${cityLabel(c)} (${byCity[c]})](lists/${slug(c)}.md)`).join(" · ")}`);
+  L.push("");
+  L.push(`**Neu diese Woche:** [${fresh.length} Stellen](#-neu-diese-woche) · **Daten:** [jobs.json](jobs.json) · [jobs.csv](jobs.csv) (Excel / Google Sheets)`);
+  L.push("");
+  L.push(`> **Tipp:** Oben rechts auf **Watch** klicken, oder den [RSS-Feed](${REPO_URL}/commits/main.atom) abonnieren, um jeden Tag neue Stellen zu sehen. Mit \`Strg+F\` / \`Cmd+F\` findest du Unternehmen oder Stichworte (z. B. „Marketing", „Data").`);
+  L.push("");
+
+  L.push(`## ✍️ Schneller bewerben`);
+  L.push("");
+  L.push(`Mit der [Careerkit Extension](${INSTALL_URL}) passt du deinen Lebenslauf in Sekunden an jede Stelle an und prüfst ihn gegen ATS-Filter. Der Link **Bewerben** in jeder Zeile führt direkt zur Originalausschreibung.`);
+  L.push("");
+  L.push(`⭐ Nützlich? Ein Star hilft anderen Studierenden, die Liste zu finden.`);
+  L.push("");
+
+  L.push(`## 🆕 Neu diese Woche`);
+  L.push("");
+  if (fresh.length) {
+    L.push(...table(fresh.slice(0, README_NEW_ROWS), { showCity: true }));
+    if (fresh.length > README_NEW_ROWS) L.push("", `_…und ${fresh.length - README_NEW_ROWS} weitere, siehe die Seiten nach Stadt oder Typ oben._`);
+  } else L.push(`_Diese Woche noch keine neuen Stellen._`);
+  L.push("");
+
+  L.push(`## 📍 Nach Stadt`);
+  L.push("");
+  for (const city of cities) {
+    const rows = roles.filter((r) => r.city === city).sort(byRecent);
+    L.push(`### ${cityLabel(city)} (${rows.length})`);
     L.push("");
-    L.push(`| Rolle | Unternehmen | Typ | Gepostet | |`);
-    L.push(`|---|---|---|---|---|`);
-    for (const r of rows) {
-      const age = r.posted_days_ago == null ? "" : r.posted_days_ago === 0 ? "heute" : `vor ${r.posted_days_ago}d`;
-      const applyHref = TRACKED_APPLY ? r.careerkit_apply_url : r.raw_url;
-      L.push(`| [${escapePipe(r.title)}](${r.raw_url}) | ${escapePipe(r.company)} | ${r.type} | ${age} | [Bewerben](${applyHref}) |`);
-    }
+    L.push(...table(rows.slice(0, README_ROWS_PER_CITY), { showCity: false }));
     L.push("");
+    if (rows.length > README_ROWS_PER_CITY)
+      L.push(`[Alle ${rows.length} Stellen ${city === OTHER ? "an weiteren Orten" : `in ${city}`} ansehen](lists/${slug(city)}.md)`, "");
   }
 
   L.push(`---`);
-  L.push(`### Spezialisierte Listen`);
-  L.push(`Gefiltert nach Zielgruppe, täglich aus dieser Liste aktualisiert:`);
   L.push("");
-  L.push(`- 🎓 [**Studentenjobs (Werkstudent + Praktikum)**](https://github.com/heynish/studenten-jobs-dach) — für Studierende`);
-  L.push(`- 🌍 [**English-speaking jobs in Germany**](https://github.com/heynish/english-jobs-germany) — no German required`);
-  L.push(`- 💻 [**Absolventen- & Berufseinsteiger-Tech-Jobs**](https://github.com/heynish/absolventen-tech-jobs-dach) — Informatik, Software, Data`);
+  L.push(`## Spezialisierte Listen`);
   L.push("");
-  L.push(`### Dein Unternehmen fehlt?`);
-  L.push(`Öffne einen PR gegen \`seed.json\` (nur öffentliche Greenhouse/Lever/Ashby/Personio-Boards). Generator: \`build.mjs\`, läuft täglich per GitHub Action.`);
+  L.push(`Täglich aus dieser Liste gefiltert:`);
   L.push("");
-  L.push(`<sub>Auto-generiert aus öffentlichen ATS-Job-APIs. Powered by [Careerkit](${INSTALL_URL}).${errors.length ? ` Quellen mit Fehler beim letzten Lauf: ${errors.length}.` : ""}</sub>`);
+  L.push(`- 🎓 [**Studentenjobs (Werkstudent + Praktikum)**](https://github.com/heynish/studenten-jobs-dach): für Studierende`);
+  L.push(`- 🌍 [**English-speaking jobs in Germany**](https://github.com/heynish/english-jobs-germany): no German required`);
+  L.push(`- 💻 [**Absolventen- & Berufseinsteiger-Tech-Jobs**](https://github.com/heynish/absolventen-tech-jobs-dach): Informatik, Software, Data`);
+  L.push("");
+  L.push(`## Ein Unternehmen fehlt?`);
+  L.push("");
+  L.push(`[Unternehmen vorschlagen](${REPO_URL}/issues/new?template=add-company.yml) (Formular, kein Code nötig), oder direkt einen PR gegen [\`seed.json\`](seed.json) öffnen. Unterstützt werden öffentliche Job-Boards auf: ${SUPPORTED_ATS.map((a) => a[0].toUpperCase() + a.slice(1)).join(", ")}. Details in [CONTRIBUTING.md](CONTRIBUTING.md).`);
+  L.push("");
+  L.push(`## Wie es funktioniert`);
+  L.push("");
+  L.push(`- Jeden Morgen fragt eine GitHub Action die öffentlichen Job-APIs von über ${Math.floor(seedCount / 10) * 10} Unternehmen ab. Keine Job-Portale, kein Scraping von StepStone oder Indeed.`);
+  L.push(`- Behalten werden Stellen in Deutschland, Österreich und der Schweiz, deren Titel eine Einstiegsrolle ist (Werkstudent, Praktikum/Intern, Absolvent/Graduate, Junior/Trainee).`);
+  L.push(`- Fällt eine Quelle aus oder schrumpft die Liste plötzlich, wird nichts veröffentlicht und der Lauf schlägt sichtbar fehl, statt eine halbe Liste zu zeigen.`);
+  L.push(`- Die Daten gibt es als [jobs.json](jobs.json) und [jobs.csv](jobs.csv). Frei nutzbar, ein Link zurück freut uns.`);
+  L.push("");
+  L.push(`<sub>Powered by [Careerkit](${INSTALL_URL}). Letzte Aktualisierung: ${date}.</sub>`);
   return L.join("\n") + "\n";
 }
 
