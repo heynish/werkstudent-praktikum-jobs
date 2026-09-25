@@ -1,6 +1,6 @@
 # Einstiegsjobs in Darmstadt
 
-Early-career jobs in Darmstadt. **1 offene Stellen**, aktualisiert 2026-09-24, neueste zuerst.
+Early-career jobs in Darmstadt. **1 offene Stellen**, aktualisiert 2026-09-25, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
