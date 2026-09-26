@@ -1,12 +1,12 @@
 # Einstiegsjobs in Wolfsburg
 
-Early-career jobs in Wolfsburg. **2 offene Stellen**, aktualisiert 2026-09-25, neueste zuerst.
+Early-career jobs in Wolfsburg. **2 offene Stellen**, aktualisiert 2026-09-26, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000136723489) | **SIXT** | Werkstudent | 78d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000136723489) |
-| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000136723065) | **SIXT** | Werkstudent | 78d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000136723065) |
+| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000136723489) | **SIXT** | Werkstudent | 79d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000136723489) |
+| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000136723065) | **SIXT** | Werkstudent | 79d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000136723065) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>

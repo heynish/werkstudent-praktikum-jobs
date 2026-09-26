@@ -1,14 +1,14 @@
 # Einstiegsjobs in Aachen
 
-Early-career jobs in Aachen. **4 offene Stellen**, aktualisiert 2026-09-25, neueste zuerst.
+Early-career jobs in Aachen. **4 offene Stellen**, aktualisiert 2026-09-26, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [Quereinsteiger (m/w/d) Probenahme](https://jobs.smartrecruiters.com/eurofins/744000151772889) | **Eurofins** | Junior | heute | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=eurofins&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Feurofins%2F744000151772889) |
-| [Junior Projektmanager (w/m/d) Hochbau](https://jobs.smartrecruiters.com/DreesSommerSE/744000144569830) | **Drees & Sommer SE** | Junior | 36d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000144569830) |
-| [Junior Ingenieur / Techniker (w/m/d) Objektüberwachung Elektrotechnik](https://jobs.smartrecruiters.com/DreesSommerSE/744000144560729) | **Drees & Sommer SE** | Junior | 36d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000144560729) |
-| [Junior Bauingenieur / Architekt (w/m/d) Objektüberwachung](https://jobs.smartrecruiters.com/DreesSommerSE/744000132354514) | **Drees & Sommer SE** | Junior | 101d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000132354514) |
+| [Quereinsteiger (m/w/d) Probenahme](https://jobs.smartrecruiters.com/eurofins/744000151772889) | **Eurofins** | Junior | 1d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=eurofins&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Feurofins%2F744000151772889) |
+| [Junior Projektmanager (w/m/d) Hochbau](https://jobs.smartrecruiters.com/DreesSommerSE/744000144569830) | **Drees & Sommer SE** | Junior | 37d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000144569830) |
+| [Junior Ingenieur / Techniker (w/m/d) Objektüberwachung Elektrotechnik](https://jobs.smartrecruiters.com/DreesSommerSE/744000144560729) | **Drees & Sommer SE** | Junior | 37d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000144560729) |
+| [Junior Bauingenieur / Architekt (w/m/d) Objektüberwachung](https://jobs.smartrecruiters.com/DreesSommerSE/744000132354514) | **Drees & Sommer SE** | Junior | 102d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000132354514) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>
