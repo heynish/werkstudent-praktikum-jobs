@@ -1,13 +1,13 @@
 # Einstiegsjobs in Augsburg
 
-Early-career jobs in Augsburg. **3 offene Stellen**, aktualisiert 2026-10-17, neueste zuerst.
+Early-career jobs in Augsburg. **3 offene Stellen**, aktualisiert 2026-10-18, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [(Junior) Regional Marketing Manager - Augsburg](https://jobs.smartrecruiters.com/RedBull/744000154025820) | **Red Bull** | Junior | 10d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000154025820) |
-| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000130405365) | **SIXT** | Werkstudent | 134d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000130405365) |
-| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000130406159) | **SIXT** | Werkstudent | 134d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000130406159) |
+| [(Junior) Regional Marketing Manager - Augsburg](https://jobs.smartrecruiters.com/RedBull/744000154025820) | **Red Bull** | Junior | 11d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=red-bull&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FRedBull%2F744000154025820) |
+| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000130405365) | **SIXT** | Werkstudent | 135d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000130405365) |
+| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000130406159) | **SIXT** | Werkstudent | 135d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000130406159) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>
