@@ -1,12 +1,12 @@
 # Einstiegsjobs in Augsburg
 
-Early-career jobs in Augsburg. **2 offene Stellen**, aktualisiert 2026-11-10, neueste zuerst.
+Early-career jobs in Augsburg. **2 offene Stellen**, aktualisiert 2026-11-11, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000159979959) | **SIXT** | Werkstudent | 5d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000159979959) |
-| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000159978920) | **SIXT** | Werkstudent | 5d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000159978920) |
+| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000159979959) | **SIXT** | Werkstudent | 6d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000159979959) |
+| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000159978920) | **SIXT** | Werkstudent | 6d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000159978920) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>
