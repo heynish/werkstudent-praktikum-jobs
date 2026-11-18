@@ -1,14 +1,14 @@
 # Einstiegsjobs in Mainz
 
-Early-career jobs in Mainz. **4 offene Stellen**, aktualisiert 2026-11-17, neueste zuerst.
+Early-career jobs in Mainz. **4 offene Stellen**, aktualisiert 2026-11-18, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [Junior Sales Manager Debt Collection (m\|w\|d)](https://jobs.smartrecruiters.com/coface/744000161738719) | **Coface** | Junior | 1d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=coface&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fcoface%2F744000161738719) |
-| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000160150919) | **SIXT** | Werkstudent | 11d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000160150919) |
-| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000159981899) | **SIXT** | Werkstudent | 12d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000159981899) |
-| [(Junior) Bauüberwacher (w/m/d) Tiefbau in Energieprojekten](https://jobs.smartrecruiters.com/DreesSommerSE/744000145992489) | **Drees & Sommer SE** | Junior | 82d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000145992489) |
+| [Junior Sales Manager Debt Collection (m\|w\|d)](https://jobs.smartrecruiters.com/coface/744000161738719) | **Coface** | Junior | 2d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=coface&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fcoface%2F744000161738719) |
+| [Werkstudent Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000160150919) | **SIXT** | Werkstudent | 12d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000160150919) |
+| [Studentische Teilzeitkraft Autovermietung (m/w/d)](https://jobs.smartrecruiters.com/sixt/744000159981899) | **SIXT** | Werkstudent | 13d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=sixt&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fsixt%2F744000159981899) |
+| [(Junior) Bauüberwacher (w/m/d) Tiefbau in Energieprojekten](https://jobs.smartrecruiters.com/DreesSommerSE/744000145992489) | **Drees & Sommer SE** | Junior | 83d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=drees-sommer-se&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FDreesSommerSE%2F744000145992489) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>
