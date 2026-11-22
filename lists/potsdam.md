@@ -1,11 +1,11 @@
 # Einstiegsjobs in Potsdam
 
-Early-career jobs in Potsdam. **1 offene Stellen**, aktualisiert 2026-11-21, neueste zuerst.
+Early-career jobs in Potsdam. **1 offene Stellen**, aktualisiert 2026-11-22, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [SCHÜLERPRAKTIKUM IM VERKAUF (M/W/D) - Potsdam](https://jobs.smartrecruiters.com/jysk/744000155502048) | **JYSK** | Praktikum | 38d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=jysk&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fjysk%2F744000155502048) |
+| [SCHÜLERPRAKTIKUM IM VERKAUF (M/W/D) - Potsdam](https://jobs.smartrecruiters.com/jysk/744000155502048) | **JYSK** | Praktikum | 39d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=jysk&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fjysk%2F744000155502048) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>
