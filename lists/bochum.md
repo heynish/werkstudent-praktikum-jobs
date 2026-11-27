@@ -1,12 +1,12 @@
 # Einstiegsjobs in Bochum
 
-Early-career jobs in Bochum. **2 offene Stellen**, aktualisiert 2026-11-26, neueste zuerst.
+Early-career jobs in Bochum. **2 offene Stellen**, aktualisiert 2026-11-27, neueste zuerst.
 
 [Zur Übersicht](../README.md) · [Alle Städte und Typen](../README.md#-finden) · [Careerkit: Lebenslauf passend zur Stelle](https://careerkit.me/de?utm_source=github&utm_campaign=werkstudent-praktikum-jobs)
 
 | Rolle | Unternehmen | Typ | Alter | |
 |---|---|---|---|---|
-| [SCHÜLERPRAKTIKUM IM VERKAUF (M/W/D) - Bochum Höntrop](https://jobs.smartrecruiters.com/jysk/744000163243671) | **JYSK** | Praktikum | 3d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=jysk&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fjysk%2F744000163243671) |
-| [Junior Sales Manager (w/m/div.) für Sicherheitssysteme im Bereich Security](https://jobs.smartrecruiters.com/BoschGroup/744000159152459) | **Bosch Group** | Junior | 24d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=bosch-group&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FBoschGroup%2F744000159152459) |
+| [SCHÜLERPRAKTIKUM IM VERKAUF (M/W/D) - Bochum Höntrop](https://jobs.smartrecruiters.com/jysk/744000163243671) | **JYSK** | Praktikum | 4d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=jysk&url=https%3A%2F%2Fjobs.smartrecruiters.com%2Fjysk%2F744000163243671) |
+| [Junior Sales Manager (w/m/div.) für Sicherheitssysteme im Bereich Security](https://jobs.smartrecruiters.com/BoschGroup/744000159152459) | **Bosch Group** | Junior | 25d | [Bewerben](https://careerkit.me/api/apply?src=github-dach&company=bosch-group&url=https%3A%2F%2Fjobs.smartrecruiters.com%2FBoschGroup%2F744000159152459) |
 
 <sub>Automatisch generiert aus öffentlichen Job-APIs der Unternehmen. Quelle: [heynish/werkstudent-praktikum-jobs](https://github.com/heynish/werkstudent-praktikum-jobs).</sub>
